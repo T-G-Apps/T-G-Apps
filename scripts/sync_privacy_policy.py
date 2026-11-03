@@ -1,6 +1,6 @@
 """Copies the T-G-Apps privacy policy from the shared app package to this website.
 
-The apps show the policy from the tag_privacy_policy package (English plus eight
+The apps show the policy from the tgapps_privacy_policy package (English plus eight
 full translations). This script publishes the same pages here, so the website
 and every app show one standard policy:
 
@@ -14,14 +14,14 @@ Translated pages link to the English version, which governs.
 
 Run from the repository root after changing the policy in the package:
 
-  python scripts/sync_privacy_policy.py [path/to/tag_privacy_policy/lib/assets/text]
+  python scripts/sync_privacy_policy.py [path/to/tgapps_privacy_policy/lib/assets/text]
 """
 
 import io
 import os
 import sys
 
-DEFAULT_SOURCE = r'D:\TAG_Local_Code\dev\packages\tag_privacy_policy\lib\assets\text'
+DEFAULT_SOURCE = r'D:\T-G-Apps_Local_Code\dev\packages\tgapps_privacy_policy\lib\assets\text'
 SITE_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Package file suffix -> link text. 'pt' is Brazilian Portuguese, as in the package.
@@ -68,7 +68,7 @@ LANGUAGE_SCRIPT = """
 
 
 def build(source_dir, code):
-    name = 'tag_privacy_policy.html' if code == 'en' else 'tag_privacy_policy_%s.html' % code
+    name = 'tgapps_privacy_policy.html' if code == 'en' else 'tgapps_privacy_policy_%s.html' % code
     html = io.open(os.path.join(source_dir, name), encoding='utf-8').read()
     back, english = LANGUAGES[code]
     head_extra = STYLE + (LANGUAGE_SCRIPT if code == 'en' else '')

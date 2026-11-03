@@ -1,4 +1,4 @@
-// Translates the play_tag_*.html page chrome (back link, tab title, frame label) into
+// Translates the play_tgapps_*.html page chrome (back link, tab title, frame label) into
 // the language the T-G-Apps web games use: the saved choice from the homepage Language
 // button or the in-game language button (shared_preferences key
 // 'flutter.tg.locale.user_override'), else the browser language, as the apps do.
@@ -58,7 +58,7 @@
 
   // The games each app's menu shows, in its order. A game with a menu of its own lists
   // that menu's games (in the app's words for each language); rules marks a game whose
-  // setup options turn it into well-known variants. Each id has a play_tag_<id>.html.
+  // setup options turn it into well-known variants. Each id has a play_tgapps_<id>.html.
   const apps = {
     'house-of-cards': {
       name: 'T-G-Apps House of Cards',
@@ -147,7 +147,7 @@
       // the app's menu, which this page can't see.
       const item = element('li', game.id === panel.dataset.game ? 'page-game' : null);
       const link = element('a', 'game', game.name);
-      link.href = 'play_tag_' + game.id + '.html';
+      link.href = 'play_tgapps_' + game.id + '.html';
       item.appendChild(link);
       if (game.variants) {
         const names = Array.isArray(game.variants) ? game.variants : game.variants[code];

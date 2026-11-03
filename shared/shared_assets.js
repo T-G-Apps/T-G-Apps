@@ -5,7 +5,7 @@
 (function () {
   'use strict';
 
-  var packagePath = /^\/tag_[^\/]+\/assets\/packages\//;
+  var packagePath = /^\/tgapps_[^\/]+\/assets\/packages\//;
 
   function sharedUrl(url) {
     try {
