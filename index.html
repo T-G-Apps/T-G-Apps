@@ -249,17 +249,28 @@
        It is the logo the games already publish under /shared/. */
     .site-logo { max-width: 440px; margin: 0 auto 12px auto; }
     .site-logo img { display: block; width: 100%; height: auto; border-radius: 12px; }
-    /* Ad rails: a gold-bordered white box on each side of the page, shown only
-       where the screen is wide enough. Each holds a vertical ad unit:
-       160x600 (wide skyscraper) from 1340px, 300x600 (half page) from 1620px.
+    /* Ad rails: a sticky ad box beside the page, sized to fit the screen.
+         1140-1339px: right rail only, 160x600 (wide skyscraper)
+         1340-1619px: both rails, 160x600
+         1620px+:     both rails, 300x600 (half page)
        On wide screens at least 920px tall, a 300x250 (medium rectangle) unit
-       fills the room below it. */
+       goes below it. The gold-bordered white frame and label show only once
+       AdSense has filled a unit, so an empty slot never shows a blank white
+       box, and a slot AdSense leaves unfilled collapses. */
     .ad-rail { display: none; }
-    .ad-box { position: sticky; top: 12px; padding: 6px; border: 2px solid #d6a633; border-radius: 12px; background: #ffffff; }
-    .ad-label { margin: 0 0 4px 0; color: #4b5563; font-size: 11px; text-align: center; text-transform: uppercase; letter-spacing: .06em; }
+    .ad-box { position: sticky; top: 12px; padding: 6px; border: 2px solid transparent; border-radius: 12px; background: transparent; }
+    .ad-box:has(ins[data-ad-status="filled"]) { border-color: #d6a633; background: #ffffff; }
+    .ad-label { visibility: hidden; margin: 0 0 4px 0; color: #4b5563; font-size: 11px; text-align: center; text-transform: uppercase; letter-spacing: .06em; }
+    .ad-box:has(ins[data-ad-status="filled"]) .ad-label { visibility: visible; }
     .ad-slot { display: block; width: 160px; height: 600px; overflow: hidden; }
     .ad-slot-lower { display: none; margin-top: 6px; height: 250px; }
+    .ad-slot:has(ins[data-ad-status="unfilled"]) { display: none; }
     .ad-slot .adsbygoogle { display: block; width: 100%; height: 100%; }
+    @media (min-width: 1140px) and (max-width: 1339.98px) {
+      .page-layout { display: grid; grid-template-columns: 1fr minmax(0, 900px) auto 1fr; column-gap: 24px; }
+      .page-layout > .tag-policy-page { margin: 0; grid-column: 2; }
+      .ad-rail-right { display: block; grid-column: 3; }
+    }
     @media (min-width: 1340px) {
       .page-layout { display: grid; grid-template-columns: 1fr minmax(0, 900px) 1fr; column-gap: 24px; }
       .page-layout > .tag-policy-page { margin: 0; }
