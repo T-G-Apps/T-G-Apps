@@ -191,6 +191,48 @@
     }
     .menu-note strong,
     .restriction-note strong { color: #063a25; }
+    .apps-directory { scroll-margin-top: 12px; }
+    .app-entry {
+      padding: 12px 0;
+      border-top: 1px solid #f0e3bf;
+    }
+    .app-entry:last-child { padding-bottom: 0; }
+    .app-entry h4 {
+      margin: 0 0 2px 0;
+      font-size: 19px;
+    }
+    .app-entry h4 a { color: #063a25; }
+    .app-entry .game-type { margin-bottom: 8px; }
+    .game-list,
+    .sub-games {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .game-list > li > a {
+      display: inline-block;
+      padding: 7px 11px;
+      border: 1px solid #d6a633;
+      border-radius: 999px;
+      background: #fff8df;
+      color: #063a25;
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .game-list > li.has-sub-games { flex-basis: 100%; }
+    .sub-games { margin: 6px 0 2px 14px; }
+    .sub-games li {
+      padding: 2px 8px;
+      border-left: 2px solid #d6a633;
+      color: #4b5563;
+      font-size: 13px;
+      font-weight: 700;
+    }
+    [id] { scroll-margin-top: 12px; }
     .skip-link {
       position: absolute;
       top: -80px;
@@ -246,6 +288,75 @@
       </nav>
     </section>
 
+    <section class="card apps-directory" id="apps">
+      <h3>Our 3 Apps</h3>
+      <p>Each app has its own games. Tap a name to jump to it.</p>
+      <div class="app-entry">
+        <h4><a href="#casino">T-G-Apps Casino</a></h4>
+        <p class="game-type">Casino card games</p>
+        <ul class="game-list">
+          <li><a href="#twenty-one">21</a></li>
+          <li><a href="#texas-holdem">Texas Hold'em</a></li>
+          <li><a href="#seven-card-draw">7 Card Draw</a></li>
+          <li><a href="#seven-card-stud">7 Card Stud</a></li>
+          <li><a href="#five-card-draw">5 Card Draw</a></li>
+          <li><a href="#baccarat">Baccarat</a></li>
+          <li><a href="#let-it-ride">Let It Ride</a></li>
+          <li><a href="#caribbean-stud">Caribbean Stud</a></li>
+        </ul>
+      </div>
+      <div class="app-entry">
+        <h4><a href="#house-of-cards">T-G-Apps House of Cards</a></h4>
+        <p class="game-type">Classic card games</p>
+        <ul class="game-list">
+          <li><a href="#hearts">Hearts</a></li>
+          <li><a href="#spades">Spades</a></li>
+          <li><a href="#euchre">Euchre</a></li>
+          <li><a href="#bridge">Bridge</a></li>
+          <li class="has-sub-games"><a href="#rummy">Rummy</a>
+            <ul class="sub-games">
+              <li>Rummy</li>
+              <li>Gin Rummy</li>
+              <li>Rummy 500</li>
+              <li>Contract Rummy</li>
+              <li>Indian Rummy</li>
+            </ul>
+          </li>
+          <li><a href="#cribbage">Cribbage</a></li>
+          <li><a href="#pinochle">Pinochle</a></li>
+          <li><a href="#canasta">Canasta</a></li>
+        </ul>
+      </div>
+      <div class="app-entry">
+        <h4><a href="#boneyard">T-G-Apps Boneyard</a></h4>
+        <p class="game-type">Dice and tile games</p>
+        <ul class="game-list">
+          <li><a href="#yz">YZ</a></li>
+          <li><a href="#farkle">Farkle</a></li>
+          <li class="has-sub-games"><a href="#dominoes">Dominoes</a>
+            <ul class="sub-games">
+              <li>42</li>
+              <li>Block</li>
+              <li>Draw</li>
+              <li>Mexican Train</li>
+              <li>All Fives</li>
+              <li>Bergen</li>
+            </ul>
+          </li>
+          <li class="has-sub-games"><a href="#mahjong">Mahjong</a>
+            <ul class="sub-games">
+              <li>Hong Kong</li>
+              <li>Riichi</li>
+              <li>Chinese Official</li>
+              <li>Taiwanese</li>
+              <li>Sichuan</li>
+              <li>Solitaire</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+
     <section class="card">
       <h3>In Every T-G-Apps Game</h3>
       <ul class="features">
@@ -270,13 +381,12 @@
       <h3 class="app-name">T-G-Apps Casino</h3>
       <p class="game-type">Casino card games</p>
       <p>Eight casino favorites in one app: blackjack, four kinds of poker, and three house-banked table games. Every table plays with simulated chips and a bankroll that carries from hand to hand, so you can practice strategy, try a new game, or just enjoy a night at the tables without spending real money.</p>
-      <p>Games: 21, Texas Hold'em, 7 Card Draw, 7 Card Stud, 5 Card Draw, Baccarat, Let It Ride, Caribbean Stud.</p>
       <span class="pill adult">Subject to local age restrictions</span>
       <span class="pill">Simulated betting</span>
       <span class="pill">8 games</span>
     </section>
 
-    <section class="card">
+    <section class="card" id="twenty-one">
       <h3 class="game-name">21</h3>
       <p class="game-type">Blackjack</p>
       <p>Classic blackjack against the dealer, with hit, stand, double, split, surrender and insurance, and configurable table rules. The hint shows the basic-strategy play for every hand.</p>
@@ -292,7 +402,7 @@
       </div>
     </section>
 
-    <section class="card">
+    <section class="card" id="texas-holdem">
       <h3 class="game-name">Texas Hold'em</h3>
       <p class="game-type">Community-card poker</p>
       <p>Two hole cards, five community cards and four betting rounds, in no-limit, pot-limit or fixed-limit play, with blinds and optional antes.</p>
@@ -308,7 +418,7 @@
       </div>
     </section>
 
-    <section class="card">
+    <section class="card" id="seven-card-draw">
       <h3 class="game-name">7 Card Draw</h3>
       <p class="game-type">Draw poker</p>
       <p>Seven private cards, a round of betting, one draw to improve, and the best five cards win.</p>
@@ -324,7 +434,7 @@
       </div>
     </section>
 
-    <section class="card">
+    <section class="card" id="seven-card-stud">
       <h3 class="game-name">7 Card Stud</h3>
       <p class="game-type">Stud poker</p>
       <p>Fixed-limit seven-card stud with antes, a bring-in, and a mix of face-down and face-up cards dealt across five streets.</p>
@@ -340,7 +450,7 @@
       </div>
     </section>
 
-    <section class="card">
+    <section class="card" id="five-card-draw">
       <h3 class="game-name">5 Card Draw</h3>
       <p class="game-type">Draw poker</p>
       <p>The classic: ante up, bet, draw up to three new cards, bet again and show down.</p>
@@ -356,7 +466,7 @@
       </div>
     </section>
 
-    <section class="card">
+    <section class="card" id="baccarat">
       <h3 class="game-name">Baccarat</h3>
       <p class="game-type">Punto banco</p>
       <p>Bet on the Player, the Banker or a Tie, then watch the cards follow the traditional third-card rules. Six- or eight-deck shoes, with or without the banker commission.</p>
@@ -372,7 +482,7 @@
       </div>
     </section>
 
-    <section class="card">
+    <section class="card" id="let-it-ride">
       <h3 class="game-name">Let It Ride</h3>
       <p class="game-type">Table poker against the pay table</p>
       <p>Place three equal bets, see three cards, and pull back up to two bets as the two community cards are revealed. A pair of tens or better pays, up to 1,000 to 1 for a royal flush.</p>
@@ -388,7 +498,7 @@
       </div>
     </section>
 
-    <section class="card">
+    <section class="card" id="caribbean-stud">
       <h3 class="game-name">Caribbean Stud</h3>
       <p class="game-type">Table poker against the dealer</p>
       <p>Ante, look at five cards and one dealer card, then fold or raise. The dealer must qualify with ace-king or better, and big hands pay up to 100 to 1 on the raise.</p>
@@ -410,13 +520,12 @@
       <h3 class="app-name">T-G-Apps House of Cards</h3>
       <p class="game-type">Classic card games</p>
       <p>Classic card games and a Rummy game menu in one app, from partnership trick-taking, contract play and meld to draw-and-discard, canastas and pegging. Play a quick hand or a full game to the target score, learn the rules as you go, and let the robots fill any empty seat.</p>
-      <p>Games: Hearts, Spades, Euchre, Bridge, Rummy, Cribbage, Pinochle, Canasta.</p>
       <span class="pill family">Children &amp; Adults</span>
       <span class="pill">No wagering</span>
       <span class="pill">8 game entries, including the Rummy menu</span>
     </section>
 
-    <section class="card">
+    <section class="card" id="hearts">
       <h3 class="game-name">Hearts</h3>
       <p class="game-type">Trick-taking</p>
       <p>Pass three cards, then avoid taking hearts and the queen of spades — unless you can take them all and shoot the moon.</p>
@@ -432,7 +541,7 @@
       </div>
     </section>
 
-    <section class="card">
+    <section class="card" id="spades">
       <h3 class="game-name">Spades</h3>
       <p class="game-type">Partnership trick-taking</p>
       <p>Bid the tricks you and your partner will take, with spades always trump. Watch your bags, and go nil when the cards are right.</p>
@@ -448,7 +557,7 @@
       </div>
     </section>
 
-    <section class="card">
+    <section class="card" id="euchre">
       <h3 class="game-name">Euchre</h3>
       <p class="game-type">Partnership trick-taking</p>
       <p>A fast five-card game: order up or call trump, remember the bowers, and take three tricks — or go alone for all five.</p>
@@ -464,7 +573,7 @@
       </div>
     </section>
 
-        <section class="card">
+        <section class="card" id="bridge">
       <h3 class="game-name">Bridge</h3>
       <p class="game-type">Contract bridge</p>
       <p>Bid to a contract with your partner, then declare or defend with the dummy face up on the table. Played in sets of four deals with rotating vulnerability.</p>
@@ -480,7 +589,7 @@
       </div>
     </section>
 
-    <section class="card">
+    <section class="card" id="rummy">
       <h3 class="game-name">Rummy</h3>
       <p class="game-type">Rummy game collection</p>
       <p class="menu-note"><strong>Rummy is a game-selection menu.</strong> Open it to choose among related rummy games, each with its own rules. The screenshots below show one draw-and-discard game in the collection.</p>
@@ -497,7 +606,7 @@
       </div>
     </section>
 
-    <section class="card">
+    <section class="card" id="cribbage">
       <h3 class="game-name">Cribbage</h3>
       <p class="game-type">Pegging and counting</p>
       <p>Discard to the crib, peg to fifteen and thirty-one, then count fifteens, pairs, runs, flushes and nobs in the show. First to 121 wins.</p>
@@ -555,13 +664,12 @@
       <h3 class="app-name">T-G-Apps Boneyard</h3>
       <p class="game-type">Dice and tile games</p>
       <p>Dice and tiles for every age: two dice games, a full set of dominoes, and six ways to play mahjong. Shake, draw from the boneyard, or build a winning hand, against the robots or friends and family on their own phones.</p>
-      <p>Games: YZ, Farkle, Dominoes, Mahjong.</p>
       <span class="pill family">Children &amp; Adults</span>
       <span class="pill">No wagering</span>
       <span class="pill">2 dice games + 2 game menus</span>
     </section>
 
-    <section class="card">
+    <section class="card" id="yz">
       <h3 class="game-name">YZ</h3>
       <p class="game-type">Dice scorecard strategy</p>
       <p>Roll five dice up to three times a turn and choose where to score: the upper section, three and four of a kind, full houses, straights and five of a kind.</p>
@@ -577,7 +685,7 @@
       </div>
     </section>
 
-    <section class="card">
+    <section class="card" id="farkle">
       <h3 class="game-name">Farkle</h3>
       <p class="game-type">Push-your-luck dice</p>
       <p>Set aside scoring dice and keep rolling to build your turn total — but roll nothing that scores and you farkle and lose it all. First to 10,000 wins.</p>
@@ -593,12 +701,12 @@
       </div>
     </section>
 
-    <section class="card">
+    <section class="card" id="dominoes">
       <h3 class="game-name">Dominoes</h3>
       <p class="game-type">Domino game collection</p>
-      <p class="menu-note"><strong>Dominoes is a game-selection menu.</strong> Choose Block, Draw, Mexican Train, All Fives or Bergen, then start that game with its own rules.</p>
+      <p class="menu-note"><strong>Dominoes is a game-selection menu.</strong> Choose 42, Block, Draw, Mexican Train, All Fives or Bergen, then start that game with its own rules.</p>
       <span class="pill family">Menu of related games</span>
-      <p>Five domino games in one: Block, Draw, Mexican Train, All Fives and Bergen — match the open ends, draw from the boneyard when you are stuck, and be first to play out your hand.</p>
+      <p>Six domino games in one: 42, Block, Draw, Mexican Train, All Fives and Bergen — bid and take tricks in 42; in the others, match the open ends, draw from the boneyard when you are stuck, and be first to play out your hand.</p>
       <div class="shots">
         <figure>
           <img src="data:image/jpeg;base64,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BD5QUSV3x800OUpFHKjVYhLeiKEAZEV3x80mXLpKUzmUr5+XnCGEgAutIpBEYRMfj5eb2rjUaUYGSTIVZmHFJfoGS4Askm10XkqYVvaFvUuuTLZNSWmiKpYEoQMKdGnNhnvkONURNt6b4RhZDCiM6PSoDskk7CzxlszR5hZPBCR0aSXYq/xSqcDoGJko9WHcBCCYYLL6t702Fww7sETeZSavA4UEwGbrnm5fgCopEDAAAAG3iOab6wKyE551pLsg9X0x+Fl5za80IgedMuzgN5Ljjjjjjji5iNROhzSICBhEhHzcvNVyLTwGV6UZAUBQpjgBWONjaoxbARDE3KPNjAiF4XoQCIiSI5/wYWQITMoI4sMcvGJSFFxY5tOnm5eaOZcyR4I3Tsix3wzHClagwno3mDPCnnOrlECYbpSWOkwElLJIsaelMSXAggHEbzehvDAkLAXEEh9VPA5AFiMN2ovSgWallAnN4GJ4EVNJFkYuNxsmxbHh8vAh5uXmxcCTcoyAC43Xub0g5B5lAGAOXkOTAlSA9amzJL+5yNPNy84PgskJ61bA7o/0rsD4rsD4rsD4rsD4rsD4rsD4rsD4rsD4o6AOLjpjzsq7J967J967J967J967J967J967J967J967J967J967J967J967J967J967J967J967J967J967J967J967J967J967J967J967J967J967J967J967J967J967J967J967J967J967J967J967J96WSF38f+Nh/wAbD/jYf8bCoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioor/2Q==" width="300" height="650" alt="Dominoes during a hand">
@@ -611,7 +719,7 @@
       </div>
     </section>
 
-    <section class="card">
+    <section class="card" id="mahjong">
       <h3 class="game-name">Mahjong</h3>
       <p class="game-type">Mahjong game collection</p>
       <p class="menu-note"><strong>Mahjong is a game-selection menu.</strong> Choose Hong Kong, Riichi, Chinese Official, Taiwanese, Sichuan or Solitaire. Each selection opens its own game and rules.</p>

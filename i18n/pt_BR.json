@@ -84,9 +84,7 @@
   "Push-your-luck dice": "Dados de arriscar a sorte",
   "Set aside scoring dice and keep rolling to build your turn total — but roll nothing that scores and you farkle and lose it all. First to 10,000 wins.": "Separe os dados que pontuam e continue rolando para aumentar o total do turno, mas se não tirar nada que pontue, é farkle e você perde tudo. Vence quem chegar primeiro a 10.000.",
   "Domino tile games": "Jogos de dominó",
-  "Five domino games in one: Block, Draw, Mexican Train, All Fives and Bergen — match the open ends, draw from the boneyard when you are stuck, and be first to play out your hand.": "Cinco jogos de dominó em um: Block, Draw, Mexican Train, All Fives e Bergen. Combine as pontas abertas, compre do monte quando não puder jogar e seja o primeiro a ficar sem peças.",
   "Dominoes is a game-selection menu.": "Dominó é um menu de seleção de jogos.",
-  "Choose Block, Draw, Mexican Train, All Fives or Bergen, then start that game with its own rules.": "Escolha Block, Draw, Mexican Train, All Fives ou Bergen e comece esse jogo com suas próprias regras.",
   "Mahjong tile games": "Jogos de peças de mahjong",
   "Six ways to play: Hong Kong, Riichi, Chinese Official, Taiwanese, Sichuan and Solitaire, with calls for pungs, kongs and chows and each style’s own scoring.": "Seis formas de jogar: Hong Kong, Riichi, chinês oficial, taiwanês, Sichuan e paciência, com chamadas de pung, kong e chow e a pontuação própria de cada estilo.",
   "Mahjong is a game-selection menu.": "Mahjong é um menu de seleção de jogos.",
@@ -121,5 +119,16 @@
   "Dominoes": "Dominó",
   "Hearts": "Copas",
   "Spades": "Espadas",
-  "Canasta": "Canastra"
+  "Canasta": "Canastra",
+  "Our 3 Apps": "Nossos 3 aplicativos",
+  "Each app has its own games. Tap a name to jump to it.": "Cada aplicativo tem seus próprios jogos. Toque em um nome para ir até ele.",
+  "Six domino games in one: 42, Block, Draw, Mexican Train, All Fives and Bergen — bid and take tricks in 42; in the others, match the open ends, draw from the boneyard when you are stuck, and be first to play out your hand.": "Seis jogos de dominó em um: 42, Bloqueio, Compra, Trem Mexicano, Todos os cincos e Bergen — no 42, dê lances e ganhe vazas; nos outros, combine as pontas abertas, compre do monte quando travar e seja o primeiro a bater.",
+  "Choose 42, Block, Draw, Mexican Train, All Fives or Bergen, then start that game with its own rules.": "Escolha 42, Bloqueio, Compra, Trem Mexicano, Todos os cincos ou Bergen e comece esse jogo com suas próprias regras.",
+  "Block": "Bloqueio",
+  "Draw": "Compra",
+  "Mexican Train": "Trem Mexicano",
+  "All Fives": "Todos os cincos",
+  "Chinese Official": "Chinês oficial",
+  "Taiwanese": "Taiwanês",
+  "Solitaire": "Paciência"
 }

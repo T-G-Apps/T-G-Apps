@@ -84,9 +84,7 @@
   "Push-your-luck dice": "Dados de tentar a la suerte",
   "Set aside scoring dice and keep rolling to build your turn total — but roll nothing that scores and you farkle and lose it all. First to 10,000 wins.": "Aparta los dados que puntúan y sigue tirando para sumar puntos en tu turno, pero si no sacas nada que puntúe, haces farkle y lo pierdes todo. Gana el primero en llegar a 10 000.",
   "Domino tile games": "Juegos de fichas de dominó",
-  "Five domino games in one: Block, Draw, Mexican Train, All Fives and Bergen — match the open ends, draw from the boneyard when you are stuck, and be first to play out your hand.": "Cinco juegos de dominó en uno: Block, Draw, Mexican Train, All Fives y Bergen. Empareja los extremos abiertos, roba del pozo cuando no puedas jugar y sé el primero en quedarte sin fichas.",
   "Dominoes is a game-selection menu.": "Dominó es un menú de selección de juegos.",
-  "Choose Block, Draw, Mexican Train, All Fives or Bergen, then start that game with its own rules.": "Elige Block, Draw, Mexican Train, All Fives o Bergen y empieza ese juego con sus propias reglas.",
   "Mahjong tile games": "Juegos de fichas de mahjong",
   "Six ways to play: Hong Kong, Riichi, Chinese Official, Taiwanese, Sichuan and Solitaire, with calls for pungs, kongs and chows and each style’s own scoring.": "Seis formas de jugar: Hong Kong, Riichi, chino oficial, taiwanés, Sichuan y solitario, con llamadas de pung, kong y chow y la puntuación propia de cada estilo.",
   "Mahjong is a game-selection menu.": "Mahjong es un menú de selección de juegos.",
@@ -120,5 +118,16 @@
   "Your browser did not allow this page to close automatically. Use the browser Back, Home, or Close control.": "Tu navegador no permitió que esta página se cerrara automáticamente. Usa el botón Atrás, Inicio o Cerrar del navegador.",
   "Dominoes": "Dominó",
   "Hearts": "Corazones",
-  "Spades": "Espadas"
+  "Spades": "Espadas",
+  "Our 3 Apps": "Nuestras 3 aplicaciones",
+  "Each app has its own games. Tap a name to jump to it.": "Cada aplicación tiene sus propios juegos. Toca un nombre para ir a él.",
+  "Six domino games in one: 42, Block, Draw, Mexican Train, All Fives and Bergen — bid and take tricks in 42; in the others, match the open ends, draw from the boneyard when you are stuck, and be first to play out your hand.": "Seis juegos de dominó en uno: 42, Bloqueo, Dominó de robo, Tren Mexicano, Todos los cincos y Bergen. En 42, apuesta y gana bazas; en los demás, empareja los extremos abiertos, roba del pozo cuando no puedas jugar y sé el primero en quedarte sin fichas.",
+  "Choose 42, Block, Draw, Mexican Train, All Fives or Bergen, then start that game with its own rules.": "Elige 42, Bloqueo, Dominó de robo, Tren Mexicano, Todos los cincos o Bergen y empieza ese juego con sus propias reglas.",
+  "Block": "Bloqueo",
+  "Draw": "Dominó de robo",
+  "Mexican Train": "Tren Mexicano",
+  "All Fives": "Todos los cincos",
+  "Chinese Official": "Chino oficial",
+  "Taiwanese": "Taiwanés",
+  "Solitaire": "Solitario"
 }

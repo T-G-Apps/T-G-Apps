@@ -84,9 +84,7 @@
   "Push-your-luck dice": "Dés où l’on tente sa chance",
   "Set aside scoring dice and keep rolling to build your turn total — but roll nothing that scores and you farkle and lose it all. First to 10,000 wins.": "Mettez de côté les dés qui rapportent et relancez pour augmenter le total du tour, mais si aucun dé ne rapporte, c’est le farkle et vous perdez tout. Le premier à 10 000 gagne.",
   "Domino tile games": "Jeux de dominos",
-  "Five domino games in one: Block, Draw, Mexican Train, All Fives and Bergen — match the open ends, draw from the boneyard when you are stuck, and be first to play out your hand.": "Cinq jeux de dominos en un : Block, Draw, Mexican Train, All Fives et Bergen. Associez les extrémités libres, piochez dans la réserve quand vous êtes bloqué et soyez le premier à poser tous vos dominos.",
   "Dominoes is a game-selection menu.": "Dominos est un menu de sélection de jeux.",
-  "Choose Block, Draw, Mexican Train, All Fives or Bergen, then start that game with its own rules.": "Choisissez Block, Draw, Mexican Train, All Fives ou Bergen, puis lancez ce jeu avec ses propres règles.",
   "Mahjong tile games": "Jeux de tuiles de mahjong",
   "Six ways to play: Hong Kong, Riichi, Chinese Official, Taiwanese, Sichuan and Solitaire, with calls for pungs, kongs and chows and each style’s own scoring.": "Six façons de jouer : Hong Kong, Riichi, chinois officiel, taïwanais, Sichuan et solitaire, avec annonces de pung, kong et chow et le décompte propre à chaque style.",
   "Mahjong is a game-selection menu.": "Mahjong est un menu de sélection de jeux.",
@@ -125,5 +123,15 @@
   "Play Spades Online": "Jouer aux Piques en ligne",
   "Play Dominoes Online": "Jouer aux Dominos en ligne",
   "Rummy": "Rami",
-  "Play Rummy Online": "Jouer au Rami en ligne"
+  "Play Rummy Online": "Jouer au Rami en ligne",
+  "Our 3 Apps": "Nos 3 applications",
+  "Each app has its own games. Tap a name to jump to it.": "Chaque application a ses propres jeux. Touchez un nom pour y accéder.",
+  "Six domino games in one: 42, Block, Draw, Mexican Train, All Fives and Bergen — bid and take tricks in 42; in the others, match the open ends, draw from the boneyard when you are stuck, and be first to play out your hand.": "Six jeux de dominos en un : 42, Bloqué, Pioche, Train mexicain, Tous les cinq et Bergen — annoncez et remportez des levées au 42 ; dans les autres, associez les extrémités libres, piochez dans la réserve quand vous êtes bloqué et soyez le premier à poser toutes vos tuiles.",
+  "Choose 42, Block, Draw, Mexican Train, All Fives or Bergen, then start that game with its own rules.": "Choisissez 42, Bloqué, Pioche, Train mexicain, Tous les cinq ou Bergen, puis lancez ce jeu avec ses propres règles.",
+  "Block": "Bloqué",
+  "Draw": "Pioche",
+  "Mexican Train": "Train mexicain",
+  "All Fives": "Tous les cinq",
+  "Chinese Official": "Chinois officiel",
+  "Taiwanese": "Taïwanais"
 }
