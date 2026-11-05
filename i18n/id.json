@@ -84,9 +84,7 @@
   "Push-your-luck dice": "Dadu uji keberuntungan",
   "Set aside scoring dice and keep rolling to build your turn total — but roll nothing that scores and you farkle and lose it all. First to 10,000 wins.": "Sisihkan dadu yang mencetak skor dan terus melempar untuk menambah total giliran — tetapi jika tidak ada yang mencetak skor, Anda farkle dan kehilangan semuanya. Yang pertama mencapai 10.000 menang.",
   "Domino tile games": "Game ubin domino",
-  "Five domino games in one: Block, Draw, Mexican Train, All Fives and Bergen — match the open ends, draw from the boneyard when you are stuck, and be first to play out your hand.": "Lima game domino dalam satu: Block, Draw, Mexican Train, All Fives, dan Bergen — cocokkan ujung yang terbuka, ambil dari tumpukan saat buntu, dan jadilah yang pertama menghabiskan ubin.",
   "Dominoes is a game-selection menu.": "Domino adalah menu pilihan game.",
-  "Choose Block, Draw, Mexican Train, All Fives or Bergen, then start that game with its own rules.": "Pilih Block, Draw, Mexican Train, All Fives, atau Bergen, lalu mulai game itu dengan aturannya sendiri.",
   "Mahjong tile games": "Game ubin mahjong",
   "Six ways to play: Hong Kong, Riichi, Chinese Official, Taiwanese, Sichuan and Solitaire, with calls for pungs, kongs and chows and each style’s own scoring.": "Enam cara bermain: Hong Kong, Riichi, Resmi Tiongkok, Taiwan, Sichuan, dan Solitaire, dengan panggilan pung, kong, dan chow serta penilaian khas setiap gaya.",
   "Mahjong is a game-selection menu.": "Mahjong adalah menu pilihan game.",
@@ -119,5 +117,15 @@
   "Cancel": "Batal",
   "Your browser did not allow this page to close automatically. Use the browser Back, Home, or Close control.": "Browser Anda tidak mengizinkan halaman ini menutup otomatis. Gunakan tombol Kembali, Beranda, atau Tutup di browser.",
   "Dominoes": "Domino",
-  "Rummy": "Remi"
+  "Rummy": "Remi",
+  "Our 3 Apps": "3 Aplikasi Kami",
+  "Each app has its own games. Tap a name to jump to it.": "Setiap aplikasi punya game sendiri. Ketuk nama untuk melompat ke sana.",
+  "Six domino games in one: 42, Block, Draw, Mexican Train, All Fives and Bergen — bid and take tricks in 42; in the others, match the open ends, draw from the boneyard when you are stuck, and be first to play out your hand.": "Enam game domino dalam satu: 42, Blok, Tarik, Kereta Meksiko, Semua Lima, dan Bergen — di 42, ajukan tawaran dan menangkan trik; di yang lain, cocokkan ujung yang terbuka, ambil dari tumpukan saat buntu, dan jadilah yang pertama menghabiskan ubin.",
+  "Choose 42, Block, Draw, Mexican Train, All Fives or Bergen, then start that game with its own rules.": "Pilih 42, Blok, Tarik, Kereta Meksiko, Semua Lima, atau Bergen, lalu mulai game itu dengan aturannya sendiri.",
+  "Block": "Blok",
+  "Draw": "Tarik",
+  "Mexican Train": "Kereta Meksiko",
+  "All Fives": "Semua Lima",
+  "Chinese Official": "Resmi Tiongkok",
+  "Taiwanese": "Taiwan"
 }

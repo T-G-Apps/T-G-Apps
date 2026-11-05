@@ -84,9 +84,7 @@
   "Push-your-luck dice": "Würfelspiel mit Risiko",
   "Set aside scoring dice and keep rolling to build your turn total — but roll nothing that scores and you farkle and lose it all. First to 10,000 wins.": "Lege punktende Würfel beiseite und würfle weiter, um deine Zugpunkte zu erhöhen – aber würfelst du nichts, was zählt, ist es ein Farkle und alles ist weg. Wer zuerst 10.000 erreicht, gewinnt.",
   "Domino tile games": "Dominospiele",
-  "Five domino games in one: Block, Draw, Mexican Train, All Fives and Bergen — match the open ends, draw from the boneyard when you are stuck, and be first to play out your hand.": "Fünf Dominospiele in einem: Block, Draw, Mexican Train, All Fives und Bergen. Lege an die offenen Enden an, ziehe aus dem Vorrat, wenn du nicht kannst, und spiele als Erster alle Steine aus.",
   "Dominoes is a game-selection menu.": "Domino ist ein Spielauswahlmenü.",
-  "Choose Block, Draw, Mexican Train, All Fives or Bergen, then start that game with its own rules.": "Wähle Block, Draw, Mexican Train, All Fives oder Bergen und starte dieses Spiel mit seinen eigenen Regeln.",
   "Mahjong tile games": "Mahjong-Spiele",
   "Six ways to play: Hong Kong, Riichi, Chinese Official, Taiwanese, Sichuan and Solitaire, with calls for pungs, kongs and chows and each style’s own scoring.": "Sechs Spielarten: Hongkong, Riichi, Chinesisch offiziell, Taiwanesisch, Sichuan und Solitär, mit Ansagen für Pungs, Kongs und Chows und der eigenen Wertung jedes Stils.",
   "Mahjong is a game-selection menu.": "Mahjong ist ein Spielauswahlmenü.",
@@ -122,5 +120,15 @@
   "Hearts": "Herz",
   "Spades": "Pik",
   "Rummy": "Rommé",
-  "Pinochle": "Binokel"
+  "Pinochle": "Binokel",
+  "Our 3 Apps": "Unsere 3 Apps",
+  "Each app has its own games. Tap a name to jump to it.": "Jede App hat ihre eigenen Spiele. Tippe auf einen Namen, um dorthin zu springen.",
+  "Six domino games in one: 42, Block, Draw, Mexican Train, All Fives and Bergen — bid and take tricks in 42; in the others, match the open ends, draw from the boneyard when you are stuck, and be first to play out your hand.": "Sechs Dominospiele in einem: 42, Block, Ziehen, Mexican Train, Alle Fünfer und Bergen – bei 42 reizt du und machst Stiche; bei den anderen legst du an die offenen Enden an, ziehst aus dem Talon, wenn du festsitzt, und legst als Erster alle Steine ab.",
+  "Choose 42, Block, Draw, Mexican Train, All Fives or Bergen, then start that game with its own rules.": "Wähle 42, Block, Ziehen, Mexican Train, Alle Fünfer oder Bergen und starte dann dieses Spiel mit seinen eigenen Regeln.",
+  "Draw": "Ziehen",
+  "All Fives": "Alle Fünfer",
+  "Hong Kong": "Hongkong",
+  "Chinese Official": "Chinesisch (offiziell)",
+  "Taiwanese": "Taiwanesisch",
+  "Solitaire": "Solitär"
 }

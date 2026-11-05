@@ -188,6 +188,48 @@
     .menu-note, .restriction-note { padding: 12px; border-left: 4px solid #d6a633; border-radius: 6px; background: #fff8df; }
     .menu-note strong { color: #063a25; }
     .bottom-menu { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin: 20px 0; }
+    .apps-directory { scroll-margin-top: 12px; }
+    .app-entry {
+      padding: 12px 0;
+      border-top: 1px solid #f0e3bf;
+    }
+    .app-entry:last-child { padding-bottom: 0; }
+    .app-entry h4 {
+      margin: 0 0 2px 0;
+      font-size: 19px;
+    }
+    .app-entry h4 a { color: #063a25; }
+    .app-entry .game-type { margin-bottom: 8px; }
+    .game-list,
+    .sub-games {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .game-list > li > a {
+      display: inline-block;
+      padding: 7px 11px;
+      border: 1px solid #d6a633;
+      border-radius: 999px;
+      background: #fff8df;
+      color: #063a25;
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .game-list > li.has-sub-games { flex-basis: 100%; }
+    .sub-games { margin: 6px 0 2px 14px; }
+    .sub-games li {
+      padding: 2px 8px;
+      border-left: 2px solid #d6a633;
+      color: #4b5563;
+      font-size: 13px;
+      font-weight: 700;
+    }
+    [id] { scroll-margin-top: 12px; }
     .skip-link { position: absolute; top: -80px; padding: 12px; background: #ffd966; color: #063a25; }
     .skip-link:focus { top: 10px; }
     dialog { width: min(720px, calc(100% - 24px)); max-height: 88vh; padding: 0; border: 1px solid #d6a633; border-radius: 12px; color: #111827; background: #fff; }
@@ -255,6 +297,75 @@
       <p class="language-note" id="languageNote" aria-live="polite"></p>
     </section>
 
+    <section class="card apps-directory" id="apps">
+      <h3>Our 3 Apps</h3>
+      <p>Each app has its own games. Tap a name to jump to it.</p>
+      <div class="app-entry">
+        <h4><a href="#casino">T-G-Apps Casino</a></h4>
+        <p class="game-type">Casino card games</p>
+        <ul class="game-list">
+          <li><a href="#twenty-one">21</a></li>
+          <li><a href="#texas-holdem">Texas Hold'em</a></li>
+          <li><a href="#seven-card-draw">7 Card Draw</a></li>
+          <li><a href="#seven-card-stud">7 Card Stud</a></li>
+          <li><a href="#five-card-draw">5 Card Draw</a></li>
+          <li><a href="#baccarat">Baccarat</a></li>
+          <li><a href="#let-it-ride">Let It Ride</a></li>
+          <li><a href="#caribbean-stud">Caribbean Stud</a></li>
+        </ul>
+      </div>
+      <div class="app-entry">
+        <h4><a href="#house-of-cards">T-G-Apps House of Cards</a></h4>
+        <p class="game-type">Classic card games</p>
+        <ul class="game-list">
+          <li><a href="#hearts">Hearts</a></li>
+          <li><a href="#spades">Spades</a></li>
+          <li><a href="#euchre">Euchre</a></li>
+          <li><a href="#bridge">Bridge</a></li>
+          <li class="has-sub-games"><a href="#rummy">Rummy</a>
+            <ul class="sub-games">
+              <li>Rummy</li>
+              <li>Gin Rummy</li>
+              <li>Rummy 500</li>
+              <li>Contract Rummy</li>
+              <li>Indian Rummy</li>
+            </ul>
+          </li>
+          <li><a href="#cribbage">Cribbage</a></li>
+          <li><a href="#pinochle">Pinochle</a></li>
+          <li><a href="#canasta">Canasta</a></li>
+        </ul>
+      </div>
+      <div class="app-entry">
+        <h4><a href="#boneyard">T-G-Apps Boneyard</a></h4>
+        <p class="game-type">Dice and tile games</p>
+        <ul class="game-list">
+          <li><a href="#yz">YZ</a></li>
+          <li><a href="#farkle">Farkle</a></li>
+          <li class="has-sub-games"><a href="#dominoes">Dominoes</a>
+            <ul class="sub-games">
+              <li>42</li>
+              <li>Block</li>
+              <li>Draw</li>
+              <li>Mexican Train</li>
+              <li>All Fives</li>
+              <li>Bergen</li>
+            </ul>
+          </li>
+          <li class="has-sub-games"><a href="#mahjong">Mahjong</a>
+            <ul class="sub-games">
+              <li>Hong Kong</li>
+              <li>Riichi</li>
+              <li>Chinese Official</li>
+              <li>Taiwanese</li>
+              <li>Sichuan</li>
+              <li>Solitaire</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+
     <section class="card">
       <h3>In Every T-G-Apps Game</h3>
       <ul class="features">
@@ -279,14 +390,13 @@
       <h3 class="app-name">T-G-Apps Casino</h3>
       <p class="game-type">Casino card games</p>
       <p>Eight casino favorites in one app: blackjack, four kinds of poker, and three house-banked table games. Every table plays with simulated chips and a bankroll that carries from hand to hand, so you can practice strategy, try a new game, or just enjoy a night at the tables without spending real money.</p>
-      <p>Games: 21, Texas Hold'em, 7 Card Draw, 7 Card Stud, 5 Card Draw, Baccarat, Let It Ride, Caribbean Stud.</p>
       <span class="pill adult">Subject to local age restrictions</span>
       <span class="pill">Simulated betting</span>
       <span class="pill">8 games</span>
       <span class="play-status">Casino games: no web play</span>
     </section>
 
-    <section class="card">
+    <section class="card" id="twenty-one">
       <h3 class="game-name">21</h3>
       <p class="game-type">Blackjack</p>
       <p>Classic blackjack against the dealer, with hit, stand, double, split, surrender and insurance, and configurable table rules. The hint shows the basic-strategy play for every hand.</p>
@@ -302,7 +412,7 @@
       </div>
     </section>
 
-    <section class="card">
+    <section class="card" id="texas-holdem">
       <h3 class="game-name">Texas Hold'em</h3>
       <p class="game-type">Community-card poker</p>
       <p>Two hole cards, five community cards and four betting rounds, in no-limit, pot-limit or fixed-limit play, with blinds and optional antes.</p>
@@ -318,7 +428,7 @@
       </div>
     </section>
 
-    <section class="card">
+    <section class="card" id="seven-card-draw">
       <h3 class="game-name">7 Card Draw</h3>
       <p class="game-type">Draw poker</p>
       <p>Seven private cards, a round of betting, one draw to improve, and the best five cards win.</p>
@@ -334,7 +444,7 @@
       </div>
     </section>
 
-    <section class="card">
+    <section class="card" id="seven-card-stud">
       <h3 class="game-name">7 Card Stud</h3>
       <p class="game-type">Stud poker</p>
       <p>Fixed-limit seven-card stud with antes, a bring-in, and a mix of face-down and face-up cards dealt across five streets.</p>
@@ -350,7 +460,7 @@
       </div>
     </section>
 
-    <section class="card">
+    <section class="card" id="five-card-draw">
       <h3 class="game-name">5 Card Draw</h3>
       <p class="game-type">Draw poker</p>
       <p>The classic: ante up, bet, draw up to three new cards, bet again and show down.</p>
@@ -366,7 +476,7 @@
       </div>
     </section>
 
-    <section class="card">
+    <section class="card" id="baccarat">
       <h3 class="game-name">Baccarat</h3>
       <p class="game-type">Punto banco</p>
       <p>Bet on the Player, the Banker or a Tie, then watch the cards follow the traditional third-card rules. Six- or eight-deck shoes, with or without the banker commission.</p>
@@ -382,7 +492,7 @@
       </div>
     </section>
 
-    <section class="card">
+    <section class="card" id="let-it-ride">
       <h3 class="game-name">Let It Ride</h3>
       <p class="game-type">Table poker against the pay table</p>
       <p>Place three equal bets, see three cards, and pull back up to two bets as the two community cards are revealed. A pair of tens or better pays, up to 1,000 to 1 for a royal flush.</p>
@@ -398,7 +508,7 @@
       </div>
     </section>
 
-    <section class="card">
+    <section class="card" id="caribbean-stud">
       <h3 class="game-name">Caribbean Stud</h3>
       <p class="game-type">Table poker against the dealer</p>
       <p>Ante, look at five cards and one dealer card, then fold or raise. The dealer must qualify with ace-king or better, and big hands pay up to 100 to 1 on the raise.</p>
@@ -420,13 +530,12 @@
       <h3 class="app-name">T-G-Apps House of Cards</h3>
       <p class="game-type">Classic card games</p>
       <p>Classic card games and a Rummy game menu in one app, from partnership trick-taking, contract play and meld to draw-and-discard, canastas and pegging. Play a quick hand or a full game to the target score, learn the rules as you go, and let the robots fill any empty seat.</p>
-      <p>Games: Hearts, Spades, Euchre, Bridge, Rummy, Cribbage, Pinochle, Canasta.</p>
       <span class="pill family">Children &amp; Adults</span>
       <span class="pill">No wagering</span>
       <span class="pill">8 game entries, including the Rummy menu</span>
     </section>
 
-    <section class="card">
+    <section class="card" id="hearts">
       <h3 class="game-name">Hearts</h3>
       <p class="game-type">Trick-taking</p>
       <p>Pass three cards, then avoid taking hearts and the queen of spades — unless you can take them all and shoot the moon.</p>
@@ -443,7 +552,7 @@
     <div class="play-actions"><a class="gold-button" href="play_tgapps_hearts.html">Play Hearts Online</a></div>
     </section>
 
-    <section class="card">
+    <section class="card" id="spades">
       <h3 class="game-name">Spades</h3>
       <p class="game-type">Partnership trick-taking</p>
       <p>Bid the tricks you and your partner will take, with spades always trump. Watch your bags, and go nil when the cards are right.</p>
@@ -460,7 +569,7 @@
     <div class="play-actions"><a class="gold-button" href="play_tgapps_spades.html">Play Spades Online</a></div>
     </section>
 
-    <section class="card">
+    <section class="card" id="euchre">
       <h3 class="game-name">Euchre</h3>
       <p class="game-type">Partnership trick-taking</p>
       <p>A fast five-card game: order up or call trump, remember the bowers, and take three tricks — or go alone for all five.</p>
@@ -477,7 +586,7 @@
     <div class="play-actions"><a class="gold-button" href="play_tgapps_euchre.html">Play Euchre Online</a></div>
     </section>
 
-        <section class="card">
+        <section class="card" id="bridge">
       <h3 class="game-name">Bridge</h3>
       <p class="game-type">Contract bridge</p>
       <p>Bid to a contract with your partner, then declare or defend with the dummy face up on the table. Played in sets of four deals with rotating vulnerability.</p>
@@ -494,7 +603,7 @@
     <div class="play-actions"><a class="gold-button" href="play_tgapps_bridge.html">Play Bridge Online</a></div>
     </section>
 
-    <section class="card">
+    <section class="card" id="rummy">
       <h3 class="game-name">Rummy</h3>
       <p class="game-type">Draw and discard</p>
       <p>Draw, meld sets and runs, lay off on the table, and be first to go out while your opponents are caught holding cards.</p>
@@ -513,7 +622,7 @@
     <div class="play-actions"><a class="gold-button" href="play_tgapps_rummy.html">Play Rummy Online</a></div>
     </section>
 
-    <section class="card">
+    <section class="card" id="cribbage">
       <h3 class="game-name">Cribbage</h3>
       <p class="game-type">Pegging and counting</p>
       <p>Discard to the crib, peg to fifteen and thirty-one, then count fifteens, pairs, runs, flushes and nobs in the show. First to 121 wins.</p>
@@ -530,7 +639,7 @@
     <div class="play-actions"><a class="gold-button" href="play_tgapps_cribbage.html">Play Cribbage Online</a></div>
     </section>
 
-    <section class="card">
+    <section class="card" id="pinochle">
       <h3 class="game-name">Pinochle</h3>
       <p class="game-type">Bidding, meld and tricks</p>
       <p>Bid for the right to name trump, show your meld — marriages, runs, pinochles and arounds — then take tricks to win the counters. Partners must make the bid or go set. First team to 1500 wins.</p>
@@ -547,7 +656,7 @@
     <div class="play-actions"><a class="gold-button" href="play_tgapps_pinochle.html">Play Pinochle Online</a></div>
     </section>
 
-    <section class="card">
+    <section class="card" id="canasta">
       <h3 class="game-name">Canasta</h3>
       <p class="game-type">Partnership draw, meld and canastas</p>
       <p>Draw from the stock or take the whole discard pile, meld sets of the same rank with your partner, and build canastas — melds of seven cards. Wild cards help, but they freeze the pile. Red 3s score a bonus, and you can only go out once your side has a canasta. First team to 5000 wins.</p>
@@ -570,13 +679,12 @@
       <h3 class="app-name">T-G-Apps Boneyard</h3>
       <p class="game-type">Dice and tile games</p>
       <p>Dice and tiles for every age: two dice games, a full set of dominoes, and six ways to play mahjong. Shake, draw from the boneyard, or build a winning hand, against the robots or friends and family on their own phones.</p>
-      <p>Games: YZ, Farkle, Dominoes, Mahjong.</p>
       <span class="pill family">Children &amp; Adults</span>
       <span class="pill">No wagering</span>
       <span class="pill">2 dice games + 2 game menus</span>
     </section>
 
-    <section class="card">
+    <section class="card" id="yz">
       <h3 class="game-name">YZ</h3>
       <p class="game-type">Dice scorecard strategy</p>
       <p>Roll five dice up to three times a turn and choose where to score: the upper section, three and four of a kind, full houses, straights and five of a kind.</p>
@@ -593,7 +701,7 @@
     <div class="play-actions"><a class="gold-button" href="play_tgapps_yz.html">Play YZ Online</a></div>
     </section>
 
-    <section class="card">
+    <section class="card" id="farkle">
       <h3 class="game-name">Farkle</h3>
       <p class="game-type">Push-your-luck dice</p>
       <p>Set aside scoring dice and keep rolling to build your turn total — but roll nothing that scores and you farkle and lose it all. First to 10,000 wins.</p>
@@ -610,11 +718,11 @@
     <div class="play-actions"><a class="gold-button" href="play_tgapps_farkle.html">Play Farkle Online</a></div>
     </section>
 
-    <section class="card">
+    <section class="card" id="dominoes">
       <h3 class="game-name">Dominoes</h3>
       <p class="game-type">Domino tile games</p>
-      <p>Five domino games in one: Block, Draw, Mexican Train, All Fives and Bergen — match the open ends, draw from the boneyard when you are stuck, and be first to play out your hand.</p>
-      <p class="menu-note"><strong>Dominoes is a game-selection menu.</strong> Choose Block, Draw, Mexican Train, All Fives or Bergen, then start that game with its own rules.</p>
+      <p>Six domino games in one: 42, Block, Draw, Mexican Train, All Fives and Bergen — bid and take tricks in 42; in the others, match the open ends, draw from the boneyard when you are stuck, and be first to play out your hand.</p>
+      <p class="menu-note"><strong>Dominoes is a game-selection menu.</strong> Choose 42, Block, Draw, Mexican Train, All Fives or Bergen, then start that game with its own rules.</p>
       <span class="pill family">Menu of related games</span>
       <div class="shots">
         <figure>
@@ -629,7 +737,7 @@
     <div class="play-actions"><a class="gold-button" href="play_tgapps_dominoes.html">Play Dominoes Online</a></div>
     </section>
 
-    <section class="card">
+    <section class="card" id="mahjong">
       <h3 class="game-name">Mahjong</h3>
       <p class="game-type">Mahjong tile games</p>
       <p>Six ways to play: Hong Kong, Riichi, Chinese Official, Taiwanese, Sichuan and Solitaire, with calls for pungs, kongs and chows and each style’s own scoring.</p>
