@@ -8888,7 +8888,7 @@ _.w=f
 _.x=g
 _.a=h},
 bsb(a){var s,r
-if(a>=10){s=B.auF.h(0,a)
+if(a>=10){s=B.auE.h(0,a)
 s.toString
 r=A.S(s).i("a2<1,j>")
 s=A.M(new A.a2(s,new A.bbE(),r),r.i("ah.E"))
@@ -39044,7 +39044,7 @@ return new A.cw(new A.aGC(),s,s.$ti.i("cw<bw.T,aw<p,mF>>"))},
 bDm(){var s,r=$.bcA(),q=A.b([],t.t)
 for(s=0;s<6;++s)q.push(97+r.fN(26))
 return A.hQ(q,0,null)},
-bf2(a,b,c,d){var s=new A.a5E(A.hK(d,A.S(d).c),c,A.bn5(a),A.u(t.S,t.e9),new A.dw(null,null,t.i6),B.auI),r=A.bDn(a,b).ex(s.gaG9())
+bf2(a,b,c,d){var s=new A.a5E(A.hK(d,A.S(d).c),c,A.bn5(a),A.u(t.S,t.e9),new A.dw(null,null,t.i6),B.auH),r=A.bDn(a,b).ex(s.gaG9())
 s.f!==$&&A.aT()
 s.f=r
 return s},
@@ -39124,7 +39124,7 @@ f=A.u(t.N,t.S)
 if(c.b(l))for(c=l.gdV(),c=c.gU(c);c.p();){e=c.gJ()
 d=e.b
 if(typeof d=="number")f.n(0,A.i(e.a),B.e.cM(d))}return new A.my(r,k,s,j,i,h,g,f)},
-bDo(a){var s=t.f.b(a)?a:B.auK,r=new A.a1(B.a9v,new A.aGE(s),t.ic),q=s.h(0,"n"),p=typeof q=="string"?q:"",o=!r.gU(0).p()?B.c1:r.gV(0),n=J.d(s.h(0,"t"),!0),m=J.d(s.h(0,"y"),!0),l=J.d(s.h(0,"d"),"w")?B.ja:B.dI
+bDo(a){var s=t.f.b(a)?a:B.auJ,r=new A.a1(B.a9v,new A.aGE(s),t.ic),q=s.h(0,"n"),p=typeof q=="string"?q:"",o=!r.gU(0).p()?B.c1:r.gV(0),n=J.d(s.h(0,"t"),!0),m=J.d(s.h(0,"y"),!0),l=J.d(s.h(0,"d"),"w")?B.ja:B.dI
 return new A.fK(p,o,n,m,l,J.d(s.h(0,"b"),!0))},
 bhj(a){var s,r=A.b([],t.Ap)
 for(s=J.b0(A.bMP(a));s.p();)r.push(A.bDo(s.gJ()))
@@ -39143,7 +39143,7 @@ if(r.length===0||B.b.gV(r)<0||B.b.gaD(r)>4096)return B.E9
 s=[]
 for(q=0;q<=B.b.gaD(r);++q){p=a.h(0,""+q)
 s.push(p==null?a.h(0,q):p)}return s}return B.E9},
-uL(a){return t.f.b(a)?a.np(0,new A.bbb(),t.N,t.X):B.auH},
+uL(a){return t.f.b(a)?a.np(0,new A.bbb(),t.N,t.X):B.auG},
 Me:function Me(a,b,c){this.c=a
 this.a=b
 this.b=c},
@@ -40209,7 +40209,7 @@ Qn:function Qn(a,b){this.a=a
 this.b=b},
 bGg(){var s,r,q=A.u(t.N,t.yi)
 for(s=t.A,r=0;r<14;++r)q.n(0,B.bJ[r].a,new A.bz(null,s))
-return new A.QX(B.bV,q,$.bhQ(),A.Mx(0),A.al(5,0,!1,t.S),B.auL,A.b([],t.OA),A.w_("yz",!0))},
+return new A.QX(B.bV,q,$.bhQ(),A.Mx(0),A.al(5,0,!1,t.S),B.auK,A.b([],t.OA),A.w_("yz",!0))},
 Ko:function Ko(a,b,c){this.c=a
 this.d=b
 this.a=c},
@@ -67255,7 +67255,7 @@ au3(a){var s,r=this,q=null,p=r.a,o=p.db
 o=o.dx
 s=o
 if(s==null)s=B.k1
-return new A.ON(p.c,q,q,new A.aYp(),q,q,q,q,q,p.e,B.auM,q,q,q,B.Eb,r.gaEI(),p.cx,q,B.aI6,s,p.k1,r.gaEu(),q,q,r.a.ok,!1,!1,q,q,q,new A.w2(r,t.bT))},
+return new A.ON(p.c,q,q,new A.aYp(),q,q,q,q,q,p.e,B.auL,q,q,q,B.Eb,r.gaEI(),p.cx,q,B.aI6,s,p.k1,r.gaEu(),q,q,r.a.ok,!1,!1,q,q,q,new A.w2(r,t.bT))},
 I(a){var s,r=this.au3(a)
 this.a.toString
 s=this.d
@@ -92644,7 +92644,7 @@ A.afe.prototype={}
 A.a4j.prototype={
 gns(){var s=this.a,r=B.M_.h(0,s)
 return r==null?new A.J(98784247808+B.c.gB(s)):r},
-gZ5(){var s,r=this.b,q=B.auQ.h(0,r),p=q==null?null:q[this.c]
+gZ5(){var s,r=this.b,q=B.auP.h(0,r),p=q==null?null:q[this.c]
 if(p!=null)return p
 s=B.at2.h(0,r)
 if(s!=null)return s
@@ -95786,7 +95786,7 @@ else q=!0
 if(q){q=B.xj
 break A}q=null}return q}return a>0?B.xk:B.a0t},
 gS6(){this.a.toString
-B.auP.h(0,this.DP(this.w))
+B.auO.h(0,this.DP(this.w))
 return 0.4},
 ga8w(){var s=this.c.gv()
 s.toString
@@ -99749,7 +99749,7 @@ a.db=s.c_
 a.c=null},
 $S:517}
 A.lo.prototype={
-af(){return new A.Cc(B.auO)}}
+af(){return new A.Cc(B.auN)}}
 A.Cc.prototype={
 aA(){var s,r=this
 r.aW()
@@ -119220,7 +119220,7 @@ m.toString
 return m}s=B.c.dd(m)
 r=A.am("\\s+",!0,!1,!1)
 q=A.bm(s,r," ")
-p=B.auC.h(0,q)
+p=B.auQ.h(0,q)
 if(q.length===0||p==null){m=a.jz(0)
 m.toString
 return m}o=A.am("^\\s*",!0,!1,!1).zh(m)
@@ -126208,7 +126208,7 @@ s=B.b.em(B.Z,this.a)
 if(s>0){r=B.LL.h(0,a)
 if(r!=null)q.a=r[s-1]}b.aK(0,new A.as4(q,this))
 return q.a},
-bx(a){return this.bZ(a,B.auN)},
+bx(a){return this.bZ(a,B.auM)},
 Zi(a){var s,r,q,p,o=A.am("^(Player|Robot) (\\d+)$",!0,!1,!1).c9(a)
 if(o==null)return a
 s=o.b
@@ -134833,7 +134833,7 @@ r=t.sS
 q=A.u(g,r)
 for(p=h.a,p=A.cl(p,p.r,A.w(p).c),o=h.b,n=p.$ti.c,m=null;p.p();){l=p.d
 if(l==null)l=n.a(l)
-B.auJ.h(0,l)
+B.auI.h(0,l)
 k=h.alk(l)
 j=k===0?B.jL:new A.mF(!1,k).aWa(s,o)
 q.n(0,l,j)
@@ -145917,9 +145917,9 @@ B.aqb=s(["Los robots no pueden jugar en una partida en varios tel\xe9fonos.","Le
 B.asN=new A.a0(B.awf,[B.ajO,B.a5r,B.DG,B.rL,B.rF,B.acW,B.ahu,B.a7c,B.apu,B.am6,B.adc,B.aqb],t.VJ)
 B.aw2={"You win!":0,"Your team wins!":1}
 B.tk={es:0,fr:1,de:2,pt:3,ja:4,hi:5,id:6,vi:7}
-B.auE=new A.a0(B.tk,["\xa1Ganaste!","Vous avez gagn\xe9 !","Du hast gewonnen!","Voc\xea venceu!","\u3042\u306a\u305f\u306e\u52dd\u3061\uff01","\u0906\u092a \u091c\u0940\u0924 \u0917\u090f!","Anda menang!","B\u1ea1n th\u1eafng r\u1ed3i!"],t.w)
-B.auD=new A.a0(B.tk,["\xa1Tu equipo gana!","Votre \xe9quipe gagne !","Dein Team gewinnt!","Sua equipe venceu!","\u3042\u306a\u305f\u306e\u30c1\u30fc\u30e0\u306e\u52dd\u3061\uff01","\u0906\u092a\u0915\u0940 \u091f\u0940\u092e \u091c\u0940\u0924 \u0917\u0908!","Tim Anda menang!","\u0110\u1ed9i c\u1ee7a b\u1ea1n th\u1eafng!"],t.w)
-B.asO=new A.a0(B.aw2,[B.auE,B.auD],t.vb)
+B.auD=new A.a0(B.tk,["\xa1Ganaste!","Vous avez gagn\xe9 !","Du hast gewonnen!","Voc\xea venceu!","\u3042\u306a\u305f\u306e\u52dd\u3061\uff01","\u0906\u092a \u091c\u0940\u0924 \u0917\u090f!","Anda menang!","B\u1ea1n th\u1eafng r\u1ed3i!"],t.w)
+B.auC=new A.a0(B.tk,["\xa1Tu equipo gana!","Votre \xe9quipe gagne !","Dein Team gewinnt!","Sua equipe venceu!","\u3042\u306a\u305f\u306e\u30c1\u30fc\u30e0\u306e\u52dd\u3061\uff01","\u0906\u092a\u0915\u0940 \u091f\u0940\u092e \u091c\u0940\u0924 \u0917\u0908!","Tim Anda menang!","\u0110\u1ed9i c\u1ee7a b\u1ea1n th\u1eafng!"],t.w)
+B.asO=new A.a0(B.aw2,[B.auD,B.auC],t.vb)
 B.arB=new A.q(33)
 B.arC=new A.q(34)
 B.arD=new A.q(35)
@@ -146838,6 +146838,99 @@ B.awk={"iso_8859-1:1987":0,"iso-ir-100":1,"iso_8859-1":2,"iso-8859-1":3,latin1:4
 B.de=new A.VK()
 B.auA=new A.a0(B.awk,[B.df,B.df,B.df,B.df,B.df,B.df,B.df,B.df,B.df,B.de,B.de,B.de,B.de,B.de,B.de,B.de,B.de,B.de,B.de,B.de,B.ab,B.ab],A.a7("a0<r,rq>"))
 B.auB=new A.bK([B.bQ,B.yu,B.cf,B.fv,B.aN,B.jx],A.a7("bK<kw,bs>"))
+B.awg={".sv":0}
+B.dt=new A.a0(B.awg,["timestamp"],t.w)
+B.ajY=s([0,1,2,3,5,6,8,9,10,11],t.t)
+B.ac6=s([0,1,2,3,5,6,7,8,9,10,11],t.t)
+B.a8b=s([0,1,2,3,4,5,6,7,8,9,10,11],t.t)
+B.auE=new A.bK([10,B.ajY,11,B.ac6,12,B.a8b],t.eU)
+B.awr={type:0}
+B.auF=new A.a0(B.awr,["line"],t.w)
+B.auO=new A.a0(B.aJ,[],A.a7("a0<lY,Q>"))
+B.LT=new A.a0(B.aJ,[],A.a7("a0<C,Ee>"))
+B.no=new A.a0(B.aJ,[],A.a7("a0<CM,bt>"))
+B.auL=new A.a0(B.aJ,[],A.a7("a0<r,f(I)>"))
+B.LR=new A.a0(B.aJ,[],t.VJ)
+B.auM=new A.a0(B.aJ,[],t.EU)
+B.hS=new A.a0(B.aJ,[],t.yf)
+B.auG=new A.a0(B.aJ,[],A.a7("a0<r,C?>"))
+B.LS=new A.a0(B.aJ,[],A.a7("a0<Nq,@>"))
+B.auN=new A.a0(B.aJ,[],A.a7("a0<hk,e_>"))
+B.LU=new A.a0(B.aJ,[],A.a7("a0<hk,w1<e_>>"))
+B.aRj=new A.a0(B.aJ,[],A.a7("a0<p,ab<~>(o1)>"))
+B.auI=new A.a0(B.aJ,[],A.a7("a0<p,aF>"))
+B.auH=new A.a0(B.aJ,[],A.a7("a0<p,lf>"))
+B.auK=new A.a0(B.aJ,[],A.a7("a0<p,aw<r,p>>"))
+B.d1=new A.a0(B.aJ,[],A.a7("a0<p,mE>"))
+B.t0=new A.a0(B.aJ,[],A.a7("a0<p,r>"))
+B.LV=new A.a0(B.aJ,[],A.a7("a0<p,p>"))
+B.auJ=new A.a0(B.aJ,[],A.a7("a0<@,@>"))
+B.a7_=s([42,null,null,8589935146],t.Z)
+B.a70=s([43,null,null,8589935147],t.Z)
+B.a71=s([45,null,null,8589935149],t.Z)
+B.a72=s([46,null,null,8589935150],t.Z)
+B.a73=s([47,null,null,8589935151],t.Z)
+B.a74=s([48,null,null,8589935152],t.Z)
+B.a75=s([49,null,null,8589935153],t.Z)
+B.a7o=s([50,null,null,8589935154],t.Z)
+B.a7q=s([51,null,null,8589935155],t.Z)
+B.a7s=s([52,null,null,8589935156],t.Z)
+B.a7t=s([53,null,null,8589935157],t.Z)
+B.a7u=s([54,null,null,8589935158],t.Z)
+B.a7v=s([55,null,null,8589935159],t.Z)
+B.a7w=s([56,null,null,8589935160],t.Z)
+B.a7y=s([57,null,null,8589935161],t.Z)
+B.agW=s([8589934852,8589934852,8589934853,null],t.Z)
+B.a6O=s([4294967555,null,4294967555,null],t.Z)
+B.a6P=s([4294968065,null,null,8589935154],t.Z)
+B.a6Q=s([4294968066,null,null,8589935156],t.Z)
+B.a6R=s([4294968067,null,null,8589935158],t.Z)
+B.a6S=s([4294968068,null,null,8589935160],t.Z)
+B.a6X=s([4294968321,null,null,8589935157],t.Z)
+B.agX=s([8589934848,8589934848,8589934849,null],t.Z)
+B.a6N=s([4294967423,null,null,8589935150],t.Z)
+B.a6T=s([4294968069,null,null,8589935153],t.Z)
+B.a6M=s([4294967309,null,null,8589935117],t.Z)
+B.a6U=s([4294968070,null,null,8589935159],t.Z)
+B.a6Y=s([4294968327,null,null,8589935152],t.Z)
+B.agY=s([8589934854,8589934854,8589934855,null],t.Z)
+B.a6V=s([4294968071,null,null,8589935155],t.Z)
+B.a6W=s([4294968072,null,null,8589935161],t.Z)
+B.agZ=s([8589934850,8589934850,8589934851,null],t.Z)
+B.LW=new A.bK(["*",B.a7_,"+",B.a70,"-",B.a71,".",B.a72,"/",B.a73,"0",B.a74,"1",B.a75,"2",B.a7o,"3",B.a7q,"4",B.a7s,"5",B.a7t,"6",B.a7u,"7",B.a7v,"8",B.a7w,"9",B.a7y,"Alt",B.agW,"AltGraph",B.a6O,"ArrowDown",B.a6P,"ArrowLeft",B.a6Q,"ArrowRight",B.a6R,"ArrowUp",B.a6S,"Clear",B.a6X,"Control",B.agX,"Delete",B.a6N,"End",B.a6T,"Enter",B.a6M,"Home",B.a6U,"Insert",B.a6Y,"Meta",B.agY,"PageDown",B.a6V,"PageUp",B.a6W,"Shift",B.agZ],A.a7("bK<r,O<p?>>"))
+B.a7x=s([B.GU,null,null,B.LA],t.L)
+B.akP=s([B.Lm,null,null,B.LB],t.L)
+B.ac3=s([B.Ln,null,null,B.LC],t.L)
+B.ahf=s([B.Lo,null,null,B.fG],t.L)
+B.a4V=s([B.Lp,null,null,B.LD],t.L)
+B.aol=s([B.Lq,null,null,B.rW],t.L)
+B.amv=s([B.Lr,null,null,B.jV],t.L)
+B.a7Z=s([B.Ls,null,null,B.fH],t.L)
+B.ape=s([B.Lt,null,null,B.jW],t.L)
+B.amp=s([B.Lu,null,null,B.fI],t.L)
+B.a7R=s([B.Lv,null,null,B.rX],t.L)
+B.a63=s([B.Lw,null,null,B.fJ],t.L)
+B.a9x=s([B.Lx,null,null,B.jX],t.L)
+B.akX=s([B.Ly,null,null,B.fK],t.L)
+B.alr=s([B.Lz,null,null,B.jY],t.L)
+B.a8B=s([B.jT,B.jT,B.nk,null],t.L)
+B.aom=s([B.ng,null,B.ng,null],t.L)
+B.aem=s([B.dS,null,null,B.fH],t.L)
+B.aen=s([B.dr,null,null,B.fI],t.L)
+B.aeo=s([B.ds,null,null,B.fJ],t.L)
+B.aoL=s([B.dT,null,null,B.fK],t.L)
+B.amg=s([B.rQ,null,null,B.rX],t.L)
+B.a8C=s([B.jS,B.jS,B.nj,null],t.L)
+B.ajd=s([B.c9,null,null,B.fG],t.L)
+B.aep=s([B.fD,null,null,B.jV],t.L)
+B.a7H=s([B.nf,null,null,B.rV],t.L)
+B.aeq=s([B.fE,null,null,B.jX],t.L)
+B.amh=s([B.jR,null,null,B.rW],t.L)
+B.a8D=s([B.jU,B.jU,B.nl,null],t.L)
+B.aer=s([B.jP,null,null,B.jW],t.L)
+B.ak9=s([B.jQ,null,null,B.jY],t.L)
+B.a8E=s([B.eR,B.eR,B.fF,null],t.L)
+B.auP=new A.bK(["*",B.a7x,"+",B.akP,"-",B.ac3,".",B.ahf,"/",B.a4V,"0",B.aol,"1",B.amv,"2",B.a7Z,"3",B.ape,"4",B.amp,"5",B.a7R,"6",B.a63,"7",B.a9x,"8",B.akX,"9",B.alr,"Alt",B.a8B,"AltGraph",B.aom,"ArrowDown",B.aem,"ArrowLeft",B.aen,"ArrowRight",B.aeo,"ArrowUp",B.aoL,"Clear",B.amg,"Control",B.a8C,"Delete",B.ajd,"End",B.aep,"Enter",B.a7H,"Home",B.aeq,"Insert",B.amh,"Meta",B.a8D,"PageDown",B.aer,"PageUp",B.ak9,"Shift",B.a8E],A.a7("bK<r,O<q?>>"))
 B.ajl=s(["Cat\xe1logo de juegos de T-G-Apps","Catalogue de jeux T-G-Apps","T-G-Apps Spielekatalog","Cat\xe1logo de jogos da T-G-Apps","T-G-Apps \u30b2\u30fc\u30e0\u30ab\u30bf\u30ed\u30b0","T-G-Apps \u0917\u0947\u092e \u0915\u0948\u091f\u0932\u0949\u0917","Katalog Game T-G-Apps","Danh m\u1ee5c tr\xf2 ch\u01a1i T-G-Apps"],t.s)
 B.afr=s(["Versi\xf3n HTML visual: 2026-10-01A","Version HTML visuelle : 2026-10-01A","Visuelle HTML-Version: 2026-10-01A","Vers\xe3o HTML visual: 2026-10-01A","\u8868\u793a\u7528HTML\u7248\uff1a2026-10-01A","\u0935\u093f\u091c\u093c\u0941\u0905\u0932 HTML \u0938\u0902\u0938\u094d\u0915\u0930\u0923: 2026-10-01A","Versi HTML visual: 2026-10-01A","Phi\xean b\u1ea3n HTML hi\u1ec3n th\u1ecb: 2026-10-01A"],t.s)
 B.acB=s(["Tres aplicaciones y dieciocho juegos: T-G-Apps Casino, T-G-Apps House of Cards y T-G-Apps Boneyard.","Trois applications et dix-huit jeux : T-G-Apps Casino, T-G-Apps House of Cards et T-G-Apps Boneyard.","Drei Apps und achtzehn Spiele: T-G-Apps Casino, T-G-Apps House of Cards und T-G-Apps Boneyard.","Tr\xeas aplicativos e dezoito jogos: T-G-Apps Casino, T-G-Apps House of Cards e T-G-Apps Boneyard.","3\u3064\u306e\u30a2\u30d7\u30ea\u306818\u306e\u30b2\u30fc\u30e0\uff1aT-G-Apps Casino\u3001T-G-Apps House of Cards\u3001T-G-Apps Boneyard\u3002","\u0924\u0940\u0928 \u0910\u092a \u0914\u0930 \u0905\u0920\u093e\u0930\u0939 \u0917\u0947\u092e: T-G-Apps Casino, T-G-Apps House of Cards \u0914\u0930 T-G-Apps Boneyard\u0964","Tiga aplikasi dan delapan belas game: T-G-Apps Casino, T-G-Apps House of Cards, dan T-G-Apps Boneyard.","Ba \u1ee9ng d\u1ee5ng v\xe0 m\u01b0\u1eddi t\xe1m tr\xf2 ch\u01a1i: T-G-Apps Casino, T-G-Apps House of Cards v\xe0 T-G-Apps Boneyard."],t.s)
@@ -146980,100 +147073,7 @@ B.al9=s(["Gin Rummy","Gin Rummy","Gin Rummy","Gin Rummy","\u30b8\u30f3\u30e9\u30
 B.a5O=s(["Rummy 500","Rummy 500","Rummy 500","Rummy 500","\u30e9\u30df\u30fc500","\u0930\u092e\u0940 500","Rummy 500","Rummy 500"],t.s)
 B.am4=s(["Contract Rummy","Contract Rummy","Contract Rummy","Contract Rummy","\u30b3\u30f3\u30c8\u30e9\u30af\u30c8\u30fb\u30e9\u30df\u30fc","\u0915\u0949\u0928\u094d\u091f\u094d\u0930\u0948\u0915\u094d\u091f \u0930\u092e\u0940","Contract Rummy","Contract Rummy"],t.s)
 B.a5Q=s(["Indian Rummy","Indian Rummy","Indian Rummy","Indian Rummy","\u30a4\u30f3\u30c7\u30a3\u30a2\u30f3\u30fb\u30e9\u30df\u30fc","\u0907\u0902\u0921\u093f\u092f\u0928 \u0930\u092e\u0940","Indian Rummy","Indian Rummy"],t.s)
-B.auC=new A.bK(["T-G-Apps Game Catalog",B.ajl,"Visual HTML version: 2026-10-01A",B.afr,"Three apps and eighteen games: T-G-Apps Casino, T-G-Apps House of Cards and T-G-Apps Boneyard.",B.acB,"Six classic card games in one app, from partnership trick-taking and contract play to draw-and-discard and pegging. Play a quick hand or a full game to the target score, learn the rules as you go, and let the robots fill any empty seat.",B.a61,"Games: Hearts, Spades, Euchre, Bridge, Rummy, Cribbage.",B.aeU,"6 games",B.aiP,"Visual HTML version: 2026-09-30A",B.amq,"Three apps and twenty games: T-G-Apps Casino, T-G-Apps House of Cards and T-G-Apps Boneyard.",B.a6r,"In Every T-G-Apps Game",B.ahg,"Robot players.",B.aeZ,"Fill any seat with a robot. Every game\u2019s robots play real strategy, not random moves, so a table is ready whenever you are \u2014 alone or with friends.",B.ani,"Hint system.",B.acf,"Not sure what to do? Tap Hint for the play the robots would make and the reason behind it. It is the fastest way to learn a new game or sharpen your strategy.",B.aoc,"Multilingual.",B.ahX,"Every game, menu and rule book is available in English, Spanish, French, German, Brazilian Portuguese, Japanese, Hindi, Indonesian and Vietnamese. Switch languages at any time.",B.a65,"Multiphone play.",B.anV,"Play together on your own phones: one phone creates a room and shares a six-character code, and friends join from wherever they are. Each phone sees only its own cards.",B.anY,"Audience Policy",B.rw,u.C,B.rz,"T-G-Apps Casino",B.ac1,"Casino card games",B.aiR,"Eight casino favorites in one app: blackjack, four kinds of poker, and three house-banked table games. Every table plays with simulated chips and a bankroll that carries from hand to hand, so you can practice strategy, try a new game, or just enjoy a night at the tables without spending real money.",B.amQ,"Games: 21, Texas Hold'em, 7 Card Draw, 7 Card Stud, 5 Card Draw, Baccarat, Let It Ride, Caribbean Stud.",B.a6F,"Ages 13+",B.ry,"Simulated betting",B.rk,"8 games",B.aks,"21",B.a9k,"Blackjack",B.aqA,"Classic blackjack against the dealer, with hit, stand, double, split, surrender and insurance, and configurable table rules. The hint shows the basic-strategy play for every hand.",B.amH,"During a hand",B.ai6,"Showdown",B.amx,"Texas Hold'em",B.a5c,"Community-card poker",B.agy,"Two hole cards, five community cards and four betting rounds, in no-limit, pot-limit or fixed-limit play, with blinds and optional antes.",B.afC,"7 Card Draw",B.a99,"Draw poker",B.adr,"Seven private cards, a round of betting, one draw to improve, and the best five cards win.",B.a5y,"7 Card Stud",B.a8P,"Stud poker",B.aeS,"Fixed-limit seven-card stud with antes, a bring-in, and a mix of face-down and face-up cards dealt across five streets.",B.ace,"5 Card Draw",B.aj0,"The classic: ante up, bet, draw up to three new cards, bet again and show down.",B.ak1,"Baccarat",B.ajH,"Punto banco",B.a5l,"Bet on the Player, the Banker or a Tie, then watch the cards follow the traditional third-card rules. Six- or eight-deck shoes, with or without the banker commission.",B.ajJ,"Let It Ride",B.aiU,"Table poker against the pay table",B.ajQ,"Place three equal bets, see three cards, and pull back up to two bets as the two community cards are revealed. A pair of tens or better pays, up to 1,000 to 1 for a royal flush.",B.a8q,"Caribbean Stud",B.aez,"Table poker against the dealer",B.a79,"Ante, look at five cards and one dealer card, then fold or raise. The dealer must qualify with ace-king or better, and big hands pay up to 100 to 1 on the raise.",B.aaG,"T-G-Apps House of Cards",B.ahe,"Classic card games",B.ajc,"Eight of the world\u2019s best-loved card games at one table: trick-taking games for partners and for going it alone, and the great melding games. Play a quick hand or a full game to the target score, learn the rules as you go, and let the robots fill any empty seat.",B.ae6,"Games: Hearts, Spades, Bridge, Rummy, Cribbage, Pinochle, Canasta, Euchre.",B.amO,"Children &amp; Adults",B.rq,"No wagering",B.rE,"Hearts",B.abR,"Trick-taking",B.a9u,"Pass three cards, then avoid taking hearts and the queen of spades \u2014 unless you can take them all and shoot the moon.",B.ahc,"Spades",B.aaw,"Partnership trick-taking",B.aij,"Bid the tricks you and your partner will take, with spades always trump. Watch your bags, and go nil when the cards are right.",B.amB,"Bridge",B.a5Z,"Contract bridge",B.a8_,"Bid to a contract with your partner, then declare or defend with the dummy face up on the table. Played in sets of four deals with rotating vulnerability.",B.ad5,"Rummy",B.afT,"Draw and discard",B.aid,"Draw, meld sets and runs, lay off on the table, and be first to go out while your opponents are caught holding cards.",B.aj2,"Cribbage",B.abT,"Pegging and counting",B.an4,"Discard to the crib, peg to fifteen and thirty-one, then count fifteens, pairs, runs, flushes and nobs in the show. First to 121 wins.",B.aqK,"Pinochle",B.aga,"Partnership bidding and meld",B.ac4,"Bid for trump, show your meld \u2014 marriages, runs, pinochles and arounds \u2014 then win the counters in the tricks to make your bid.",B.abH,"Canasta",B.adH,"Partnership melding",B.anH,"Draw, take the pile, and build melds of the same rank with your partner. Seven cards make a canasta; wild cards and red threes change everything.",B.ajb,"Euchre",B.a9n,"A fast five-card game: order up or call trump, remember the bowers, and take three tricks \u2014 or go alone for all five.",B.a76,"T-G-Apps Boneyard",B.a8f,"Dice and tile games",B.aeM,"Dice and tiles for every age: two dice games, a full set of dominoes, and six ways to play mahjong. Shake, draw from the boneyard, or build a winning hand, against the robots or friends and family on their own phones.",B.ab_,"Games: YZ, Farkle, Dominoes, Mahjong.",B.aqW,"4 games",B.abQ,"YZ",B.a5h,"Dice scorecard strategy",B.ru,"Roll five dice up to three times a turn and choose where to score: the upper section, three and four of a kind, full houses, straights and five of a kind.",B.aeg,"Farkle",B.ac5,"Push-your-luck dice",B.a6d,"Set aside scoring dice and keep rolling to build your turn total \u2014 but roll nothing that scores and you farkle and lose it all. First to 10,000 wins.",B.a60,"Dominoes",B.aih,"Domino tile games",B.ab4,"Mahjong",B.aaY,"Mahjong tile games",B.af_,"Six ways to play: Hong Kong, Riichi, Chinese Official, Taiwanese, Sichuan and Solitaire, with calls for pungs, kongs and chows and each style\u2019s own scoring.",B.aiL,u.q,B.rm,"Skip to catalog",B.aef,"Card, Dice &amp; Tile Games",B.aha,"Explore T-G-Apps Casino, T-G-Apps House of Cards and T-G-Apps Boneyard. Rummy, Dominoes and Mahjong open menus of related games.",B.aiJ,"Casino",B.apB,"House of Cards",B.amY,"Boneyard",B.apx,"Player 1, who sets up the game, is always a human; fill any other seat with a robot. Players on other phones are always human. Every game&rsquo;s robots play real strategy, not random moves, so a table is ready whenever you are &mdash; alone or with friends.",B.adT,"Casino Games and Local Laws",B.ajN,"Our casino games use simulated chips. They do not offer real-money gambling, prizes of real-world value, or cash-out.",B.aik,"Availability varies by location:",B.a9P,"simulated gambling can be restricted in some countries even when no real money can be won. Local laws and age requirements may apply.",B.a7b,"House of Cards and Boneyard feature non-wagering card, dice and tile games for children and adults.",B.aqz,"Subject to local age restrictions",B.afv,"Classic card games and a Rummy game menu in one app, from partnership trick-taking, contract play and meld to draw-and-discard, canastas and pegging. Play a quick hand or a full game to the target score, learn the rules as you go, and let the robots fill any empty seat.",B.aq1,"Games: Hearts, Spades, Euchre, Bridge, Rummy, Cribbage, Pinochle, Canasta.",B.ao1,"8 game entries, including the Rummy menu",B.ajT,"Rummy game collection",B.ami,"Rummy is a game-selection menu.",B.aq8,"Open it to choose among related rummy games, each with its own rules. The screenshots below show one draw-and-discard game in the collection.",B.aqG,"Menu of related games",B.anK,"Bidding, meld and tricks",B.afp,"Bid for the right to name trump, show your meld &mdash; marriages, runs, pinochles and arounds &mdash; then take tricks to win the counters. Partners must make the bid or go set. First team to 1500 wins.",B.ahF,"Hand recap",B.apO,"Partnership draw, meld and canastas",B.acV,"Draw from the stock or take the whole discard pile, meld sets of the same rank with your partner, and build canastas &mdash; melds of seven cards. Wild cards help, but they freeze the pile. First team to 5000 wins.",B.abl,"2 dice games + 2 game menus",B.ae7,"Domino game collection",B.aoC,"Dominoes is a game-selection menu.",B.aqe,"Mahjong game collection",B.ao4,"Mahjong is a game-selection menu.",B.aly,"Choose Hong Kong, Riichi, Chinese Official, Taiwanese, Sichuan or Solitaire. Each selection opens its own game and rules.",B.a4T,"Back to top",B.aip,"Visual HTML version: 2026-10-12B",B.a9I,"Our 3 Apps",B.aaD,"Each app has its own games. Tap a name to jump to it.",B.a5x,"Six domino games in one: 42, Block, Draw, Mexican Train, All Fives and Bergen \u2014 bid and take tricks in 42; in the others, match the open ends, draw from the boneyard when you are stuck, and be first to play out your hand.",B.aob,"Choose 42, Block, Draw, Mexican Train, All Fives or Bergen, then start that game with its own rules.",B.ac7,"42",B.al4,"Block",B.aai,"Draw",B.aoM,"Mexican Train",B.a6B,"All Fives",B.a7k,"Bergen",B.ar5,"Hong Kong",B.aex,"Riichi",B.af8,"Chinese Official",B.ah9,"Taiwanese",B.a7f,"Sichuan",B.aqs,"Solitaire",B.ag8,"Gin Rummy",B.al9,"Rummy 500",B.a5O,"Contract Rummy",B.am4,"Indian Rummy",B.a5Q],A.a7("bK<r,O<r>>"))
-B.awg={".sv":0}
-B.dt=new A.a0(B.awg,["timestamp"],t.w)
-B.ajY=s([0,1,2,3,5,6,8,9,10,11],t.t)
-B.ac6=s([0,1,2,3,5,6,7,8,9,10,11],t.t)
-B.a8b=s([0,1,2,3,4,5,6,7,8,9,10,11],t.t)
-B.auF=new A.bK([10,B.ajY,11,B.ac6,12,B.a8b],t.eU)
-B.awr={type:0}
-B.auG=new A.a0(B.awr,["line"],t.w)
-B.auP=new A.a0(B.aJ,[],A.a7("a0<lY,Q>"))
-B.LT=new A.a0(B.aJ,[],A.a7("a0<C,Ee>"))
-B.no=new A.a0(B.aJ,[],A.a7("a0<CM,bt>"))
-B.auM=new A.a0(B.aJ,[],A.a7("a0<r,f(I)>"))
-B.LR=new A.a0(B.aJ,[],t.VJ)
-B.auN=new A.a0(B.aJ,[],t.EU)
-B.hS=new A.a0(B.aJ,[],t.yf)
-B.auH=new A.a0(B.aJ,[],A.a7("a0<r,C?>"))
-B.LS=new A.a0(B.aJ,[],A.a7("a0<Nq,@>"))
-B.auO=new A.a0(B.aJ,[],A.a7("a0<hk,e_>"))
-B.LU=new A.a0(B.aJ,[],A.a7("a0<hk,w1<e_>>"))
-B.aRj=new A.a0(B.aJ,[],A.a7("a0<p,ab<~>(o1)>"))
-B.auJ=new A.a0(B.aJ,[],A.a7("a0<p,aF>"))
-B.auI=new A.a0(B.aJ,[],A.a7("a0<p,lf>"))
-B.auL=new A.a0(B.aJ,[],A.a7("a0<p,aw<r,p>>"))
-B.d1=new A.a0(B.aJ,[],A.a7("a0<p,mE>"))
-B.t0=new A.a0(B.aJ,[],A.a7("a0<p,r>"))
-B.LV=new A.a0(B.aJ,[],A.a7("a0<p,p>"))
-B.auK=new A.a0(B.aJ,[],A.a7("a0<@,@>"))
-B.a7_=s([42,null,null,8589935146],t.Z)
-B.a70=s([43,null,null,8589935147],t.Z)
-B.a71=s([45,null,null,8589935149],t.Z)
-B.a72=s([46,null,null,8589935150],t.Z)
-B.a73=s([47,null,null,8589935151],t.Z)
-B.a74=s([48,null,null,8589935152],t.Z)
-B.a75=s([49,null,null,8589935153],t.Z)
-B.a7o=s([50,null,null,8589935154],t.Z)
-B.a7q=s([51,null,null,8589935155],t.Z)
-B.a7s=s([52,null,null,8589935156],t.Z)
-B.a7t=s([53,null,null,8589935157],t.Z)
-B.a7u=s([54,null,null,8589935158],t.Z)
-B.a7v=s([55,null,null,8589935159],t.Z)
-B.a7w=s([56,null,null,8589935160],t.Z)
-B.a7y=s([57,null,null,8589935161],t.Z)
-B.agW=s([8589934852,8589934852,8589934853,null],t.Z)
-B.a6O=s([4294967555,null,4294967555,null],t.Z)
-B.a6P=s([4294968065,null,null,8589935154],t.Z)
-B.a6Q=s([4294968066,null,null,8589935156],t.Z)
-B.a6R=s([4294968067,null,null,8589935158],t.Z)
-B.a6S=s([4294968068,null,null,8589935160],t.Z)
-B.a6X=s([4294968321,null,null,8589935157],t.Z)
-B.agX=s([8589934848,8589934848,8589934849,null],t.Z)
-B.a6N=s([4294967423,null,null,8589935150],t.Z)
-B.a6T=s([4294968069,null,null,8589935153],t.Z)
-B.a6M=s([4294967309,null,null,8589935117],t.Z)
-B.a6U=s([4294968070,null,null,8589935159],t.Z)
-B.a6Y=s([4294968327,null,null,8589935152],t.Z)
-B.agY=s([8589934854,8589934854,8589934855,null],t.Z)
-B.a6V=s([4294968071,null,null,8589935155],t.Z)
-B.a6W=s([4294968072,null,null,8589935161],t.Z)
-B.agZ=s([8589934850,8589934850,8589934851,null],t.Z)
-B.LW=new A.bK(["*",B.a7_,"+",B.a70,"-",B.a71,".",B.a72,"/",B.a73,"0",B.a74,"1",B.a75,"2",B.a7o,"3",B.a7q,"4",B.a7s,"5",B.a7t,"6",B.a7u,"7",B.a7v,"8",B.a7w,"9",B.a7y,"Alt",B.agW,"AltGraph",B.a6O,"ArrowDown",B.a6P,"ArrowLeft",B.a6Q,"ArrowRight",B.a6R,"ArrowUp",B.a6S,"Clear",B.a6X,"Control",B.agX,"Delete",B.a6N,"End",B.a6T,"Enter",B.a6M,"Home",B.a6U,"Insert",B.a6Y,"Meta",B.agY,"PageDown",B.a6V,"PageUp",B.a6W,"Shift",B.agZ],A.a7("bK<r,O<p?>>"))
-B.a7x=s([B.GU,null,null,B.LA],t.L)
-B.akP=s([B.Lm,null,null,B.LB],t.L)
-B.ac3=s([B.Ln,null,null,B.LC],t.L)
-B.ahf=s([B.Lo,null,null,B.fG],t.L)
-B.a4V=s([B.Lp,null,null,B.LD],t.L)
-B.aol=s([B.Lq,null,null,B.rW],t.L)
-B.amv=s([B.Lr,null,null,B.jV],t.L)
-B.a7Z=s([B.Ls,null,null,B.fH],t.L)
-B.ape=s([B.Lt,null,null,B.jW],t.L)
-B.amp=s([B.Lu,null,null,B.fI],t.L)
-B.a7R=s([B.Lv,null,null,B.rX],t.L)
-B.a63=s([B.Lw,null,null,B.fJ],t.L)
-B.a9x=s([B.Lx,null,null,B.jX],t.L)
-B.akX=s([B.Ly,null,null,B.fK],t.L)
-B.alr=s([B.Lz,null,null,B.jY],t.L)
-B.a8B=s([B.jT,B.jT,B.nk,null],t.L)
-B.aom=s([B.ng,null,B.ng,null],t.L)
-B.aem=s([B.dS,null,null,B.fH],t.L)
-B.aen=s([B.dr,null,null,B.fI],t.L)
-B.aeo=s([B.ds,null,null,B.fJ],t.L)
-B.aoL=s([B.dT,null,null,B.fK],t.L)
-B.amg=s([B.rQ,null,null,B.rX],t.L)
-B.a8C=s([B.jS,B.jS,B.nj,null],t.L)
-B.ajd=s([B.c9,null,null,B.fG],t.L)
-B.aep=s([B.fD,null,null,B.jV],t.L)
-B.a7H=s([B.nf,null,null,B.rV],t.L)
-B.aeq=s([B.fE,null,null,B.jX],t.L)
-B.amh=s([B.jR,null,null,B.rW],t.L)
-B.a8D=s([B.jU,B.jU,B.nl,null],t.L)
-B.aer=s([B.jP,null,null,B.jW],t.L)
-B.ak9=s([B.jQ,null,null,B.jY],t.L)
-B.a8E=s([B.eR,B.eR,B.fF,null],t.L)
-B.auQ=new A.bK(["*",B.a7x,"+",B.akP,"-",B.ac3,".",B.ahf,"/",B.a4V,"0",B.aol,"1",B.amv,"2",B.a7Z,"3",B.ape,"4",B.amp,"5",B.a7R,"6",B.a63,"7",B.a9x,"8",B.akX,"9",B.alr,"Alt",B.a8B,"AltGraph",B.aom,"ArrowDown",B.aem,"ArrowLeft",B.aen,"ArrowRight",B.aeo,"ArrowUp",B.aoL,"Clear",B.amg,"Control",B.a8C,"Delete",B.ajd,"End",B.aep,"Enter",B.a7H,"Home",B.aeq,"Insert",B.amh,"Meta",B.a8D,"PageDown",B.aer,"PageUp",B.ak9,"Shift",B.a8E],A.a7("bK<r,O<q?>>"))
+B.auQ=new A.bK(["T-G-Apps Game Catalog",B.ajl,"Visual HTML version: 2026-10-01A",B.afr,"Three apps and eighteen games: T-G-Apps Casino, T-G-Apps House of Cards and T-G-Apps Boneyard.",B.acB,"Six classic card games in one app, from partnership trick-taking and contract play to draw-and-discard and pegging. Play a quick hand or a full game to the target score, learn the rules as you go, and let the robots fill any empty seat.",B.a61,"Games: Hearts, Spades, Euchre, Bridge, Rummy, Cribbage.",B.aeU,"6 games",B.aiP,"Visual HTML version: 2026-09-30A",B.amq,"Three apps and twenty games: T-G-Apps Casino, T-G-Apps House of Cards and T-G-Apps Boneyard.",B.a6r,"In Every T-G-Apps Game",B.ahg,"Robot players.",B.aeZ,"Fill any seat with a robot. Every game\u2019s robots play real strategy, not random moves, so a table is ready whenever you are \u2014 alone or with friends.",B.ani,"Hint system.",B.acf,"Not sure what to do? Tap Hint for the play the robots would make and the reason behind it. It is the fastest way to learn a new game or sharpen your strategy.",B.aoc,"Multi-lingual.",B.ahX,"Every game, menu and rule book is available in English, Spanish, French, German, Brazilian Portuguese, Japanese, Hindi, Indonesian and Vietnamese. Switch languages at any time.",B.a65,"Multiphone play.",B.anV,"Play together on your own phones: one phone creates a room and shares a six-character code, and friends join from wherever they are. Each phone sees only its own cards.",B.anY,"Audience Policy",B.rw,u.C,B.rz,"T-G-Apps Casino",B.ac1,"Casino card games",B.aiR,"Eight casino favorites in one app: blackjack, four kinds of poker, and three house-banked table games. Every table plays with simulated chips and a bankroll that carries from hand to hand, so you can practice strategy, try a new game, or just enjoy a night at the tables without spending real money.",B.amQ,"Games: 21, Texas Hold'em, 7 Card Draw, 7 Card Stud, 5 Card Draw, Baccarat, Let It Ride, Caribbean Stud.",B.a6F,"Ages 13+",B.ry,"Simulated betting",B.rk,"8 games",B.aks,"21",B.a9k,"Blackjack",B.aqA,"Classic blackjack against the dealer, with hit, stand, double, split, surrender and insurance, and configurable table rules. The hint shows the basic-strategy play for every hand.",B.amH,"During a hand",B.ai6,"Showdown",B.amx,"Texas Hold'em",B.a5c,"Community-card poker",B.agy,"Two hole cards, five community cards and four betting rounds, in no-limit, pot-limit or fixed-limit play, with blinds and optional antes.",B.afC,"7 Card Draw",B.a99,"Draw poker",B.adr,"Seven private cards, a round of betting, one draw to improve, and the best five cards win.",B.a5y,"7 Card Stud",B.a8P,"Stud poker",B.aeS,"Fixed-limit seven-card stud with antes, a bring-in, and a mix of face-down and face-up cards dealt across five streets.",B.ace,"5 Card Draw",B.aj0,"The classic: ante up, bet, draw up to three new cards, bet again and show down.",B.ak1,"Baccarat",B.ajH,"Punto banco",B.a5l,"Bet on the Player, the Banker or a Tie, then watch the cards follow the traditional third-card rules. Six- or eight-deck shoes, with or without the banker commission.",B.ajJ,"Let It Ride",B.aiU,"Table poker against the pay table",B.ajQ,"Place three equal bets, see three cards, and pull back up to two bets as the two community cards are revealed. A pair of tens or better pays, up to 1,000 to 1 for a royal flush.",B.a8q,"Caribbean Stud",B.aez,"Table poker against the dealer",B.a79,"Ante, look at five cards and one dealer card, then fold or raise. The dealer must qualify with ace-king or better, and big hands pay up to 100 to 1 on the raise.",B.aaG,"T-G-Apps House of Cards",B.ahe,"Classic card games",B.ajc,"Eight of the world\u2019s best-loved card games at one table: trick-taking games for partners and for going it alone, and the great melding games. Play a quick hand or a full game to the target score, learn the rules as you go, and let the robots fill any empty seat.",B.ae6,"Games: Hearts, Spades, Bridge, Rummy, Cribbage, Pinochle, Canasta, Euchre.",B.amO,"Children &amp; Adults",B.rq,"No wagering",B.rE,"Hearts",B.abR,"Trick-taking",B.a9u,"Pass three cards, then avoid taking hearts and the queen of spades \u2014 unless you can take them all and shoot the moon.",B.ahc,"Spades",B.aaw,"Partnership trick-taking",B.aij,"Bid the tricks you and your partner will take, with spades always trump. Watch your bags, and go nil when the cards are right.",B.amB,"Bridge",B.a5Z,"Contract bridge",B.a8_,"Bid to a contract with your partner, then declare or defend with the dummy face up on the table. Played in sets of four deals with rotating vulnerability.",B.ad5,"Rummy",B.afT,"Draw and discard",B.aid,"Draw, meld sets and runs, lay off on the table, and be first to go out while your opponents are caught holding cards.",B.aj2,"Cribbage",B.abT,"Pegging and counting",B.an4,"Discard to the crib, peg to fifteen and thirty-one, then count fifteens, pairs, runs, flushes and nobs in the show. First to 121 wins.",B.aqK,"Pinochle",B.aga,"Partnership bidding and meld",B.ac4,"Bid for trump, show your meld \u2014 marriages, runs, pinochles and arounds \u2014 then win the counters in the tricks to make your bid.",B.abH,"Canasta",B.adH,"Partnership melding",B.anH,"Draw, take the pile, and build melds of the same rank with your partner. Seven cards make a canasta; wild cards and red threes change everything.",B.ajb,"Euchre",B.a9n,"A fast five-card game: order up or call trump, remember the bowers, and take three tricks \u2014 or go alone for all five.",B.a76,"T-G-Apps Boneyard",B.a8f,"Dice and tile games",B.aeM,"Dice and tiles for every age: two dice games, a full set of dominoes, and six ways to play mahjong. Shake, draw from the boneyard, or build a winning hand, against the robots or friends and family on their own phones.",B.ab_,"Games: YZ, Farkle, Dominoes, Mahjong.",B.aqW,"4 games",B.abQ,"YZ",B.a5h,"Dice scorecard strategy",B.ru,"Roll five dice up to three times a turn and choose where to score: the upper section, three and four of a kind, full houses, straights and five of a kind.",B.aeg,"Farkle",B.ac5,"Push-your-luck dice",B.a6d,"Set aside scoring dice and keep rolling to build your turn total \u2014 but roll nothing that scores and you farkle and lose it all. First to 10,000 wins.",B.a60,"Dominoes",B.aih,"Domino tile games",B.ab4,"Mahjong",B.aaY,"Mahjong tile games",B.af_,"Six ways to play: Hong Kong, Riichi, Chinese Official, Taiwanese, Sichuan and Solitaire, with calls for pungs, kongs and chows and each style\u2019s own scoring.",B.aiL,u.q,B.rm,"Skip to catalog",B.aef,"Card, Dice &amp; Tile Games",B.aha,"Explore T-G-Apps Casino, T-G-Apps House of Cards and T-G-Apps Boneyard. Rummy, Dominoes and Mahjong open menus of related games.",B.aiJ,"Casino",B.apB,"House of Cards",B.amY,"Boneyard",B.apx,"Player 1, who sets up the game, is always a human; fill any other seat with a robot. Players on other phones are always human. Every game&rsquo;s robots play real strategy, not random moves, so a table is ready whenever you are &mdash; alone or with friends.",B.adT,"Casino Games and Local Laws",B.ajN,"Our casino games use simulated chips. They do not offer real-money gambling, prizes of real-world value, or cash-out.",B.aik,"Availability varies by location:",B.a9P,"simulated gambling can be restricted in some countries even when no real money can be won. Local laws and age requirements may apply.",B.a7b,"House of Cards and Boneyard feature non-wagering card, dice and tile games for children and adults.",B.aqz,"Subject to local age restrictions",B.afv,"Classic card games and a Rummy game menu in one app, from partnership trick-taking, contract play and meld to draw-and-discard, canastas and pegging. Play a quick hand or a full game to the target score, learn the rules as you go, and let the robots fill any empty seat.",B.aq1,"Games: Hearts, Spades, Euchre, Bridge, Rummy, Cribbage, Pinochle, Canasta.",B.ao1,"8 game entries, including the Rummy menu",B.ajT,"Rummy game collection",B.ami,"Rummy is a game-selection menu.",B.aq8,"Open it to choose among related rummy games, each with its own rules. The screenshots below show one draw-and-discard game in the collection.",B.aqG,"Menu of related games",B.anK,"Bidding, meld and tricks",B.afp,"Bid for the right to name trump, show your meld &mdash; marriages, runs, pinochles and arounds &mdash; then take tricks to win the counters. Partners must make the bid or go set. First team to 1500 wins.",B.ahF,"Hand recap",B.apO,"Partnership draw, meld and canastas",B.acV,"Draw from the stock or take the whole discard pile, meld sets of the same rank with your partner, and build canastas &mdash; melds of seven cards. Wild cards help, but they freeze the pile. First team to 5000 wins.",B.abl,"2 dice games + 2 game menus",B.ae7,"Domino game collection",B.aoC,"Dominoes is a game-selection menu.",B.aqe,"Mahjong game collection",B.ao4,"Mahjong is a game-selection menu.",B.aly,"Choose Hong Kong, Riichi, Chinese Official, Taiwanese, Sichuan or Solitaire. Each selection opens its own game and rules.",B.a4T,"Back to top",B.aip,"Visual HTML version: 2026-10-12B",B.a9I,"Our 3 Apps",B.aaD,"Each app has its own games. Tap a name to jump to it.",B.a5x,"Six domino games in one: 42, Block, Draw, Mexican Train, All Fives and Bergen \u2014 bid and take tricks in 42; in the others, match the open ends, draw from the boneyard when you are stuck, and be first to play out your hand.",B.aob,"Choose 42, Block, Draw, Mexican Train, All Fives or Bergen, then start that game with its own rules.",B.ac7,"42",B.al4,"Block",B.aai,"Draw",B.aoM,"Mexican Train",B.a6B,"All Fives",B.a7k,"Bergen",B.ar5,"Hong Kong",B.aex,"Riichi",B.af8,"Chinese Official",B.ah9,"Taiwanese",B.a7f,"Sichuan",B.aqs,"Solitaire",B.ag8,"Gin Rummy",B.al9,"Rummy 500",B.a5O,"Contract Rummy",B.am4,"Indian Rummy",B.a5Q],A.a7("bK<r,O<r>>"))
 B.awc={"Playing on Several Phones":0,[u.pn]:1,[u.iW]:2,"To make a room, tap <strong>Multi-Phone Play</strong> on the setup screen and set each player who uses another phone to <strong>Human - Remote Phone</strong>. You are the host: your phone shows a six-character room code.":3,[u.l0]:4,[u.o9]:5,"Player 1 plays on the host's phone. Other players set to <strong>Human - Host Phone</strong> play there too and pass the phone between turns. The host's phone also plays every robot.":6,[u.at]:7,[u.i2]:8,[u.kW]:9,[u.hm]:10,[u.ox]:11,[u.dT]:12,[u.nY]:13,[u.cC]:14,[u.pe]:15,[u.p3]:16,[u.ki]:17,[u.ar]:18,[u.nW]:19,[u.oL]:20,[u.nF]:21,[u.ob]:22,[u.jW]:23,[u.cE]:24,[u.n2]:25}
 B.akY=s(["Jugar en varios tel\xe9fonos","Jouer sur plusieurs t\xe9l\xe9phones","Auf mehreren Handys spielen","Jogar em v\xe1rios celulares","\u8907\u6570\u306e\u7aef\u672b\u3067\u904a\u3076","\u0915\u0908 \u092b\u093c\u094b\u0928 \u092a\u0930 \u0916\u0947\u0932\u0928\u093e","Bermain di beberapa ponsel","Ch\u01a1i tr\xean nhi\u1ec1u \u0111i\u1ec7n tho\u1ea1i"],t.s)
 B.aj4=s(["Cada persona puede jugar en su propio tel\xe9fono. Todos los tel\xe9fonos necesitan conexi\xf3n a internet y la misma versi\xf3n de la app.","Chacun peut jouer sur son propre t\xe9l\xe9phone. Chaque t\xe9l\xe9phone doit \xeatre connect\xe9 \xe0 Internet et avoir la m\xeame version de l\u2019application.","Jede Person kann auf ihrem eigenen Handy spielen. Jedes Handy braucht eine Internetverbindung und dieselbe Version der App.","Cada pessoa pode jogar no pr\xf3prio celular. Todos os celulares precisam de conex\xe3o \xe0 internet e da mesma vers\xe3o do app.","\u4e00\u4eba\u3072\u3068\u308a\u304c\u81ea\u5206\u306e\u7aef\u672b\u3067\u904a\u3079\u307e\u3059\u3002\u3059\u3079\u3066\u306e\u7aef\u672b\u306b\u3001\u30a4\u30f3\u30bf\u30fc\u30cd\u30c3\u30c8\u63a5\u7d9a\u3068\u540c\u3058\u30d0\u30fc\u30b8\u30e7\u30f3\u306e\u30a2\u30d7\u30ea\u304c\u5fc5\u8981\u3067\u3059\u3002","\u0939\u0930 \u0935\u094d\u092f\u0915\u094d\u0924\u093f \u0905\u092a\u0928\u0947 \u092b\u093c\u094b\u0928 \u092a\u0930 \u0916\u0947\u0932 \u0938\u0915\u0924\u093e \u0939\u0948\u0964 \u0939\u0930 \u092b\u093c\u094b\u0928 \u092e\u0947\u0902 \u0907\u0902\u091f\u0930\u0928\u0947\u091f \u0915\u0928\u0947\u0915\u094d\u0936\u0928 \u0914\u0930 \u0910\u092a \u0915\u093e \u090f\u0915 \u0939\u0940 \u0938\u0902\u0938\u094d\u0915\u0930\u0923 \u0939\u094b\u0928\u093e \u091a\u093e\u0939\u093f\u090f\u0964","Setiap orang dapat bermain di ponselnya sendiri. Setiap ponsel memerlukan koneksi internet dan versi aplikasi yang sama.","M\u1ed7i ng\u01b0\u1eddi c\xf3 th\u1ec3 ch\u01a1i tr\xean \u0111i\u1ec7n tho\u1ea1i c\u1ee7a ri\xeang m\xecnh. M\u1ecdi \u0111i\u1ec7n tho\u1ea1i c\u1ea7n c\xf3 k\u1ebft n\u1ed1i internet v\xe0 c\xf9ng m\u1ed9t phi\xean b\u1ea3n \u1ee9ng d\u1ee5ng."],t.s)
@@ -149548,7 +149548,7 @@ return new A.afv(A.beq(20,q,p),n,o)})
 s($,"bTv","bv7",()=>A.a8([B.yY,A.bre("grapheme"),B.yZ,A.bre("word")],A.a7("Jt"),t.m))
 s($,"bUF","bvV",()=>{var q="v8BreakIterator"
 if(A.T(A.T(A.uQ(),"Intl"),q)==null)A.R(A.eT("v8BreakIterator is not supported."))
-return A.bHz(A.b9d(A.b9d(A.uQ(),"Intl"),q),A.bB_([]),A.bm0(B.auG))})
+return A.bHz(A.b9d(A.b9d(A.uQ(),"Intl"),q),A.bB_([]),A.bm0(B.auF))})
 s($,"bUD","bvT",()=>A.beA(4))
 s($,"bUB","biq",()=>A.beA(16))
 s($,"bUC","bvS",()=>A.bBj($.biq()))
