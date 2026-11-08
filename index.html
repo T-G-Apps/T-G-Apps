@@ -190,6 +190,12 @@
     .menu-note, .restriction-note { padding: 12px; border-left: 4px solid #D4AF37; border-radius: 6px; background: #fff8df; }
     .menu-note strong { color: #073D27; }
     .shots-title { margin: 16px 0 0 0; color: #073D27; font-size: 1.1em; }
+    /* A game menu screenshot whose buttons show that game below it. */
+    .menu-map { position: relative; display: inline-block; line-height: 0; max-width: 100%; }
+    .menu-option { position: absolute; left: 7.3%; width: 85.4%; padding: 0; border: 0; border-radius: 999px; background: transparent; cursor: pointer; }
+    .menu-option:hover, .menu-option:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.75); }
+    .menu-option.selected { background: rgba(255, 255, 255, 0.55); box-shadow: 0 0 0 3px #fff; }
+    .menu-tip { margin: 8px 0 0 0; font-weight: 700; color: #073D27; }
     .bottom-menu { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin: 20px 0; }
     .apps-directory { scroll-margin-top: 12px; }
     .app-entry {
@@ -629,70 +635,88 @@
       <span class="pill family">Menu of related games</span>
       <div class="shots">
         <figure>
-          <img loading="lazy" decoding="async" src="images/screens/en/rummy_menu.jpg" data-shot="rummy_menu" width="300" height="549" alt="Rummy game menu">
+          <div class="menu-map">
+            <img loading="lazy" decoding="async" src="images/screens/en/rummy_menu.jpg" data-shot="rummy_menu" width="300" height="549" alt="Rummy game menu">
+            <button type="button" class="menu-option selected" data-game="rummy" aria-label="Rummy" aria-pressed="true" style="top: 41.17%; height: 8.93%;"></button>
+            <button type="button" class="menu-option" data-game="gin_rummy" aria-label="Gin Rummy" aria-pressed="false" style="top: 52.14%; height: 8.93%;"></button>
+            <button type="button" class="menu-option" data-game="rummy_500" aria-label="Rummy 500" aria-pressed="false" style="top: 63.11%; height: 8.93%;"></button>
+            <button type="button" class="menu-option" data-game="contract_rummy" aria-label="Contract Rummy" aria-pressed="false" style="top: 74.09%; height: 8.93%;"></button>
+            <button type="button" class="menu-option" data-game="indian_rummy" aria-label="Indian Rummy" aria-pressed="false" style="top: 85.06%; height: 8.93%;"></button>
+          </div>
           <figcaption>Game menu</figcaption>
         </figure>
       </div>
-      <h4 class="shots-title">Rummy</h4>
-      <div class="shots">
-        <figure>
-          <img loading="lazy" decoding="async" src="images/screens/en/rummy_during.jpg" data-shot="rummy_during" width="300" height="587" alt="Rummy during a hand">
-          <figcaption>During a hand</figcaption>
-        </figure>
-        <figure>
-          <img loading="lazy" decoding="async" src="images/screens/en/rummy_showdown.jpg" data-shot="rummy_showdown" width="300" height="587" alt="Rummy showdown">
-          <figcaption>Showdown</figcaption>
-        </figure>
+      <p class="menu-tip">Tap a game on the menu to see it below.</p>
+      <div class="menu-game" data-menu-game="rummy">
+        <h4 class="shots-title">Rummy</h4>
+        <div class="shots">
+          <figure>
+            <img loading="lazy" decoding="async" src="images/screens/en/rummy_during.jpg" data-shot="rummy_during" width="300" height="587" alt="Rummy during a hand">
+            <figcaption>During a hand</figcaption>
+          </figure>
+          <figure>
+            <img loading="lazy" decoding="async" src="images/screens/en/rummy_showdown.jpg" data-shot="rummy_showdown" width="300" height="587" alt="Rummy showdown">
+            <figcaption>Showdown</figcaption>
+          </figure>
+        </div>
+        <div class="play-actions"><a class="gold-button" href="play_tgapps_rummy_game.html">Play Rummy Online</a></div>
       </div>
-      <div class="play-actions"><a class="gold-button" href="play_tgapps_rummy_game.html">Play Rummy Online</a></div>
-      <h4 class="shots-title">Gin Rummy</h4>
-      <div class="shots">
-        <figure>
-          <img loading="lazy" decoding="async" src="images/screens/en/gin_rummy_during.jpg" data-shot="gin_rummy_during" width="300" height="587" alt="Gin Rummy during a hand">
-          <figcaption>During a hand</figcaption>
-        </figure>
-        <figure>
-          <img loading="lazy" decoding="async" src="images/screens/en/gin_rummy_showdown.jpg" data-shot="gin_rummy_showdown" width="300" height="587" alt="Gin Rummy showdown">
-          <figcaption>Showdown</figcaption>
-        </figure>
+      <div class="menu-game" data-menu-game="gin_rummy" hidden>
+        <h4 class="shots-title">Gin Rummy</h4>
+        <div class="shots">
+          <figure>
+            <img loading="lazy" decoding="async" src="images/screens/en/gin_rummy_during.jpg" data-shot="gin_rummy_during" width="300" height="587" alt="Gin Rummy during a hand">
+            <figcaption>During a hand</figcaption>
+          </figure>
+          <figure>
+            <img loading="lazy" decoding="async" src="images/screens/en/gin_rummy_showdown.jpg" data-shot="gin_rummy_showdown" width="300" height="587" alt="Gin Rummy showdown">
+            <figcaption>Showdown</figcaption>
+          </figure>
+        </div>
+        <div class="play-actions"><a class="gold-button" href="play_tgapps_gin_rummy.html">Play Gin Rummy Online</a></div>
       </div>
-      <div class="play-actions"><a class="gold-button" href="play_tgapps_gin_rummy.html">Play Gin Rummy Online</a></div>
-      <h4 class="shots-title">Rummy 500</h4>
-      <div class="shots">
-        <figure>
-          <img loading="lazy" decoding="async" src="images/screens/en/rummy_500_during.jpg" data-shot="rummy_500_during" width="300" height="587" alt="Rummy 500 during a hand">
-          <figcaption>During a hand</figcaption>
-        </figure>
-        <figure>
-          <img loading="lazy" decoding="async" src="images/screens/en/rummy_500_showdown.jpg" data-shot="rummy_500_showdown" width="300" height="587" alt="Rummy 500 showdown">
-          <figcaption>Showdown</figcaption>
-        </figure>
+      <div class="menu-game" data-menu-game="rummy_500" hidden>
+        <h4 class="shots-title">Rummy 500</h4>
+        <div class="shots">
+          <figure>
+            <img loading="lazy" decoding="async" src="images/screens/en/rummy_500_during.jpg" data-shot="rummy_500_during" width="300" height="587" alt="Rummy 500 during a hand">
+            <figcaption>During a hand</figcaption>
+          </figure>
+          <figure>
+            <img loading="lazy" decoding="async" src="images/screens/en/rummy_500_showdown.jpg" data-shot="rummy_500_showdown" width="300" height="587" alt="Rummy 500 showdown">
+            <figcaption>Showdown</figcaption>
+          </figure>
+        </div>
+        <div class="play-actions"><a class="gold-button" href="play_tgapps_rummy_500.html">Play Rummy 500 Online</a></div>
       </div>
-      <div class="play-actions"><a class="gold-button" href="play_tgapps_rummy_500.html">Play Rummy 500 Online</a></div>
-      <h4 class="shots-title">Contract Rummy</h4>
-      <div class="shots">
-        <figure>
-          <img loading="lazy" decoding="async" src="images/screens/en/contract_rummy_during.jpg" data-shot="contract_rummy_during" width="300" height="587" alt="Contract Rummy during a hand">
-          <figcaption>During a hand</figcaption>
-        </figure>
-        <figure>
-          <img loading="lazy" decoding="async" src="images/screens/en/contract_rummy_showdown.jpg" data-shot="contract_rummy_showdown" width="300" height="587" alt="Contract Rummy showdown">
-          <figcaption>Showdown</figcaption>
-        </figure>
+      <div class="menu-game" data-menu-game="contract_rummy" hidden>
+        <h4 class="shots-title">Contract Rummy</h4>
+        <div class="shots">
+          <figure>
+            <img loading="lazy" decoding="async" src="images/screens/en/contract_rummy_during.jpg" data-shot="contract_rummy_during" width="300" height="587" alt="Contract Rummy during a hand">
+            <figcaption>During a hand</figcaption>
+          </figure>
+          <figure>
+            <img loading="lazy" decoding="async" src="images/screens/en/contract_rummy_showdown.jpg" data-shot="contract_rummy_showdown" width="300" height="587" alt="Contract Rummy showdown">
+            <figcaption>Showdown</figcaption>
+          </figure>
+        </div>
+        <div class="play-actions"><a class="gold-button" href="play_tgapps_contract_rummy.html">Play Contract Rummy Online</a></div>
       </div>
-      <div class="play-actions"><a class="gold-button" href="play_tgapps_contract_rummy.html">Play Contract Rummy Online</a></div>
-      <h4 class="shots-title">Indian Rummy</h4>
-      <div class="shots">
-        <figure>
-          <img loading="lazy" decoding="async" src="images/screens/en/indian_rummy_during.jpg" data-shot="indian_rummy_during" width="300" height="587" alt="Indian Rummy during a hand">
-          <figcaption>During a hand</figcaption>
-        </figure>
-        <figure>
-          <img loading="lazy" decoding="async" src="images/screens/en/indian_rummy_showdown.jpg" data-shot="indian_rummy_showdown" width="300" height="587" alt="Indian Rummy showdown">
-          <figcaption>Showdown</figcaption>
-        </figure>
+      <div class="menu-game" data-menu-game="indian_rummy" hidden>
+        <h4 class="shots-title">Indian Rummy</h4>
+        <div class="shots">
+          <figure>
+            <img loading="lazy" decoding="async" src="images/screens/en/indian_rummy_during.jpg" data-shot="indian_rummy_during" width="300" height="587" alt="Indian Rummy during a hand">
+            <figcaption>During a hand</figcaption>
+          </figure>
+          <figure>
+            <img loading="lazy" decoding="async" src="images/screens/en/indian_rummy_showdown.jpg" data-shot="indian_rummy_showdown" width="300" height="587" alt="Indian Rummy showdown">
+            <figcaption>Showdown</figcaption>
+          </figure>
+        </div>
+        <div class="play-actions"><a class="gold-button" href="play_tgapps_indian_rummy.html">Play Indian Rummy Online</a></div>
       </div>
-      <div class="play-actions"><a class="gold-button" href="play_tgapps_indian_rummy.html">Play Indian Rummy Online</a></div>
     </section>
 
     <section class="card" id="cribbage">
@@ -764,39 +788,47 @@
       <span class="pill family">Menu of related games</span>
       <div class="shots">
         <figure>
-          <img loading="lazy" decoding="async" src="images/screens/en/dice_menu.jpg" data-shot="dice_menu" width="300" height="549" alt="Dice Games game menu">
+          <div class="menu-map">
+            <img loading="lazy" decoding="async" src="images/screens/en/dice_menu.jpg" data-shot="dice_menu" width="300" height="549" alt="Dice Games game menu">
+            <button type="button" class="menu-option selected" data-game="yz" aria-label="YZ" aria-pressed="true" style="top: 41.17%; height: 8.93%;"></button>
+            <button type="button" class="menu-option" data-game="farkle" aria-label="Farkle" aria-pressed="false" style="top: 52.14%; height: 8.93%;"></button>
+          </div>
           <figcaption>Game menu</figcaption>
         </figure>
       </div>
-      <div class="play-actions"><a class="gold-button" href="play_tgapps_dice_games.html">Play the Dice Games Menu Online</a></div>
-      <h4 class="shots-title" id="yz">YZ</h4>
-      <p class="game-type">Dice scorecard strategy</p>
-      <p>Roll five dice up to three times a turn and choose where to score: the upper section, three and four of a kind, full houses, straights and five of a kind.</p>
-      <div class="shots">
-        <figure>
-          <img loading="lazy" decoding="async" src="images/screens/en/yz_during.jpg" data-shot="yz_during" width="300" height="587" alt="YZ during a hand">
-          <figcaption>During a hand</figcaption>
-        </figure>
-        <figure>
-          <img loading="lazy" decoding="async" src="images/screens/en/yz_showdown.jpg" data-shot="yz_showdown" width="300" height="587" alt="YZ showdown">
-          <figcaption>Showdown</figcaption>
-        </figure>
+      <p class="menu-tip">Tap a game on the menu to see it below.</p>
+      <div class="menu-game" data-menu-game="yz">
+        <h4 class="shots-title" id="yz">YZ</h4>
+        <p class="game-type">Dice scorecard strategy</p>
+        <p>Roll five dice up to three times a turn and choose where to score: the upper section, three and four of a kind, full houses, straights and five of a kind.</p>
+        <div class="shots">
+          <figure>
+            <img loading="lazy" decoding="async" src="images/screens/en/yz_during.jpg" data-shot="yz_during" width="300" height="587" alt="YZ during a hand">
+            <figcaption>During a hand</figcaption>
+          </figure>
+          <figure>
+            <img loading="lazy" decoding="async" src="images/screens/en/yz_showdown.jpg" data-shot="yz_showdown" width="300" height="587" alt="YZ showdown">
+            <figcaption>Showdown</figcaption>
+          </figure>
+        </div>
+        <div class="play-actions"><a class="gold-button" href="play_tgapps_yz.html">Play YZ Online</a></div>
       </div>
-      <div class="play-actions"><a class="gold-button" href="play_tgapps_yz.html">Play YZ Online</a></div>
-      <h4 class="shots-title" id="farkle">Farkle</h4>
-      <p class="game-type">Push-your-luck dice</p>
-      <p>Set aside scoring dice and keep rolling to build your turn total — but roll nothing that scores and you farkle and lose it all. First to 10,000 wins.</p>
-      <div class="shots">
-        <figure>
-          <img loading="lazy" decoding="async" src="images/screens/en/farkle_during.jpg" data-shot="farkle_during" width="300" height="587" alt="Farkle during a hand">
-          <figcaption>During a hand</figcaption>
-        </figure>
-        <figure>
-          <img loading="lazy" decoding="async" src="images/screens/en/farkle_showdown.jpg" data-shot="farkle_showdown" width="300" height="587" alt="Farkle showdown">
-          <figcaption>Showdown</figcaption>
-        </figure>
+      <div class="menu-game" data-menu-game="farkle" hidden>
+        <h4 class="shots-title" id="farkle">Farkle</h4>
+        <p class="game-type">Push-your-luck dice</p>
+        <p>Set aside scoring dice and keep rolling to build your turn total — but roll nothing that scores and you farkle and lose it all. First to 10,000 wins.</p>
+        <div class="shots">
+          <figure>
+            <img loading="lazy" decoding="async" src="images/screens/en/farkle_during.jpg" data-shot="farkle_during" width="300" height="587" alt="Farkle during a hand">
+            <figcaption>During a hand</figcaption>
+          </figure>
+          <figure>
+            <img loading="lazy" decoding="async" src="images/screens/en/farkle_showdown.jpg" data-shot="farkle_showdown" width="300" height="587" alt="Farkle showdown">
+            <figcaption>Showdown</figcaption>
+          </figure>
+        </div>
+        <div class="play-actions"><a class="gold-button" href="play_tgapps_farkle.html">Play Farkle Online</a></div>
       </div>
-      <div class="play-actions"><a class="gold-button" href="play_tgapps_farkle.html">Play Farkle Online</a></div>
     </section>
 
     <section class="card" id="dominoes">
@@ -1169,5 +1201,36 @@
       });
     }());
   </script>
+<script>
+  // A game menu screenshot: its buttons show the chosen game below it.
+  (function () {
+    function choose(map, button) {
+      map.querySelectorAll('.menu-option').forEach(function (option) {
+        option.classList.toggle('selected', option === button);
+        option.setAttribute('aria-pressed', option === button ? 'true' : 'false');
+      });
+      map.closest('section').querySelectorAll('.menu-game').forEach(function (game) {
+        game.hidden = game.dataset.menuGame !== button.dataset.game;
+      });
+    }
+    document.querySelectorAll('.menu-map').forEach(function (map) {
+      map.querySelectorAll('.menu-option').forEach(function (button) {
+        button.addEventListener('click', function () { choose(map, button); });
+      });
+    });
+    // A link to a game inside a menu (#yz) shows that game.
+    function showHash() {
+      const target = location.hash && document.getElementById(location.hash.slice(1));
+      const game = target && target.closest('.menu-game');
+      if (!game || !game.hidden) return;
+      const map = game.closest('section').querySelector('.menu-map');
+      const button = map.querySelector('[data-game="' + game.dataset.menuGame + '"]');
+      choose(map, button);
+      target.scrollIntoView();
+    }
+    window.addEventListener('hashchange', showHash);
+    showHash();
+  })();
+</script>
 </body>
 </html>
