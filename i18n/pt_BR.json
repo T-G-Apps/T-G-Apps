@@ -138,5 +138,18 @@
   "Dice Games is a game-selection menu.": "Jogos de dados é um menu de seleção de jogos.",
   "Open it to choose YZ or Farkle, each with its own rules. The screenshots below show the menu and each game in it.": "Abra-o para escolher YZ ou Farkle, cada um com suas próprias regras. As capturas abaixo mostram o menu e cada um dos seus jogos.",
   "3 game menus": "3 menus de jogos",
-  "Tap a game on the menu to see it below.": "Toque em um jogo do menu para vê-lo abaixo."
+  "Tap a game on the menu to see it below.": "Toque em um jogo do menu para vê-lo abaixo.",
+  "Open it to choose 42, Block, Draw, Mexican Train, All Fives or Bergen, each with its own rules. The screenshots below show the menu and each game in it.": "Abra-o para escolher 42, Bloqueio, Compra, Trem Mexicano, Todos os cincos ou Bergen, cada um com suas próprias regras. As capturas abaixo mostram o menu e cada um dos seus jogos.",
+  "Texas trick-taking dominoes": "Dominó de vazas do Texas",
+  "Two teams of two bid on each hand, the high bidder names trumps, and the count tiles are worth extra points. Make your bid to win a mark.": "Duas duplas dão lances a cada mão, quem dá o maior lance escolhe o trunfo e as pedras de contagem valem pontos extras. Cumpra seu lance para ganhar uma marca.",
+  "Classic match-the-ends dominoes": "Dominó clássico de combinar as pontas",
+  "Play a tile that matches an open end of the line. There is no drawing: if you cannot play, you pass. Play out your hand first to win the round.": "Jogue uma pedra que combine com uma ponta aberta da linha. Não se compra: se não puder jogar, você passa. Acabe com suas pedras primeiro para vencer a rodada.",
+  "Match-the-ends dominoes with drawing": "Dominó de combinar as pontas, com compra",
+  "Play a tile that matches an open end of the line, and draw from the boneyard until you can. Play out your hand first to win the round.": "Jogue uma pedra que combine com uma ponta aberta da linha e compre do monte até conseguir. Acabe com suas pedras primeiro para vencer a rodada.",
+  "Train-building dominoes": "Dominó de montar trens",
+  "Build your own train out from the hub double, or play on the shared Mexican Train. If you cannot play, draw, and your train opens to everyone.": "Monte seu próprio trem a partir do duplo central ou jogue no Trem Mexicano compartilhado. Se não puder jogar, compre, e seu trem fica aberto para todos.",
+  "Score-by-fives dominoes": "Dominó de pontuar de cinco em cinco",
+  "Score whenever the open ends of the layout add up to a multiple of five. The first double opens four ways. Reach the target score first to win.": "Pontue sempre que as pontas abertas somarem um múltiplo de cinco. O primeiro duplo se abre em quatro direções. Chegue primeiro à pontuação-alvo para vencer.",
+  "Matching-ends scoring dominoes": "Dominó de pontuar com pontas iguais",
+  "Score when both ends of the line show the same number, and more when a double makes three. Draw when you cannot play. Reach the target score first to win.": "Pontue quando as duas pontas da linha mostrarem o mesmo número, e mais quando um duplo fizer três. Compre se não puder jogar. Chegue primeiro à pontuação-alvo para vencer."
 }

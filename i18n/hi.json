@@ -160,5 +160,18 @@
   "Dice Games is a game-selection menu.": "पासे के खेल एक गेम-चयन मेनू है।",
   "Open it to choose YZ or Farkle, each with its own rules. The screenshots below show the menu and each game in it.": "इसे खोलकर YZ या फार्कल चुनें, जिनमें से हर एक के अपने नियम हैं। नीचे के स्क्रीनशॉट मेनू और उसका हर गेम दिखाते हैं।",
   "3 game menus": "3 गेम मेनू",
-  "Tap a game on the menu to see it below.": "मेनू में किसी गेम पर टैप करें, वह नीचे दिखेगा।"
+  "Tap a game on the menu to see it below.": "मेनू में किसी गेम पर टैप करें, वह नीचे दिखेगा।",
+  "Open it to choose 42, Block, Draw, Mexican Train, All Fives or Bergen, each with its own rules. The screenshots below show the menu and each game in it.": "इसे खोलकर 42, ब्लॉक, ड्रा, मैक्सिकन ट्रेन, ऑल फाइव्स या बर्गेन चुनें, जिनमें से हर एक के अपने नियम हैं। नीचे के स्क्रीनशॉट मेनू और उसका हर गेम दिखाते हैं।",
+  "Texas trick-taking dominoes": "टेक्सास का ट्रिक-टेकिंग डोमिनो",
+  "Two teams of two bid on each hand, the high bidder names trumps, and the count tiles are worth extra points. Make your bid to win a mark.": "दो-दो खिलाड़ियों की दो टीमें हर हाथ पर बोली लगाती हैं, सबसे ऊँची बोली वाला ट्रंप चुनता है और काउंट टाइलें अतिरिक्त अंक देती हैं। अपनी बोली पूरी करके एक मार्क जीतें।",
+  "Classic match-the-ends dominoes": "सिरे मिलाने वाला क्लासिक डोमिनो",
+  "Play a tile that matches an open end of the line. There is no drawing: if you cannot play, you pass. Play out your hand first to win the round.": "लाइन के किसी खुले सिरे से मेल खाती टाइल चलें। टाइल नहीं खींची जाती: चाल न हो तो पास करें। सबसे पहले अपनी सारी टाइलें खत्म करके राउंड जीतें।",
+  "Match-the-ends dominoes with drawing": "टाइल खींचने वाला सिरे मिलाने का डोमिनो",
+  "Play a tile that matches an open end of the line, and draw from the boneyard until you can. Play out your hand first to win the round.": "लाइन के किसी खुले सिरे से मेल खाती टाइल चलें, और चाल मिलने तक बोनयार्ड से टाइल खींचें। सबसे पहले अपनी सारी टाइलें खत्म करके राउंड जीतें।",
+  "Train-building dominoes": "ट्रेन बनाने वाला डोमिनो",
+  "Build your own train out from the hub double, or play on the shared Mexican Train. If you cannot play, draw, and your train opens to everyone.": "बीच के डबल से अपनी ट्रेन बनाएँ, या साझा मैक्सिकन ट्रेन पर चलें। चाल न हो तो टाइल खींचें, और आपकी ट्रेन सबके लिए खुल जाती है।",
+  "Score-by-fives dominoes": "पाँच-पाँच के अंक वाला डोमिनो",
+  "Score whenever the open ends of the layout add up to a multiple of five. The first double opens four ways. Reach the target score first to win.": "जब भी खुले सिरों का जोड़ पाँच का गुणज हो, अंक पाएँ। पहला डबल चारों ओर खुलता है। सबसे पहले लक्ष्य स्कोर तक पहुँचकर जीतें।",
+  "Matching-ends scoring dominoes": "एक जैसे सिरों पर अंक वाला डोमिनो",
+  "Score when both ends of the line show the same number, and more when a double makes three. Draw when you cannot play. Reach the target score first to win.": "जब लाइन के दोनों सिरों पर एक ही संख्या हो तो अंक पाएँ, और डबल से तीन हो जाएँ तो और ज़्यादा। चाल न हो तो टाइल खींचें। सबसे पहले लक्ष्य स्कोर तक पहुँचकर जीतें।"
 }
