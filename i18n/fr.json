@@ -154,5 +154,21 @@
   "Score-by-fives dominoes": "Dominos où l’on marque par cinq",
   "Score whenever the open ends of the layout add up to a multiple of five. The first double opens four ways. Reach the target score first to win.": "Marquez chaque fois que les bouts libres totalisent un multiple de cinq. Le premier double s’ouvre dans quatre directions. Atteignez le score visé en premier pour gagner.",
   "Matching-ends scoring dominoes": "Dominos où l’on marque avec des bouts égaux",
-  "Score when both ends of the line show the same number, and more when a double makes three. Draw when you cannot play. Reach the target score first to win.": "Marquez quand les deux bouts de la ligne montrent le même nombre, et davantage quand un double en fait trois. Piochez si vous ne pouvez pas jouer. Atteignez le score visé en premier pour gagner."
+  "Score when both ends of the line show the same number, and more when a double makes three. Draw when you cannot play. Reach the target score first to win.": "Marquez quand les deux bouts de la ligne montrent le même nombre, et davantage quand un double en fait trois. Piochez si vous ne pouvez pas jouer. Atteignez le score visé en premier pour gagner.",
+  "Hong Kong": "Hong Kong",
+  "Riichi": "Riichi",
+  "Sichuan": "Sichuan",
+  "Open it to choose Hong Kong, Riichi, Chinese Official, Taiwanese, Sichuan or Solitaire, each with its own rules. The screenshots below show the menu and each game in it.": "Ouvrez-le pour choisir Hong Kong, Riichi, Chinois officiel, Taïwanais, Sichuan ou Solitaire, chacun avec ses propres règles. Les captures ci-dessous montrent le menu et chacun de ses jeux.",
+  "Classic Cantonese mahjong": "Mahjong cantonais classique",
+  "Claim pungs, kongs and chows, and go out with four sets and a pair worth at least the minimum faan you choose.": "Annoncez pungs, kongs et chows, et terminez avec quatre combinaisons et une paire valant au moins le minimum de faan choisi.",
+  "Japanese mahjong": "Mahjong japonais",
+  "Win with a hand that has at least one yaku, declare Riichi when you are one tile away, and add dora for a bigger score.": "Gagnez avec une main qui a au moins un yaku, déclarez Riichi quand il vous manque une tuile, et ajoutez des dora pour marquer plus.",
+  "Official Chinese rules": "Règles officielles chinoises",
+  "A winning hand needs at least 8 points from the long list of official scoring patterns, so plan your hand from the start.": "Une main gagnante doit valoir au moins 8 points selon la longue liste des combinaisons officielles : préparez votre main dès le départ.",
+  "Sixteen-tile mahjong": "Mahjong à seize tuiles",
+  "Hands hold sixteen tiles, so you go out with five sets and a pair. Score tai for your patterns and reach the minimum you choose.": "Les mains comptent seize tuiles : on termine avec cinq combinaisons et une paire. Marquez des tai pour vos combinaisons et atteignez le minimum choisi.",
+  "Three-suit mahjong": "Mahjong à trois familles",
+  "Only dots, bamboo and characters, with no chows. Choose a void suit at the start and get rid of it to win.": "Seulement ronds, bambous et caractères, sans chows. Choisissez une famille à vider au début et débarrassez-vous-en pour gagner.",
+  "Tile-matching solitaire": "Solitaire d’association de tuiles",
+  "Match free tiles in pairs to clear the turtle, pyramid or fortress layout. Undo or shuffle when you are stuck.": "Associez les tuiles libres par paires pour vider la tortue, la pyramide ou la forteresse. Annulez ou mélangez si vous êtes bloqué."
 }

@@ -151,5 +151,19 @@
   "Score-by-fives dominoes": "Domino tính điểm bội số năm",
   "Score whenever the open ends of the layout add up to a multiple of five. The first double opens four ways. Reach the target score first to win.": "Ghi điểm mỗi khi tổng các đầu mở là bội số của năm. Quân đôi đầu tiên mở ra bốn hướng. Về đích điểm mục tiêu trước để thắng.",
   "Matching-ends scoring dominoes": "Domino tính điểm khi hai đầu giống nhau",
-  "Score when both ends of the line show the same number, and more when a double makes three. Draw when you cannot play. Reach the target score first to win.": "Ghi điểm khi hai đầu hàng có cùng một số, và nhiều hơn khi quân đôi làm thành ba. Bốc quân nếu không đi được. Về đích điểm mục tiêu trước để thắng."
+  "Score when both ends of the line show the same number, and more when a double makes three. Draw when you cannot play. Reach the target score first to win.": "Ghi điểm khi hai đầu hàng có cùng một số, và nhiều hơn khi quân đôi làm thành ba. Bốc quân nếu không đi được. Về đích điểm mục tiêu trước để thắng.",
+  "Riichi": "Riichi",
+  "Open it to choose Hong Kong, Riichi, Chinese Official, Taiwanese, Sichuan or Solitaire, each with its own rules. The screenshots below show the menu and each game in it.": "Mở menu để chọn Hồng Kông, Riichi, Trung Quốc chính thức, Đài Loan, Tứ Xuyên hoặc Xếp hình, mỗi trò có luật riêng. Ảnh chụp màn hình bên dưới là menu và từng trò chơi trong đó.",
+  "Classic Cantonese mahjong": "Mạt chược Quảng Đông cổ điển",
+  "Claim pungs, kongs and chows, and go out with four sets and a pair worth at least the minimum faan you choose.": "Ăn pung, kong và chow, rồi ù với bốn bộ và một đôi đạt ít nhất số faan tối thiểu bạn chọn.",
+  "Japanese mahjong": "Mạt chược Nhật Bản",
+  "Win with a hand that has at least one yaku, declare Riichi when you are one tile away, and add dora for a bigger score.": "Ù với bài có ít nhất một yaku, báo Riichi khi chỉ còn thiếu một quân, và thêm dora để được nhiều điểm hơn.",
+  "Official Chinese rules": "Luật chính thức Trung Quốc",
+  "A winning hand needs at least 8 points from the long list of official scoring patterns, so plan your hand from the start.": "Bài ù cần ít nhất 8 điểm từ danh sách dài các mẫu tính điểm chính thức, nên hãy tính bài ngay từ đầu.",
+  "Sixteen-tile mahjong": "Mạt chược mười sáu quân",
+  "Hands hold sixteen tiles, so you go out with five sets and a pair. Score tai for your patterns and reach the minimum you choose.": "Mỗi tay có mười sáu quân, nên bạn ù với năm bộ và một đôi. Ghi tai theo mẫu bài và đạt mức tối thiểu bạn chọn.",
+  "Three-suit mahjong": "Mạt chược ba chất",
+  "Only dots, bamboo and characters, with no chows. Choose a void suit at the start and get rid of it to win.": "Chỉ có đồng, trúc và vạn, không có chow. Chọn một chất bỏ khi bắt đầu và loại hết chất đó để ù.",
+  "Tile-matching solitaire": "Xếp hình ghép cặp quân",
+  "Match free tiles in pairs to clear the turtle, pyramid or fortress layout. Undo or shuffle when you are stuck.": "Ghép các quân tự do thành cặp để dọn bố cục rùa, kim tự tháp hoặc pháo đài. Hoàn tác hoặc xáo lại khi bị kẹt."
 }

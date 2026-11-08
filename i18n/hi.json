@@ -173,5 +173,18 @@
   "Score-by-fives dominoes": "पाँच-पाँच के अंक वाला डोमिनो",
   "Score whenever the open ends of the layout add up to a multiple of five. The first double opens four ways. Reach the target score first to win.": "जब भी खुले सिरों का जोड़ पाँच का गुणज हो, अंक पाएँ। पहला डबल चारों ओर खुलता है। सबसे पहले लक्ष्य स्कोर तक पहुँचकर जीतें।",
   "Matching-ends scoring dominoes": "एक जैसे सिरों पर अंक वाला डोमिनो",
-  "Score when both ends of the line show the same number, and more when a double makes three. Draw when you cannot play. Reach the target score first to win.": "जब लाइन के दोनों सिरों पर एक ही संख्या हो तो अंक पाएँ, और डबल से तीन हो जाएँ तो और ज़्यादा। चाल न हो तो टाइल खींचें। सबसे पहले लक्ष्य स्कोर तक पहुँचकर जीतें।"
+  "Score when both ends of the line show the same number, and more when a double makes three. Draw when you cannot play. Reach the target score first to win.": "जब लाइन के दोनों सिरों पर एक ही संख्या हो तो अंक पाएँ, और डबल से तीन हो जाएँ तो और ज़्यादा। चाल न हो तो टाइल खींचें। सबसे पहले लक्ष्य स्कोर तक पहुँचकर जीतें।",
+  "Open it to choose Hong Kong, Riichi, Chinese Official, Taiwanese, Sichuan or Solitaire, each with its own rules. The screenshots below show the menu and each game in it.": "इसे खोलकर हांगकांग, रीची, चीनी आधिकारिक, ताइवानी, सिचुआन या सॉलिटेयर चुनें, जिनमें से हर एक के अपने नियम हैं। नीचे के स्क्रीनशॉट मेनू और उसका हर गेम दिखाते हैं।",
+  "Classic Cantonese mahjong": "क्लासिक कैंटोनीज़ महजोंग",
+  "Claim pungs, kongs and chows, and go out with four sets and a pair worth at least the minimum faan you choose.": "पुंग, कोंग और चाउ का दावा करें, और चार सेट व एक जोड़ी से जीतें जिनका मूल्य आपके चुने न्यूनतम फ़ान जितना हो।",
+  "Japanese mahjong": "जापानी महजोंग",
+  "Win with a hand that has at least one yaku, declare Riichi when you are one tile away, and add dora for a bigger score.": "कम से कम एक याकू वाले हाथ से जीतें, एक टाइल दूर होने पर रीची घोषित करें, और बड़े स्कोर के लिए डोरा जोड़ें।",
+  "Official Chinese rules": "आधिकारिक चीनी नियम",
+  "A winning hand needs at least 8 points from the long list of official scoring patterns, so plan your hand from the start.": "जीतने वाले हाथ को आधिकारिक स्कोरिंग पैटर्न की लंबी सूची से कम से कम 8 अंक चाहिए, इसलिए शुरू से अपना हाथ सोचें।",
+  "Sixteen-tile mahjong": "सोलह टाइलों वाला महजोंग",
+  "Hands hold sixteen tiles, so you go out with five sets and a pair. Score tai for your patterns and reach the minimum you choose.": "हाथ में सोलह टाइलें होती हैं, इसलिए आप पाँच सेट और एक जोड़ी से जीतते हैं। अपने पैटर्न के लिए ताई पाएँ और चुना हुआ न्यूनतम पूरा करें।",
+  "Three-suit mahjong": "तीन सूट वाला महजोंग",
+  "Only dots, bamboo and characters, with no chows. Choose a void suit at the start and get rid of it to win.": "सिर्फ़ डॉट्स, बांस और कैरेक्टर, चाउ के बिना। शुरुआत में एक खाली सूट चुनें और जीतने के लिए उसे हटा दें।",
+  "Tile-matching solitaire": "टाइलें मिलाने वाला सॉलिटेयर",
+  "Match free tiles in pairs to clear the turtle, pyramid or fortress layout. Undo or shuffle when you are stuck.": "कछुआ, पिरामिड या किला लेआउट साफ़ करने के लिए खुली टाइलों के जोड़े मिलाएँ। अटकने पर वापस लें या फेंटें।"
 }

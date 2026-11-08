@@ -148,5 +148,21 @@
   "Score-by-fives dominoes": "Domino skor kelipatan lima",
   "Score whenever the open ends of the layout add up to a multiple of five. The first double opens four ways. Reach the target score first to win.": "Dapatkan skor setiap kali ujung-ujung terbuka berjumlah kelipatan lima. Balak pertama terbuka ke empat arah. Capai skor target lebih dulu untuk menang.",
   "Matching-ends scoring dominoes": "Domino skor ujung yang sama",
-  "Score when both ends of the line show the same number, and more when a double makes three. Draw when you cannot play. Reach the target score first to win.": "Dapatkan skor saat kedua ujung barisan menunjukkan angka yang sama, dan lebih banyak saat balak membuatnya jadi tiga. Tarik kartu jika tidak bisa main. Capai skor target lebih dulu untuk menang."
+  "Score when both ends of the line show the same number, and more when a double makes three. Draw when you cannot play. Reach the target score first to win.": "Dapatkan skor saat kedua ujung barisan menunjukkan angka yang sama, dan lebih banyak saat balak membuatnya jadi tiga. Tarik kartu jika tidak bisa main. Capai skor target lebih dulu untuk menang.",
+  "Hong Kong": "Hong Kong",
+  "Riichi": "Riichi",
+  "Sichuan": "Sichuan",
+  "Open it to choose Hong Kong, Riichi, Chinese Official, Taiwanese, Sichuan or Solitaire, each with its own rules. The screenshots below show the menu and each game in it.": "Buka untuk memilih Hong Kong, Riichi, Resmi Tiongkok, Taiwan, Sichuan, atau Solitaire, masing-masing dengan aturannya sendiri. Tangkapan layar di bawah menunjukkan menu dan setiap game di dalamnya.",
+  "Classic Cantonese mahjong": "Mahjong Kanton klasik",
+  "Claim pungs, kongs and chows, and go out with four sets and a pair worth at least the minimum faan you choose.": "Klaim pung, kong, dan chow, lalu menang dengan empat set dan satu pasang yang bernilai paling sedikit faan minimum pilihanmu.",
+  "Japanese mahjong": "Mahjong Jepang",
+  "Win with a hand that has at least one yaku, declare Riichi when you are one tile away, and add dora for a bigger score.": "Menang dengan tangan yang punya setidaknya satu yaku, umumkan Riichi saat tinggal satu kartu lagi, dan tambahkan dora untuk skor lebih besar.",
+  "Official Chinese rules": "Aturan resmi Tiongkok",
+  "A winning hand needs at least 8 points from the long list of official scoring patterns, so plan your hand from the start.": "Tangan pemenang butuh setidaknya 8 poin dari daftar panjang pola skor resmi, jadi rencanakan tanganmu sejak awal.",
+  "Sixteen-tile mahjong": "Mahjong enam belas kartu",
+  "Hands hold sixteen tiles, so you go out with five sets and a pair. Score tai for your patterns and reach the minimum you choose.": "Tangan berisi enam belas kartu, jadi kamu menang dengan lima set dan satu pasang. Kumpulkan tai dari polamu dan capai minimum pilihanmu.",
+  "Three-suit mahjong": "Mahjong tiga jenis",
+  "Only dots, bamboo and characters, with no chows. Choose a void suit at the start and get rid of it to win.": "Hanya bulatan, bambu, dan karakter, tanpa chow. Pilih jenis kosong di awal dan buang semuanya untuk menang.",
+  "Tile-matching solitaire": "Solitaire mencocokkan kartu",
+  "Match free tiles in pairs to clear the turtle, pyramid or fortress layout. Undo or shuffle when you are stuck.": "Cocokkan kartu bebas berpasangan untuk membersihkan susunan kura-kura, piramida, atau benteng. Batalkan atau kocok saat buntu."
 }
