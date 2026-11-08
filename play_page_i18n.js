@@ -76,8 +76,7 @@
     boneyard: {
       name: 'T-G-Apps Boneyard',
       games: [
-        { id: 'yz', name: 'YZ' },
-        { id: 'farkle', name: 'Farkle', rules: true },
+        { id: 'dice_games', name: 'Dice Games', variants: ['YZ', 'Farkle'] },
         {
           id: 'dominoes', name: 'Dominoes', variants: {
             en: ['42', 'Block', 'Draw', 'Mexican Train', 'All Fives', 'Bergen'],

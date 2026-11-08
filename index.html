@@ -306,7 +306,7 @@
       <div class="badge">Visual HTML version: 2026-10-01A</div>
       <h1 class="site-logo"><img src="shared/packages/tgapps_exit_flow/assets/images/tgapps_logo.png" alt="T-G-Apps" width="1322" height="660"></h1>
       <h2>Card, Dice &amp; Tile Games</h2>
-      <p>Three apps to explore: T-G-Apps Casino, T-G-Apps House of Cards and T-G-Apps Boneyard. Dominoes, Mahjong and Rummy open menus of related games.</p>
+      <p>Three apps to explore: T-G-Apps Casino, T-G-Apps House of Cards and T-G-Apps Boneyard. Dice Games, Dominoes, Mahjong and Rummy open menus of related games.</p>
       <div class="play-actions"><a class="gold-button" href="#casino">Casino</a><a class="gold-button" href="#house-of-cards">House of Cards</a><a class="gold-button" href="#boneyard">Boneyard</a><button class="gold-button language-button" id="languageButton" type="button" aria-describedby="languageNote"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95c-.32-1.25-.78-2.45-1.38-3.56 1.84.63 3.37 1.91 4.33 3.56zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56-1.84-.63-3.37-1.9-4.33-3.56zm2.95-8H5.08c.96-1.66 2.49-2.93 4.33-3.56C8.81 5.55 8.35 6.75 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95c-.96 1.65-2.49 2.93-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z"/></svg><span id="languageName" lang="en">English</span></button></div>
       <p class="language-note" id="languageNote" aria-live="polite"></p>
     </section>
@@ -354,8 +354,12 @@
         <h4><a href="#boneyard">T-G-Apps Boneyard</a></h4>
         <p class="game-type">Dice and tile games</p>
         <ul class="game-list">
-          <li><a href="#yz">YZ</a></li>
-          <li><a href="#farkle">Farkle</a></li>
+          <li class="has-sub-games"><a href="#dice">Dice Games</a>
+            <ul class="sub-games">
+              <li>YZ</li>
+              <li>Farkle</li>
+            </ul>
+          </li>
           <li class="has-sub-games"><a href="#dominoes">Dominoes</a>
             <ul class="sub-games">
               <li>42</li>
@@ -629,7 +633,6 @@
           <figcaption>Game menu</figcaption>
         </figure>
       </div>
-      <div class="play-actions"><a class="gold-button" href="play_tgapps_rummy.html">Play the Rummy Menu Online</a></div>
       <h4 class="shots-title">Rummy</h4>
       <div class="shots">
         <figure>
@@ -751,11 +754,22 @@
       <p>Dice and tiles for every age: two dice games, a full set of dominoes, and six ways to play mahjong. Shake, draw from the boneyard, or build a winning hand, against the robots or friends and family on their own phones.</p>
       <span class="pill family">Children &amp; Adults</span>
       <span class="pill">No wagering</span>
-      <span class="pill">2 dice games + 2 game menus</span>
+      <span class="pill">3 game menus</span>
     </section>
 
-    <section class="card" id="yz">
-      <h3 class="game-name">YZ</h3>
+    <section class="card" id="dice">
+      <h3 class="game-name">Dice Games</h3>
+      <p class="game-type">Dice game collection</p>
+      <p class="menu-note"><strong>Dice Games is a game-selection menu.</strong> Open it to choose YZ or Farkle, each with its own rules. The screenshots below show the menu and each game in it.</p>
+      <span class="pill family">Menu of related games</span>
+      <div class="shots">
+        <figure>
+          <img loading="lazy" decoding="async" src="images/screens/en/dice_menu.jpg" data-shot="dice_menu" width="300" height="549" alt="Dice Games game menu">
+          <figcaption>Game menu</figcaption>
+        </figure>
+      </div>
+      <div class="play-actions"><a class="gold-button" href="play_tgapps_dice_games.html">Play the Dice Games Menu Online</a></div>
+      <h4 class="shots-title" id="yz">YZ</h4>
       <p class="game-type">Dice scorecard strategy</p>
       <p>Roll five dice up to three times a turn and choose where to score: the upper section, three and four of a kind, full houses, straights and five of a kind.</p>
       <div class="shots">
@@ -768,11 +782,8 @@
           <figcaption>Showdown</figcaption>
         </figure>
       </div>
-    <div class="play-actions"><a class="gold-button" href="play_tgapps_yz.html">Play YZ Online</a></div>
-    </section>
-
-    <section class="card" id="farkle">
-      <h3 class="game-name">Farkle</h3>
+      <div class="play-actions"><a class="gold-button" href="play_tgapps_yz.html">Play YZ Online</a></div>
+      <h4 class="shots-title" id="farkle">Farkle</h4>
       <p class="game-type">Push-your-luck dice</p>
       <p>Set aside scoring dice and keep rolling to build your turn total — but roll nothing that scores and you farkle and lose it all. First to 10,000 wins.</p>
       <div class="shots">
@@ -785,7 +796,7 @@
           <figcaption>Showdown</figcaption>
         </figure>
       </div>
-    <div class="play-actions"><a class="gold-button" href="play_tgapps_farkle.html">Play Farkle Online</a></div>
+      <div class="play-actions"><a class="gold-button" href="play_tgapps_farkle.html">Play Farkle Online</a></div>
     </section>
 
     <section class="card" id="dominoes">
@@ -869,7 +880,7 @@
       <button class="dialog-close" type="button" data-close-dialog aria-label="Close about information">×</button>
       <h2 id="aboutDialogTitle">About T-G-Apps LLC</h2>
       <p>T-G-Apps LLC is an independent mobile app development studio in San Antonio, Texas. We create replayable games for adults and children with consistent controls, clear instructions, local human and robot play, and private multi-phone play where supported.</p>
-      <p>Our catalog is organized into T-G-Apps Casino, T-G-Apps House of Cards and T-G-Apps Boneyard. Rummy, Dominoes and Mahjong each open a menu of related games. Casino games are described here without browser play.</p>
+      <p>Our catalog is organized into T-G-Apps Casino, T-G-Apps House of Cards and T-G-Apps Boneyard. Dice Games, Rummy, Dominoes and Mahjong each open a menu of related games. Casino games are described here without browser play.</p>
       <div class="dialog-actions"><button class="gold-button" type="button" data-close-dialog>Close</button></div>
     </div>
   </dialog>

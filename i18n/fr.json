@@ -3,7 +3,7 @@
   "Explore T-G-Apps Casino, House of Cards and Boneyard. Play card, dice and tile games online in your browser.": "Découvrez T-G-Apps Casino, House of Cards et Boneyard. Jouez à des jeux de cartes, de dés et de tuiles en ligne dans votre navigateur.",
   "Skip to games": "Aller aux jeux",
   "Card, Dice & Tile Games": "Jeux de cartes, de dés et de tuiles",
-  "Three apps to explore: T-G-Apps Casino, T-G-Apps House of Cards and T-G-Apps Boneyard. Dominoes, Mahjong and Rummy open menus of related games.": "Trois applis à découvrir : T-G-Apps Casino, T-G-Apps House of Cards et T-G-Apps Boneyard. Dominos, Mahjong et Rami ouvrent des menus de jeux apparentés.",
+  "Three apps to explore: T-G-Apps Casino, T-G-Apps House of Cards and T-G-Apps Boneyard. Dice Games, Dominoes, Mahjong and Rummy open menus of related games.": "Trois applis à découvrir : T-G-Apps Casino, T-G-Apps House of Cards et T-G-Apps Boneyard. Jeux de dés, Dominos, Mahjong et Rami ouvrent des menus de jeux apparentés.",
   "Catalog apps": "Applis du catalogue",
   "Explore Card Games": "Voir les jeux de cartes",
   "Explore Dice & Tiles": "Voir les dés et tuiles",
@@ -81,7 +81,6 @@
   "Dice and tile games": "Jeux de dés et de tuiles",
   "Dice and tiles for every age: two dice games, a full set of dominoes, and six ways to play mahjong. Shake, draw from the boneyard, or build a winning hand, against the robots or friends and family on their own phones.": "Des dés et des tuiles pour tous les âges : deux jeux de dés, un jeu complet de dominos et six façons de jouer au mahjong. Lancez les dés, piochez dans la réserve ou formez une main gagnante, contre les robots ou avec vos proches sur leurs propres téléphones.",
   "Games: YZ, Farkle, Dominoes, Mahjong.": "Jeux : YZ, Farkle, Dominos, Mahjong.",
-  "2 dice games + 2 game menus": "2 jeux de dés + 2 menus de jeux",
   "Dice scorecard strategy": "Stratégie de dés avec feuille de score",
   "Roll five dice up to three times a turn and choose where to score: the upper section, three and four of a kind, full houses, straights and five of a kind.": "Lancez cinq dés jusqu’à trois fois par tour et choisissez où marquer : la section supérieure, brelan et carré, full, suites et cinq identiques.",
   "Push-your-luck dice": "Dés où l’on tente sa chance",
@@ -136,5 +135,11 @@
   "Mexican Train": "Train mexicain",
   "All Fives": "Tous les cinq",
   "Chinese Official": "Chinois officiel",
-  "Taiwanese": "Taïwanais"
+  "Taiwanese": "Taïwanais",
+  "Dice Games": "Jeux de dés",
+  "Dice game collection": "Collection de jeux de dés",
+  "Dice Games is a game-selection menu.": "Jeux de dés est un menu de choix de jeux.",
+  "Open it to choose YZ or Farkle, each with its own rules. The screenshots below show the menu and each game in it.": "Ouvrez-le pour choisir YZ ou Farkle, chacun avec ses propres règles. Les captures ci-dessous montrent le menu et chacun de ses jeux.",
+  "3 game menus": "3 menus de jeux",
+  "Play the Dice Games Menu Online": "Jouer au menu Jeux de dés en ligne"
 }
