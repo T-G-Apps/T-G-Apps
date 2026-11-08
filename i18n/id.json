@@ -38,6 +38,8 @@
   "{0} during a hand": "{0} saat bermain",
   "{0} showdown": "{0}: showdown",
   "{0} hand recap": "{0}: ringkasan putaran",
+  "Game menu": "Menu permainan",
+  "{0} game menu": "Menu permainan {0}",
   "Community-card poker": "Poker kartu bersama",
   "Two hole cards, five community cards and four betting rounds, in no-limit, pot-limit or fixed-limit play, with blinds and optional antes.": "Dua kartu tertutup, lima kartu bersama, dan empat ronde taruhan, dalam mode no-limit, pot-limit, atau fixed-limit, dengan blind dan ante opsional.",
   "Draw poker": "Poker tukar kartu",

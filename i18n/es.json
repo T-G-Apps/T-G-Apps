@@ -38,6 +38,8 @@
   "{0} during a hand": "{0} durante una mano",
   "{0} showdown": "{0}: enfrentamiento final",
   "{0} hand recap": "{0}: resumen de la mano",
+  "Game menu": "Menú de juegos",
+  "{0} game menu": "{0}: menú de juegos",
   "Community-card poker": "Póker de cartas comunitarias",
   "Two hole cards, five community cards and four betting rounds, in no-limit, pot-limit or fixed-limit play, with blinds and optional antes.": "Dos cartas propias, cinco cartas comunitarias y cuatro rondas de apuestas, sin límite, con límite de bote o con límite fijo, con ciegas y antes opcionales.",
   "Draw poker": "Póker de descarte",
