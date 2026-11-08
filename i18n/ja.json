@@ -173,5 +173,18 @@
   "Score-by-fives dominoes": "5の倍数で得点するドミノ",
   "Score whenever the open ends of the layout add up to a multiple of five. The first double opens four ways. Reach the target score first to win.": "空いている端の合計が5の倍数になるたびに得点します。最初のダブルは4方向に伸ばせます。先に目標点に達した人の勝ちです。",
   "Matching-ends scoring dominoes": "両端がそろうと得点するドミノ",
-  "Score when both ends of the line show the same number, and more when a double makes three. Draw when you cannot play. Reach the target score first to win.": "列の両端が同じ数になると得点し、ダブルで3つそろうとさらに得点します。出せないときは山から引きます。先に目標点に達した人の勝ちです。"
+  "Score when both ends of the line show the same number, and more when a double makes three. Draw when you cannot play. Reach the target score first to win.": "列の両端が同じ数になると得点し、ダブルで3つそろうとさらに得点します。出せないときは山から引きます。先に目標点に達した人の勝ちです。",
+  "Open it to choose Hong Kong, Riichi, Chinese Official, Taiwanese, Sichuan or Solitaire, each with its own rules. The screenshots below show the menu and each game in it.": "開くと、それぞれ独自のルールを持つ香港式、リーチ麻雀、中国麻雀、台湾麻雀、四川麻雀、ソリティアから選べます。下のスクリーンショットは、メニューとその中の各ゲームです。",
+  "Classic Cantonese mahjong": "定番の広東式麻雀",
+  "Claim pungs, kongs and chows, and go out with four sets and a pair worth at least the minimum faan you choose.": "ポン・カン・チーで鳴き、選んだ最低翻数以上の4面子1雀頭で上がります。",
+  "Japanese mahjong": "日本の麻雀",
+  "Win with a hand that has at least one yaku, declare Riichi when you are one tile away, and add dora for a bigger score.": "役を1つ以上つけて上がり、あと1枚でリーチを宣言し、ドラで点数を伸ばします。",
+  "Official Chinese rules": "中国公式ルール",
+  "A winning hand needs at least 8 points from the long list of official scoring patterns, so plan your hand from the start.": "上がりには公式役の長い一覧から8点以上が必要なので、最初から手を組み立てましょう。",
+  "Sixteen-tile mahjong": "16枚の麻雀",
+  "Hands hold sixteen tiles, so you go out with five sets and a pair. Score tai for your patterns and reach the minimum you choose.": "手牌は16枚なので、5面子1雀頭で上がります。役で台を数え、選んだ最低台数を満たしましょう。",
+  "Three-suit mahjong": "3種類の数牌だけの麻雀",
+  "Only dots, bamboo and characters, with no chows. Choose a void suit at the start and get rid of it to win.": "筒子・索子・萬子のみでチーはありません。最初に欠ける色を選び、それを手放して上がります。",
+  "Tile-matching solitaire": "牌を合わせるソリティア",
+  "Match free tiles in pairs to clear the turtle, pyramid or fortress layout. Undo or shuffle when you are stuck.": "空いている牌を2枚ずつ合わせて、亀・ピラミッド・要塞の配置を片付けます。手詰まりなら戻すかシャッフルします。"
 }
