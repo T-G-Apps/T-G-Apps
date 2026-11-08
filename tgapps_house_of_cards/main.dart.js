@@ -146576,7 +146576,7 @@ o=k.as
 o===$&&A.b()
 o=A.a([new A.fB(3,s,""+r),new A.fB(3,q,""+p.b[o].d)],t.l7)
 p=e.v("Hint",k.c.n(g).r.f.gu())
-p=A.u_(f,4,k.gUN(),o,"Indian Rummy",6,A.oJ(B.u,e.v("Hint",k.c.n(g).r.f.gu()),B.B,4,k.gaEa(),44,p))
+p=A.u_(f,4,k.gUN(),o,"Indian\nRummy",5,A.oJ(B.u,e.v("Hint",k.c.n(g).r.f.gu()),B.B,4,k.gaEa(),44,p))
 o=t.s
 f=e.v(A.f_("Out at {0:n}",A.a([""+k.d.a.a],o)),k.c.n(g).r.f.gu())
 q=e.v(A.f_("Hand {0:n}",A.a([""+k.d.cy],o)),k.c.n(g).r.f.gu())
