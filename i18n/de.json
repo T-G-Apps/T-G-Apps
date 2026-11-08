@@ -3,7 +3,7 @@
   "Explore T-G-Apps Casino, House of Cards and Boneyard. Play card, dice and tile games online in your browser.": "Entdecke T-G-Apps Casino, House of Cards und Boneyard. Spiele Karten-, Würfel- und Steinspiele online im Browser.",
   "Skip to games": "Zu den Spielen",
   "Card, Dice & Tile Games": "Karten-, Würfel- und Steinspiele",
-  "Three apps to explore: T-G-Apps Casino, T-G-Apps House of Cards and T-G-Apps Boneyard. Dominoes, Mahjong and Rummy open menus of related games.": "Drei Apps zum Entdecken: T-G-Apps Casino, T-G-Apps House of Cards und T-G-Apps Boneyard. Domino, Mahjong und Rommé öffnen Menüs mit verwandten Spielen.",
+  "Three apps to explore: T-G-Apps Casino, T-G-Apps House of Cards and T-G-Apps Boneyard. Dice Games, Dominoes, Mahjong and Rummy open menus of related games.": "Drei Apps zum Entdecken: T-G-Apps Casino, T-G-Apps House of Cards und T-G-Apps Boneyard. Würfelspiele, Domino, Mahjong und Rommé öffnen Menüs mit verwandten Spielen.",
   "Catalog apps": "Apps im Katalog",
   "Explore Card Games": "Kartenspiele ansehen",
   "Explore Dice & Tiles": "Würfel und Steine ansehen",
@@ -81,7 +81,6 @@
   "Dice and tile games": "Würfel- und Steinspiele",
   "Dice and tiles for every age: two dice games, a full set of dominoes, and six ways to play mahjong. Shake, draw from the boneyard, or build a winning hand, against the robots or friends and family on their own phones.": "Würfel und Steine für jedes Alter: zwei Würfelspiele, ein komplettes Dominospiel und sechs Arten, Mahjong zu spielen. Würfle, ziehe aus dem Vorrat oder baue eine Gewinnerhand – gegen die Roboter oder mit Freunden und Familie auf ihren eigenen Handys.",
   "Games: YZ, Farkle, Dominoes, Mahjong.": "Spiele: YZ, Farkle, Domino, Mahjong.",
-  "2 dice games + 2 game menus": "2 Würfelspiele + 2 Spielmenüs",
   "Dice scorecard strategy": "Würfelstrategie mit Punkteblock",
   "Roll five dice up to three times a turn and choose where to score: the upper section, three and four of a kind, full houses, straights and five of a kind.": "Würfle pro Zug bis zu dreimal mit fünf Würfeln und wähle, wo du punktest: oberer Teil, Dreier- und Viererpasch, Full House, Straßen und Fünf gleiche.",
   "Push-your-luck dice": "Würfelspiel mit Risiko",
@@ -133,5 +132,11 @@
   "Hong Kong": "Hongkong",
   "Chinese Official": "Chinesisch (offiziell)",
   "Taiwanese": "Taiwanesisch",
-  "Solitaire": "Solitär"
+  "Solitaire": "Solitär",
+  "Dice Games": "Würfelspiele",
+  "Dice game collection": "Würfelspielsammlung",
+  "Dice Games is a game-selection menu.": "Würfelspiele ist ein Spielauswahlmenü.",
+  "Open it to choose YZ or Farkle, each with its own rules. The screenshots below show the menu and each game in it.": "Öffne es, um YZ oder Farkle mit jeweils eigenen Regeln zu wählen. Die Screenshots unten zeigen das Menü und jedes seiner Spiele.",
+  "3 game menus": "3 Spielmenüs",
+  "Play the Dice Games Menu Online": "Würfelspiele-Menü online spielen"
 }

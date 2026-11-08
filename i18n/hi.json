@@ -3,7 +3,7 @@
   "Explore T-G-Apps Casino, House of Cards and Boneyard. Play card, dice and tile games online in your browser.": "T-G-Apps Casino, House of Cards और Boneyard देखें। अपने ब्राउज़र में कार्ड, पासे और टाइल गेम ऑनलाइन खेलें।",
   "Skip to games": "गेम पर जाएँ",
   "Card, Dice & Tile Games": "कार्ड, पासे और टाइल गेम",
-  "Three apps to explore: T-G-Apps Casino, T-G-Apps House of Cards and T-G-Apps Boneyard. Dominoes, Mahjong and Rummy open menus of related games.": "देखने के लिए तीन ऐप: T-G-Apps Casino, T-G-Apps House of Cards और T-G-Apps Boneyard। डोमिनो, महजोंग और रमी से मिलते-जुलते गेम के मेनू खुलते हैं।",
+  "Three apps to explore: T-G-Apps Casino, T-G-Apps House of Cards and T-G-Apps Boneyard. Dice Games, Dominoes, Mahjong and Rummy open menus of related games.": "देखने के लिए तीन ऐप: T-G-Apps Casino, T-G-Apps House of Cards और T-G-Apps Boneyard। पासे के खेल, डोमिनो, महजोंग और रमी से मिलते-जुलते गेम के मेनू खुलते हैं।",
   "Catalog apps": "कैटलॉग ऐप",
   "Explore Card Games": "कार्ड गेम देखें",
   "Explore Dice & Tiles": "पासे और टाइल देखें",
@@ -81,7 +81,6 @@
   "Dice and tile games": "पासे और टाइल गेम",
   "Dice and tiles for every age: two dice games, a full set of dominoes, and six ways to play mahjong. Shake, draw from the boneyard, or build a winning hand, against the robots or friends and family on their own phones.": "हर उम्र के लिए पासे और टाइल: दो पासे वाले गेम, डोमिनो का पूरा सेट, और माहजोंग खेलने के छह तरीके। पासे फेंकें, ढेर से टाइल उठाएँ या जीतने वाला हाथ बनाएँ — रोबोट के खिलाफ़ या अपने-अपने फोन पर दोस्तों और परिवार के साथ।",
   "Games: YZ, Farkle, Dominoes, Mahjong.": "गेम: YZ, फार्कल, डोमिनो, महजोंग।",
-  "2 dice games + 2 game menus": "2 पासे वाले गेम + 2 गेम मेनू",
   "Dice scorecard strategy": "स्कोरकार्ड वाली पासा रणनीति",
   "Roll five dice up to three times a turn and choose where to score: the upper section, three and four of a kind, full houses, straights and five of a kind.": "हर बारी में पाँच पासे तीन बार तक फेंकें और चुनें कि अंक कहाँ लिखें: ऊपरी हिस्सा, एक जैसे तीन और चार, फ़ुल हाउस, स्ट्रेट और एक जैसे पाँच।",
   "Push-your-luck dice": "किस्मत आज़माने वाला पासा गेम",
@@ -155,5 +154,11 @@
   "Gin Rummy": "जिन रमी",
   "Rummy 500": "रमी 500",
   "Contract Rummy": "कॉन्ट्रैक्ट रमी",
-  "Indian Rummy": "इंडियन रमी"
+  "Indian Rummy": "इंडियन रमी",
+  "Dice Games": "पासे के खेल",
+  "Dice game collection": "पासे के खेलों का संग्रह",
+  "Dice Games is a game-selection menu.": "पासे के खेल एक गेम-चयन मेनू है।",
+  "Open it to choose YZ or Farkle, each with its own rules. The screenshots below show the menu and each game in it.": "इसे खोलकर YZ या फार्कल चुनें, जिनमें से हर एक के अपने नियम हैं। नीचे के स्क्रीनशॉट मेनू और उसका हर गेम दिखाते हैं।",
+  "3 game menus": "3 गेम मेनू",
+  "Play the Dice Games Menu Online": "पासे के खेल मेनू ऑनलाइन खेलें"
 }
