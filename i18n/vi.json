@@ -138,5 +138,18 @@
   "Dice Games is a game-selection menu.": "Trò chơi xúc xắc là một menu chọn trò chơi.",
   "Open it to choose YZ or Farkle, each with its own rules. The screenshots below show the menu and each game in it.": "Mở menu để chọn YZ hoặc Farkle, mỗi trò có luật riêng. Ảnh chụp màn hình bên dưới là menu và từng trò chơi trong đó.",
   "3 game menus": "3 menu trò chơi",
-  "Tap a game on the menu to see it below.": "Chạm vào một trò chơi trong menu để xem bên dưới."
+  "Tap a game on the menu to see it below.": "Chạm vào một trò chơi trong menu để xem bên dưới.",
+  "Open it to choose 42, Block, Draw, Mexican Train, All Fives or Bergen, each with its own rules. The screenshots below show the menu and each game in it.": "Mở menu để chọn 42, Chặn, Rút, Tàu Mexico, Tất cả số năm hoặc Bergen, mỗi trò có luật riêng. Ảnh chụp màn hình bên dưới là menu và từng trò chơi trong đó.",
+  "Texas trick-taking dominoes": "Domino ăn nước kiểu Texas",
+  "Two teams of two bid on each hand, the high bidder names trumps, and the count tiles are worth extra points. Make your bid to win a mark.": "Hai đội hai người đặt giá mỗi ván, người trả giá cao nhất chọn chủ bài, và các quân tính điểm được cộng thêm. Đạt mức giá đã đặt để giành một điểm mốc.",
+  "Classic match-the-ends dominoes": "Domino cổ điển nối đầu",
+  "Play a tile that matches an open end of the line. There is no drawing: if you cannot play, you pass. Play out your hand first to win the round.": "Đặt quân khớp với một đầu mở của hàng. Không được bốc thêm: nếu không đi được thì bỏ lượt. Đánh hết quân trước để thắng vòng.",
+  "Match-the-ends dominoes with drawing": "Domino nối đầu có bốc quân",
+  "Play a tile that matches an open end of the line, and draw from the boneyard until you can. Play out your hand first to win the round.": "Đặt quân khớp với một đầu mở của hàng, và bốc từ kho cho đến khi đi được. Đánh hết quân trước để thắng vòng.",
+  "Train-building dominoes": "Domino xếp tàu",
+  "Build your own train out from the hub double, or play on the shared Mexican Train. If you cannot play, draw, and your train opens to everyone.": "Xếp tàu của riêng bạn từ quân đôi ở giữa, hoặc đi vào Tàu Mexico chung. Nếu không đi được, hãy bốc quân, và tàu của bạn mở cho mọi người.",
+  "Score-by-fives dominoes": "Domino tính điểm bội số năm",
+  "Score whenever the open ends of the layout add up to a multiple of five. The first double opens four ways. Reach the target score first to win.": "Ghi điểm mỗi khi tổng các đầu mở là bội số của năm. Quân đôi đầu tiên mở ra bốn hướng. Về đích điểm mục tiêu trước để thắng.",
+  "Matching-ends scoring dominoes": "Domino tính điểm khi hai đầu giống nhau",
+  "Score when both ends of the line show the same number, and more when a double makes three. Draw when you cannot play. Reach the target score first to win.": "Ghi điểm khi hai đầu hàng có cùng một số, và nhiều hơn khi quân đôi làm thành ba. Bốc quân nếu không đi được. Về đích điểm mục tiêu trước để thắng."
 }

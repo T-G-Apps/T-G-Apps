@@ -138,5 +138,18 @@
   "Dice Games is a game-selection menu.": "Würfelspiele ist ein Spielauswahlmenü.",
   "Open it to choose YZ or Farkle, each with its own rules. The screenshots below show the menu and each game in it.": "Öffne es, um YZ oder Farkle mit jeweils eigenen Regeln zu wählen. Die Screenshots unten zeigen das Menü und jedes seiner Spiele.",
   "3 game menus": "3 Spielmenüs",
-  "Tap a game on the menu to see it below.": "Tippe im Menü auf ein Spiel, um es unten zu sehen."
+  "Tap a game on the menu to see it below.": "Tippe im Menü auf ein Spiel, um es unten zu sehen.",
+  "Open it to choose 42, Block, Draw, Mexican Train, All Fives or Bergen, each with its own rules. The screenshots below show the menu and each game in it.": "Öffne es, um 42, Block, Ziehen, Mexican Train, Alle Fünfer oder Bergen mit jeweils eigenen Regeln zu wählen. Die Screenshots unten zeigen das Menü und jedes seiner Spiele.",
+  "Texas trick-taking dominoes": "Texanisches Stichspiel mit Dominosteinen",
+  "Two teams of two bid on each hand, the high bidder names trumps, and the count tiles are worth extra points. Make your bid to win a mark.": "Zwei Zweierteams bieten in jeder Runde, der Höchstbietende bestimmt Trumpf, und die Zählsteine bringen Extrapunkte. Erfülle dein Gebot, um eine Marke zu gewinnen.",
+  "Classic match-the-ends dominoes": "Klassisches Domino: Enden anlegen",
+  "Play a tile that matches an open end of the line. There is no drawing: if you cannot play, you pass. Play out your hand first to win the round.": "Lege einen Stein an, der zu einem offenen Ende der Reihe passt. Es wird nicht gezogen: Wer nicht legen kann, passt. Wer zuerst alle Steine los ist, gewinnt die Runde.",
+  "Match-the-ends dominoes with drawing": "Domino: Enden anlegen, mit Ziehen",
+  "Play a tile that matches an open end of the line, and draw from the boneyard until you can. Play out your hand first to win the round.": "Lege einen Stein an, der zu einem offenen Ende der Reihe passt, und ziehe aus dem Vorrat, bis du kannst. Wer zuerst alle Steine los ist, gewinnt die Runde.",
+  "Train-building dominoes": "Domino mit Zügen",
+  "Build your own train out from the hub double, or play on the shared Mexican Train. If you cannot play, draw, and your train opens to everyone.": "Baue deinen eigenen Zug vom Doppelstein in der Mitte aus oder lege an den gemeinsamen Mexican Train an. Kannst du nicht legen, ziehst du, und dein Zug steht allen offen.",
+  "Score-by-fives dominoes": "Domino mit Fünferwertung",
+  "Score whenever the open ends of the layout add up to a multiple of five. The first double opens four ways. Reach the target score first to win.": "Punkte gibt es, wenn die offenen Enden zusammen ein Vielfaches von fünf ergeben. Der erste Doppelstein öffnet in vier Richtungen. Wer zuerst die Zielpunktzahl erreicht, gewinnt.",
+  "Matching-ends scoring dominoes": "Domino mit Wertung für gleiche Enden",
+  "Score when both ends of the line show the same number, and more when a double makes three. Draw when you cannot play. Reach the target score first to win.": "Punkte gibt es, wenn beide Enden der Reihe dieselbe Zahl zeigen, und mehr, wenn ein Doppelstein daraus drei macht. Ziehe, wenn du nicht legen kannst. Wer zuerst die Zielpunktzahl erreicht, gewinnt."
 }

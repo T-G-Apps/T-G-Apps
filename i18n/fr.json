@@ -141,5 +141,18 @@
   "Dice Games is a game-selection menu.": "Jeux de dés est un menu de choix de jeux.",
   "Open it to choose YZ or Farkle, each with its own rules. The screenshots below show the menu and each game in it.": "Ouvrez-le pour choisir YZ ou Farkle, chacun avec ses propres règles. Les captures ci-dessous montrent le menu et chacun de ses jeux.",
   "3 game menus": "3 menus de jeux",
-  "Tap a game on the menu to see it below.": "Touchez un jeu du menu pour l’afficher ci-dessous."
+  "Tap a game on the menu to see it below.": "Touchez un jeu du menu pour l’afficher ci-dessous.",
+  "Open it to choose 42, Block, Draw, Mexican Train, All Fives or Bergen, each with its own rules. The screenshots below show the menu and each game in it.": "Ouvrez-le pour choisir 42, Bloqué, Pioche, Train mexicain, Tous les cinq ou Bergen, chacun avec ses propres règles. Les captures ci-dessous montrent le menu et chacun de ses jeux.",
+  "Texas trick-taking dominoes": "Dominos à levées du Texas",
+  "Two teams of two bid on each hand, the high bidder names trumps, and the count tiles are worth extra points. Make your bid to win a mark.": "Deux équipes de deux enchérissent à chaque donne, le plus offrant choisit l’atout et les dominos de compte valent des points en plus. Réalisez votre enchère pour gagner une marque.",
+  "Classic match-the-ends dominoes": "Dominos classiques où l’on assortit les bouts",
+  "Play a tile that matches an open end of the line. There is no drawing: if you cannot play, you pass. Play out your hand first to win the round.": "Posez un domino qui correspond à un bout libre de la ligne. On ne pioche pas : si vous ne pouvez pas jouer, vous passez. Videz votre main en premier pour gagner la manche.",
+  "Match-the-ends dominoes with drawing": "Dominos où l’on assortit les bouts, avec pioche",
+  "Play a tile that matches an open end of the line, and draw from the boneyard until you can. Play out your hand first to win the round.": "Posez un domino qui correspond à un bout libre de la ligne, et piochez jusqu’à pouvoir jouer. Videz votre main en premier pour gagner la manche.",
+  "Train-building dominoes": "Dominos où l’on construit des trains",
+  "Build your own train out from the hub double, or play on the shared Mexican Train. If you cannot play, draw, and your train opens to everyone.": "Construisez votre propre train à partir du double central, ou jouez sur le Train mexicain commun. Si vous ne pouvez pas jouer, piochez, et votre train s’ouvre à tous.",
+  "Score-by-fives dominoes": "Dominos où l’on marque par cinq",
+  "Score whenever the open ends of the layout add up to a multiple of five. The first double opens four ways. Reach the target score first to win.": "Marquez chaque fois que les bouts libres totalisent un multiple de cinq. Le premier double s’ouvre dans quatre directions. Atteignez le score visé en premier pour gagner.",
+  "Matching-ends scoring dominoes": "Dominos où l’on marque avec des bouts égaux",
+  "Score when both ends of the line show the same number, and more when a double makes three. Draw when you cannot play. Reach the target score first to win.": "Marquez quand les deux bouts de la ligne montrent le même nombre, et davantage quand un double en fait trois. Piochez si vous ne pouvez pas jouer. Atteignez le score visé en premier pour gagner."
 }

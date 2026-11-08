@@ -135,5 +135,18 @@
   "Dice Games is a game-selection menu.": "Permainan Dadu adalah menu pilihan game.",
   "Open it to choose YZ or Farkle, each with its own rules. The screenshots below show the menu and each game in it.": "Buka untuk memilih YZ atau Farkle, masing-masing dengan aturannya sendiri. Tangkapan layar di bawah menunjukkan menu dan setiap game di dalamnya.",
   "3 game menus": "3 menu game",
-  "Tap a game on the menu to see it below.": "Ketuk game di menu untuk melihatnya di bawah."
+  "Tap a game on the menu to see it below.": "Ketuk game di menu untuk melihatnya di bawah.",
+  "Open it to choose 42, Block, Draw, Mexican Train, All Fives or Bergen, each with its own rules. The screenshots below show the menu and each game in it.": "Buka untuk memilih 42, Blok, Tarik, Kereta Meksiko, Semua Lima, atau Bergen, masing-masing dengan aturannya sendiri. Tangkapan layar di bawah menunjukkan menu dan setiap game di dalamnya.",
+  "Texas trick-taking dominoes": "Domino adu trik dari Texas",
+  "Two teams of two bid on each hand, the high bidder names trumps, and the count tiles are worth extra points. Make your bid to win a mark.": "Dua tim berisi dua orang menawar di setiap ronde, penawar tertinggi memilih truf, dan kartu hitungan bernilai poin tambahan. Penuhi tawaranmu untuk memenangkan satu tanda.",
+  "Classic match-the-ends dominoes": "Domino klasik mencocokkan ujung",
+  "Play a tile that matches an open end of the line. There is no drawing: if you cannot play, you pass. Play out your hand first to win the round.": "Mainkan kartu yang cocok dengan ujung terbuka barisan. Tidak ada menarik kartu: jika tidak bisa main, kamu lewat. Habiskan kartumu lebih dulu untuk memenangkan ronde.",
+  "Match-the-ends dominoes with drawing": "Domino mencocokkan ujung dengan menarik kartu",
+  "Play a tile that matches an open end of the line, and draw from the boneyard until you can. Play out your hand first to win the round.": "Mainkan kartu yang cocok dengan ujung terbuka barisan, dan tarik dari tumpukan sampai bisa main. Habiskan kartumu lebih dulu untuk memenangkan ronde.",
+  "Train-building dominoes": "Domino membangun kereta",
+  "Build your own train out from the hub double, or play on the shared Mexican Train. If you cannot play, draw, and your train opens to everyone.": "Bangun keretamu sendiri dari balak di tengah, atau main di Kereta Meksiko bersama. Jika tidak bisa main, tarik kartu, dan keretamu terbuka untuk semua.",
+  "Score-by-fives dominoes": "Domino skor kelipatan lima",
+  "Score whenever the open ends of the layout add up to a multiple of five. The first double opens four ways. Reach the target score first to win.": "Dapatkan skor setiap kali ujung-ujung terbuka berjumlah kelipatan lima. Balak pertama terbuka ke empat arah. Capai skor target lebih dulu untuk menang.",
+  "Matching-ends scoring dominoes": "Domino skor ujung yang sama",
+  "Score when both ends of the line show the same number, and more when a double makes three. Draw when you cannot play. Reach the target score first to win.": "Dapatkan skor saat kedua ujung barisan menunjukkan angka yang sama, dan lebih banyak saat balak membuatnya jadi tiga. Tarik kartu jika tidak bisa main. Capai skor target lebih dulu untuk menang."
 }
