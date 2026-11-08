@@ -194,7 +194,10 @@
     .menu-map { position: relative; display: inline-block; line-height: 0; max-width: 100%; }
     .menu-option { position: absolute; left: 7.3%; width: 85.4%; padding: 0; border: 0; border-radius: 999px; background: transparent; cursor: pointer; }
     .menu-option:hover, .menu-option:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.75); }
-    .menu-option.selected { background: rgba(255, 255, 255, 0.55); box-shadow: 0 0 0 3px #fff; }
+    .menu-option:active { background: rgba(255, 255, 255, 0.55); }
+    /* Where a menu tap lands: flashed so the eye finds it. */
+    .menu-target { animation: menu-target 1.6s ease-out; border-radius: 12px; }
+    @keyframes menu-target { from { box-shadow: 0 0 0 4px #D4AF37; } to { box-shadow: 0 0 0 4px transparent; } }
     .menu-tip { margin: 8px 0 0 0; font-weight: 700; color: #073D27; }
     .bottom-menu { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin: 20px 0; }
     .apps-directory { scroll-margin-top: 12px; }
@@ -637,11 +640,11 @@
         <figure>
           <div class="menu-map">
             <img loading="lazy" decoding="async" src="images/screens/en/rummy_menu.jpg" data-shot="rummy_menu" width="300" height="549" alt="Rummy game menu">
-            <button type="button" class="menu-option selected" data-game="rummy" aria-label="Rummy" aria-pressed="true" style="top: 41.17%; height: 8.93%;"></button>
-            <button type="button" class="menu-option" data-game="gin_rummy" aria-label="Gin Rummy" aria-pressed="false" style="top: 52.14%; height: 8.93%;"></button>
-            <button type="button" class="menu-option" data-game="rummy_500" aria-label="Rummy 500" aria-pressed="false" style="top: 63.11%; height: 8.93%;"></button>
-            <button type="button" class="menu-option" data-game="contract_rummy" aria-label="Contract Rummy" aria-pressed="false" style="top: 74.09%; height: 8.93%;"></button>
-            <button type="button" class="menu-option" data-game="indian_rummy" aria-label="Indian Rummy" aria-pressed="false" style="top: 85.06%; height: 8.93%;"></button>
+            <button type="button" class="menu-option" data-game="rummy" aria-label="Rummy" style="top: 41.17%; height: 8.93%;"></button>
+            <button type="button" class="menu-option" data-game="gin_rummy" aria-label="Gin Rummy" style="top: 52.14%; height: 8.93%;"></button>
+            <button type="button" class="menu-option" data-game="rummy_500" aria-label="Rummy 500" style="top: 63.11%; height: 8.93%;"></button>
+            <button type="button" class="menu-option" data-game="contract_rummy" aria-label="Contract Rummy" style="top: 74.09%; height: 8.93%;"></button>
+            <button type="button" class="menu-option" data-game="indian_rummy" aria-label="Indian Rummy" style="top: 85.06%; height: 8.93%;"></button>
           </div>
           <figcaption>Game menu</figcaption>
         </figure>
@@ -661,7 +664,7 @@
         </div>
         <div class="play-actions"><a class="gold-button" href="play_tgapps_rummy_game.html">Play Rummy Online</a></div>
       </div>
-      <div class="menu-game" data-menu-game="gin_rummy" hidden>
+      <div class="menu-game" data-menu-game="gin_rummy">
         <h4 class="shots-title">Gin Rummy</h4>
         <div class="shots">
           <figure>
@@ -675,7 +678,7 @@
         </div>
         <div class="play-actions"><a class="gold-button" href="play_tgapps_gin_rummy.html">Play Gin Rummy Online</a></div>
       </div>
-      <div class="menu-game" data-menu-game="rummy_500" hidden>
+      <div class="menu-game" data-menu-game="rummy_500">
         <h4 class="shots-title">Rummy 500</h4>
         <div class="shots">
           <figure>
@@ -689,7 +692,7 @@
         </div>
         <div class="play-actions"><a class="gold-button" href="play_tgapps_rummy_500.html">Play Rummy 500 Online</a></div>
       </div>
-      <div class="menu-game" data-menu-game="contract_rummy" hidden>
+      <div class="menu-game" data-menu-game="contract_rummy">
         <h4 class="shots-title">Contract Rummy</h4>
         <div class="shots">
           <figure>
@@ -703,7 +706,7 @@
         </div>
         <div class="play-actions"><a class="gold-button" href="play_tgapps_contract_rummy.html">Play Contract Rummy Online</a></div>
       </div>
-      <div class="menu-game" data-menu-game="indian_rummy" hidden>
+      <div class="menu-game" data-menu-game="indian_rummy">
         <h4 class="shots-title">Indian Rummy</h4>
         <div class="shots">
           <figure>
@@ -790,8 +793,9 @@
         <figure>
           <div class="menu-map">
             <img loading="lazy" decoding="async" src="images/screens/en/dice_menu.jpg" data-shot="dice_menu" width="300" height="549" alt="Dice Games game menu">
-            <button type="button" class="menu-option selected" data-game="yz" aria-label="YZ" aria-pressed="true" style="top: 41.17%; height: 8.93%;"></button>
-            <button type="button" class="menu-option" data-game="farkle" aria-label="Farkle" aria-pressed="false" style="top: 52.14%; height: 8.93%;"></button>
+            <button type="button" class="menu-option" data-game="yz" aria-label="YZ" style="top: 41.17%; height: 8.93%;"></button>
+            <button type="button" class="menu-option" data-game="farkle" aria-label="Farkle" style="top: 52.14%; height: 8.93%;"></button>
+            <button type="button" class="menu-option" data-back="boneyard" aria-label="Back to Boneyard" style="top: 66.12%; height: 8.93%;"></button>
           </div>
           <figcaption>Game menu</figcaption>
         </figure>
@@ -813,7 +817,7 @@
         </div>
         <div class="play-actions"><a class="gold-button" href="play_tgapps_yz.html">Play YZ Online</a></div>
       </div>
-      <div class="menu-game" data-menu-game="farkle" hidden>
+      <div class="menu-game" data-menu-game="farkle">
         <h4 class="shots-title" id="farkle">Farkle</h4>
         <p class="game-type">Push-your-luck dice</p>
         <p>Set aside scoring dice and keep rolling to build your turn total — but roll nothing that scores and you farkle and lose it all. First to 10,000 wins.</p>
@@ -1202,34 +1206,29 @@
     }());
   </script>
 <script>
-  // A game menu screenshot: its buttons show the chosen game below it.
+  // A game menu screenshot: each game's button jumps to that game below the
+  // menu, and a Back button to its app's card above it.
   (function () {
-    function choose(map, button) {
-      map.querySelectorAll('.menu-option').forEach(function (option) {
-        option.classList.toggle('selected', option === button);
-        option.setAttribute('aria-pressed', option === button ? 'true' : 'false');
-      });
-      map.closest('section').querySelectorAll('.menu-game').forEach(function (game) {
-        game.hidden = game.dataset.menuGame !== button.dataset.game;
-      });
+    function land(target, focus, scrollTo) {
+      (scrollTo || target).scrollIntoView({ behavior: 'smooth', block: 'start' });
+      focus.setAttribute('tabindex', '-1');
+      focus.focus({ preventScroll: true });
+      target.classList.remove('menu-target');
+      void target.offsetWidth;
+      target.classList.add('menu-target');
     }
-    document.querySelectorAll('.menu-map').forEach(function (map) {
-      map.querySelectorAll('.menu-option').forEach(function (button) {
-        button.addEventListener('click', function () { choose(map, button); });
+    document.querySelectorAll('.menu-map .menu-option').forEach(function (button) {
+      button.addEventListener('click', function () {
+        if (button.dataset.back) {
+          const heading = document.getElementById(button.dataset.back);
+          const card = heading.nextElementSibling && heading.nextElementSibling.matches('section') ? heading.nextElementSibling : heading;
+          land(card, card.querySelector('h3') || heading, heading);
+          return;
+        }
+        const game = button.closest('section').querySelector('[data-menu-game="' + button.dataset.game + '"]');
+        land(game, game.querySelector('h4'));
       });
     });
-    // A link to a game inside a menu (#yz) shows that game.
-    function showHash() {
-      const target = location.hash && document.getElementById(location.hash.slice(1));
-      const game = target && target.closest('.menu-game');
-      if (!game || !game.hidden) return;
-      const map = game.closest('section').querySelector('.menu-map');
-      const button = map.querySelector('[data-game="' + game.dataset.menuGame + '"]');
-      choose(map, button);
-      target.scrollIntoView();
-    }
-    window.addEventListener('hashchange', showHash);
-    showHash();
   })();
 </script>
 </body>
