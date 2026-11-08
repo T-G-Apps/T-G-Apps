@@ -38,6 +38,8 @@
   "{0} during a hand": "{0} trong ván chơi",
   "{0} showdown": "{0}: lật bài",
   "{0} hand recap": "{0}: tóm tắt ván",
+  "Game menu": "Menu trò chơi",
+  "{0} game menu": "Menu trò chơi {0}",
   "Community-card poker": "Poker bài chung",
   "Two hole cards, five community cards and four betting rounds, in no-limit, pot-limit or fixed-limit play, with blinds and optional antes.": "Hai lá bài riêng, năm lá bài chung và bốn vòng cược, theo kiểu không giới hạn, giới hạn theo pot hoặc giới hạn cố định, có blind và ante tùy chọn.",
   "Draw poker": "Poker đổi bài",
