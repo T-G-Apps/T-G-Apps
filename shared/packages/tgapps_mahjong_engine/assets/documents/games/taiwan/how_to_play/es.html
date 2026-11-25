@@ -108,11 +108,20 @@
     <section class="card">
       <h3>Cómo se juega</h3>
       <ul><li>En tu turno robas una ficha y descartas otra. Toca una ficha para levantarla y tócala de nuevo para descartar.</li><li>Cuando otro jugador descarta, puedes reclamar la ficha: <strong>Chow</strong> (escalera de tres del mismo palo, solo del jugador anterior), <strong>Pung</strong> (tres fichas iguales) o <strong>Kong</strong> (cuatro iguales, que además te da una ficha de reemplazo). Ganar tiene prioridad sobre pung/kong, y pung/kong sobre chow.</li><li>También puedes declarar un kong oculto con cuatro fichas iguales de tu mano, o añadir una cuarta ficha a uno de tus pungs.</li><li>Las flores y estaciones son fichas extra: se apartan automáticamente y se reemplazan desde el final del muro.</li></ul>
+      <p>Los robots descartan para dejar su mano lo más cerca posible de estar lista, contando las fichas aún no vistas que la mejorarían. Cuando otro jugador parece cerca de ganar y su mano está lejos de estar lista, juegan seguro, empezando por las fichas que ese jugador ya descartó. El Consejo muestra los mismos cálculos para tu descarte y resalta la ficha.</p>
+      <p>Una mano necesita el mínimo de tai para ganar, así que los robots también calculan cuánto valdría cada mano. Apuntan a un plan, como Un palo y honores, Solo pungs o un pung de dragón, y abandonan un plan que vale más cuando le faltan demasiadas fichas. El Consejo nombra el plan y lo que valdría. Una mano a la que le falta un tai para el mínimo aún puede ganar con una ficha que roba ella misma, ya que Victoria por robo propio suma un tai, así que los robots siguen jugando esa mano: en 8.000 manos de prueba esto jugó mejor que abandonarla.</p>
     </section>
 
     <section class="card">
       <h3>Puntuación</h3>
-      <p>Los tai vienen de Repartidor (1, más 2 por cada victoria consecutiva del repartidor), Ficha propia con mano oculta (3), Ficha propia (1), Mano oculta (1), pungs de dragón/viento propio/viento dominante (1 cada uno), Todo chows (2), Todo pungs (4), Palo mezclado (4), Un solo palo (8), tres a cinco pungs ocultos (2 / 5 / 8), Tres pequeños dragones/Tres grandes dragones (4/8), Cuatro pequeños vientos/Cuatro grandes vientos (8/16), Todo honores (16), flores coincidentes (1 cada una), cuatro flores o estaciones (2 cada grupo), las ocho fichas extra (8), Última ficha (1) y Victoria tras Kong (1). Una mano sin ninguna de estas combinaciones vale 0 tai (Sin combinación) y solo puede ganar si el mínimo es 0.</p><p>Una mano paga 30 + 10 por tai: quien descartó paga en una victoria por descarte; los tres oponentes pagan en una victoria con ficha propia.</p>
+      <p>Los tai vienen de Repartidor (1, más 2 por cada victoria consecutiva del repartidor), Victoria por robo propio con mano oculta (3), Victoria por robo propio (1), Mano oculta (1), pungs de dragón/viento propio/viento dominante (1 cada uno), Solo chows (2), Solo pungs (4), Un palo y honores (4), Un solo palo (8), tres a cinco pungs ocultos (2 / 5 / 8), Tres pequeños dragones/Tres grandes dragones (4/8), Cuatro pequeños vientos/Cuatro grandes vientos (8/16), Solo honores (16), flores coincidentes (1 cada una), cuatro flores o estaciones (2 cada grupo), las ocho fichas extra (8), Última ficha (1) y Victoria tras Kong (1). Una mano sin ninguna de estas combinaciones vale 0 tai (Sin patrón especial) y solo puede ganar si el mínimo es 0.</p><p>Una mano paga 30 + 10 por tai: quien descartó paga en una victoria por descarte; los tres oponentes pagan en una victoria con ficha propia.</p>
+    </section>
+
+    <section class="card">
+      <h3>Opciones de mesa</h3>
+      <p>El anfitrión las elige en Configuración, y cada teléfono de la mesa las muestra bajo el recuento del muro cuando no son las habituales.</p>
+      <ul><li><strong>Base / tai</strong>: una victoria paga los puntos base, más el segundo número por cada tai. Opciones: 30/10 (habitual), 50/20, 100/20 o 100/50. Una base más alta hace que las manos pequeñas y rápidas valgan más frente a las grandes.</li></ul>
+      <p>Los robots valoran cada mano con los pagos vigentes.</p>
     </section>
 
     <!-- tgapps-room-how-to-play -->

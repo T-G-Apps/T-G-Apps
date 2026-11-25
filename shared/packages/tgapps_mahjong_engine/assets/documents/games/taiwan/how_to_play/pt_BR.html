@@ -106,13 +106,22 @@
     </section>
 
     <section class="card">
-      <h3>Como jogar</h3>
+      <h3>O jogo</h3>
       <ul><li>Na sua vez, compre uma peça e descarte uma. Toque numa peça para levantá-la e toque de novo para descartar.</li><li>Quando outro jogador descarta, você pode pegar a peça: <strong>Chow</strong> (sequência de três no mesmo naipe, só do jogador anterior), <strong>Pung</strong> (três peças iguais) ou <strong>Kong</strong> (quatro iguais, que também dá uma peça de reposição). Vencer tem prioridade sobre pung/kong, e pung/kong sobre chow.</li><li>Você também pode declarar um kong oculto com quatro peças iguais da mão, ou juntar uma quarta peça a um dos seus pungs.</li><li>Flores e estações são peças bônus: são separadas automaticamente e repostas do fim do muro.</li></ul>
+      <p>Os robôs descartam para deixar a mão o mais perto possível de ficar pronta, contando as peças ainda não vistas que a melhorariam. Quando outro jogador parece perto de vencer e a mão deles está longe de ficar pronta, eles jogam seguro, começando pelas peças que esse jogador já descartou. A Dica mostra as mesmas contas para o seu descarte e destaca a peça.</p>
+      <p>Uma mão precisa do mínimo de tai para vencer, então os robôs também calculam quanto cada mão valeria. Eles miram um plano, como Naipe misto, Só pungs ou um pung de dragão, e abandonam um plano que vale mais quando faltam peças demais. A Dica nomeia o plano e quanto ele valeria. Uma mão a que falta um tai para o mínimo ainda pode vencer com uma peça que ela mesma compra, já que Comprada soma um tai, então os robôs continuam jogando essa mão: em 8.000 mãos de teste isso jogou melhor do que abandoná-la.</p>
     </section>
 
     <section class="card">
       <h3>Pontuação</h3>
-      <p>Os tai vêm de Carteador (1, mais 2 por vitória consecutiva do carteador), Peça própria com mão oculta (3), Peça própria (1), Mão oculta (1), pungs de dragão/vento da vaga/vento predominante (1 cada), Só chows (2), Só pungs (4), Naipe misto (4), Naipe puro (8), três a cinco pungs ocultos (2 / 5 / 8), Três pequenos dragões/Três grandes dragões (4/8), Quatro pequenos ventos/Quatro grandes ventos (8/16), Só honras (16), flores correspondentes (1 cada), quatro flores ou estações (2 cada), as oito peças bônus (8), Última peça (1) e Vitória após Kong (1). Uma mão sem nenhuma dessas combinações vale 0 tai (Sem combinação) e só pode vencer se o mínimo for 0.</p><p>Uma mão paga 30 + 10 por tai: quem descartou paga numa vitória por descarte; os três oponentes pagam numa vitória por peça própria.</p>
+      <p>Os tai vêm de Carteador (1, mais 2 por vitória consecutiva do carteador), Comprada mão fechada (3), Comprada (1), Mão fechada (1), pungs de dragão/vento do lugar/vento predominante (1 cada), Só chows (2), Só pungs (4), Naipe misto (4), Naipe puro (8), três a cinco pungs fechados (2 / 5 / 8), Três pequenos dragões/Três grandes dragões (4/8), Quatro pequenos ventos/Quatro grandes ventos (8/16), Só honras (16), flores correspondentes (1 cada), quatro flores ou estações (2 cada), as oito peças bônus (8), Última peça (1) e Vitória após Kong (1). Uma mão sem nenhuma dessas combinações vale 0 tai (Sem combinação) e só pode vencer se o mínimo for 0.</p><p>Uma mão paga 30 + 10 por tai: quem descartou paga numa vitória por descarte; os três oponentes pagam numa vitória por peça própria.</p>
+    </section>
+
+    <section class="card">
+      <h3>Opções de mesa</h3>
+      <p>O anfitrião as escolhe em Configurações, e cada celular da mesa as mostra abaixo da contagem do muro quando não são as habituais.</p>
+      <ul><li><strong>Base / tai</strong>: uma vitória paga os pontos base, mais o segundo número para cada tai. Opções: 30/10 (habitual), 50/20, 100/20 ou 100/50. Uma base mais alta faz as mãos pequenas e rápidas valerem mais frente às grandes.</li></ul>
+      <p>Os robôs avaliam cada mão com os pagamentos em vigor.</p>
     </section>
 
     <!-- tgapps-room-how-to-play -->
