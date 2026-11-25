@@ -338,7 +338,7 @@
       <h1 class="site-logo"><img src="shared/packages/tgapps_exit_flow/assets/images/tgapps_logo.png" alt="T-G-Apps" width="1322" height="660"></h1>
       <h2>Card, Dice &amp; Tile Games</h2>
       <p>Three apps to explore: T-G-Apps Casino, T-G-Apps House of Cards and T-G-Apps Boneyard. Dice Games, Dominoes, Mahjong and Rummy open menus of related games.</p>
-      <nav class="app-banners" aria-label="Our 3 Apps"><a class="app-banner" href="#casino"><img src="images/banners/casino.webp" width="1024" height="500" alt="T-G-Apps Casino"></a><a class="app-banner" href="#house-of-cards"><img src="images/banners/house_of_cards.webp" width="1024" height="500" alt="T-G-Apps House of Cards"></a><a class="app-banner" href="#boneyard"><img src="images/banners/boneyard.webp" width="1024" height="500" alt="T-G-Apps Boneyard"></a></nav>
+      <nav class="app-banners" aria-label="Our 3 Apps"><a class="app-banner" href="#casino"><img src="images/banners/en/casino.webp" data-banner="casino" width="1024" height="500" alt="T-G-Apps Casino"></a><a class="app-banner" href="#house-of-cards"><img src="images/banners/en/house_of_cards.webp" data-banner="house_of_cards" width="1024" height="500" alt="T-G-Apps House of Cards"></a><a class="app-banner" href="#boneyard"><img src="images/banners/en/boneyard.webp" data-banner="boneyard" width="1024" height="500" alt="T-G-Apps Boneyard"></a></nav>
     </section>
 
     <section class="card apps-directory" id="apps">
@@ -1364,10 +1364,15 @@
       }
 
       // Screenshots: each language has its own set, taken in that language
-      // (images/screens/<code>/<shot>.jpg).
+      // (images/screens/<code>/<shot>.jpg). The app banners at the top are
+      // drawn in each language too (images/banners/<code>/<app>.webp).
       function showScreenshots(code) {
         document.querySelectorAll('img[data-shot]').forEach(function (image) {
           const src = 'images/screens/' + code + '/' + image.dataset.shot + '.jpg';
+          if (image.getAttribute('src') !== src) image.setAttribute('src', src);
+        });
+        document.querySelectorAll('img[data-banner]').forEach(function (image) {
+          const src = 'images/banners/' + code + '/' + image.dataset.banner + '.webp';
           if (image.getAttribute('src') !== src) image.setAttribute('src', src);
         });
       }
