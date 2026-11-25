@@ -274,6 +274,10 @@
     .app-banner { display: block; width: 100%; max-width: 560px; border: 3px solid #D4AF37; border-radius: 12px; overflow: hidden; line-height: 0; transition: transform .15s ease, box-shadow .15s ease; }
     .app-banner img { display: block; width: 100%; height: auto; }
     .app-banner:hover, .app-banner:focus-visible { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(0,0,0,.45); }
+    /* An app's main menu, as the phone shows it: at the top of the app's
+       card, so a banner jump lands on it; each game button is tappable. */
+    .app-menu { margin-top: 0; }
+    .app-menu + .menu-tip { margin-bottom: 14px; text-align: center; }
     @media(prefers-reduced-motion:reduce) { .app-banner { transition: none; } .app-banner:hover, .app-banner:focus-visible { transform: none; } }
     /* The T-G-Apps logo stands in for the company name at the top of the page.
        It is the logo the games already publish under /shared/. */
@@ -341,79 +345,6 @@
       <nav class="app-banners" aria-label="Our 3 Apps"><a class="app-banner" href="#casino"><img src="images/banners/casino.webp" width="1024" height="500" alt="T-G-Apps Casino"></a><a class="app-banner" href="#house-of-cards"><img src="images/banners/house_of_cards.webp" width="1024" height="500" alt="T-G-Apps House of Cards"></a><a class="app-banner" href="#boneyard"><img src="images/banners/boneyard.webp" width="1024" height="500" alt="T-G-Apps Boneyard"></a></nav>
     </section>
 
-    <section class="card apps-directory" id="apps">
-      <h3>Our 3 Apps</h3>
-      <p>Each app has its own games. Tap a name to jump to it.</p>
-      <div class="app-entry">
-        <h4><a href="#casino">T-G-Apps Casino</a></h4>
-        <p class="game-type">Casino card games</p>
-        <ul class="game-list">
-          <li><a href="#twenty-one">21</a></li>
-          <li><a href="#texas-holdem">Texas Hold'em</a></li>
-          <li><a href="#seven-card-draw">7 Card Draw</a></li>
-          <li><a href="#seven-card-stud">7 Card Stud</a></li>
-          <li><a href="#five-card-draw">5 Card Draw</a></li>
-          <li><a href="#baccarat">Baccarat</a></li>
-          <li><a href="#let-it-ride">Let It Ride</a></li>
-          <li><a href="#caribbean-stud">Caribbean Stud</a></li>
-        </ul>
-      </div>
-      <div class="app-entry">
-        <h4><a href="#house-of-cards">T-G-Apps House of Cards</a></h4>
-        <p class="game-type">Classic card games</p>
-        <ul class="game-list">
-          <li><a href="#hearts">Hearts</a></li>
-          <li><a href="#spades">Spades</a></li>
-          <li><a href="#euchre">Euchre</a></li>
-          <li><a href="#bridge">Bridge</a></li>
-          <li class="has-sub-games"><a href="#rummy">Rummy</a>
-            <ul class="sub-games">
-              <li>Rummy</li>
-              <li>Gin Rummy</li>
-              <li>Rummy 500</li>
-              <li>Contract Rummy</li>
-              <li>Indian Rummy</li>
-            </ul>
-          </li>
-          <li><a href="#cribbage">Cribbage</a></li>
-          <li><a href="#pinochle">Pinochle</a></li>
-          <li><a href="#canasta">Canasta</a></li>
-        </ul>
-      </div>
-      <div class="app-entry">
-        <h4><a href="#boneyard">T-G-Apps Boneyard</a></h4>
-        <p class="game-type">Dice and tile games</p>
-        <ul class="game-list">
-          <li class="has-sub-games"><a href="#dice">Dice Games</a>
-            <ul class="sub-games">
-              <li>YZ</li>
-              <li>Farkle</li>
-            </ul>
-          </li>
-          <li class="has-sub-games"><a href="#dominoes">Dominoes</a>
-            <ul class="sub-games">
-              <li>42</li>
-              <li>Block</li>
-              <li>Draw</li>
-              <li>Mexican Train</li>
-              <li>All Fives</li>
-              <li>Bergen</li>
-            </ul>
-          </li>
-          <li class="has-sub-games"><a href="#mahjong">Mahjong</a>
-            <ul class="sub-games">
-              <li>Hong Kong</li>
-              <li>Riichi</li>
-              <li>Chinese Official</li>
-              <li>Taiwanese</li>
-              <li>Sichuan</li>
-              <li>Solitaire</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </section>
-
     <section class="card">
       <h3>In Every T-G-Apps Game</h3>
       <ul class="features">
@@ -435,6 +366,25 @@
     <h2 class="section-title" id="casino">T-G-Apps Casino</h2>
 
     <section class="card">
+      <!-- app-menu:casino -->
+      <div class="shots app-menu">
+        <figure>
+          <div class="menu-map">
+            <img loading="lazy" decoding="async" src="images/screens/en/casino_menu.jpg" data-shot="casino_menu" width="300" height="587" alt="T-G-Apps Casino game menu">
+            <button type="button" class="menu-option" data-jump="twenty-one" aria-label="21 / Blackjack" data-boxes='{"en":[27.18,6.96,4.38,91.15],"es":[27.18,6.96,4.38,91.15],"fr":[27.18,6.96,4.38,91.15],"de":[27.92,6.96,4.38,91.15],"pt_BR":[27.55,6.96,4.38,91.15],"ja":[27.18,7.71,4.38,91.15],"hi":[27.55,7.46,4.38,91.15],"id":[27.18,6.96,4.38,91.15],"vi":[27.18,6.96,4.38,91.15]}' style="top: 27.18%; height: 6.96%; left: 4.38%; width: 91.15%;"></button>
+            <button type="button" class="menu-option" data-jump="texas-holdem" aria-label="Texas Hold'em" data-boxes='{"en":[35.38,6.96,4.38,91.15],"es":[35.38,6.96,4.38,91.15],"fr":[35.38,6.96,4.38,91.15],"de":[36.13,6.96,4.38,91.15],"pt_BR":[35.75,6.96,4.38,91.15],"ja":[36.13,7.71,4.38,91.15],"hi":[36.25,7.46,4.38,91.15],"id":[35.38,6.96,4.38,91.15],"vi":[35.38,6.96,4.38,91.15]}' style="top: 35.38%; height: 6.96%; left: 4.38%; width: 91.15%;"></button>
+            <button type="button" class="menu-option" data-jump="seven-card-draw" aria-label="7 Card Draw" data-boxes='{"en":[43.58,6.96,4.38,91.15],"es":[43.58,6.96,4.38,91.15],"fr":[43.58,6.96,4.38,91.15],"de":[44.33,6.96,4.38,91.15],"pt_BR":[43.96,6.96,4.38,91.15],"ja":[45.08,7.71,4.38,91.15],"hi":[44.95,7.46,4.38,91.15],"id":[43.58,6.96,4.38,91.15],"vi":[43.58,6.96,4.38,91.15]}' style="top: 43.58%; height: 6.96%; left: 4.38%; width: 91.15%;"></button>
+            <button type="button" class="menu-option" data-jump="seven-card-stud" aria-label="7 Card Stud" data-boxes='{"en":[51.79,6.96,4.38,91.15],"es":[51.79,6.96,4.38,91.15],"fr":[51.79,6.96,4.38,91.15],"de":[52.53,6.96,4.38,91.15],"pt_BR":[52.16,6.96,4.38,91.15],"ja":[54.02,7.71,4.38,91.15],"hi":[53.65,7.46,4.38,91.15],"id":[51.79,6.96,4.38,91.15],"vi":[51.79,6.96,4.38,91.15]}' style="top: 51.79%; height: 6.96%; left: 4.38%; width: 91.15%;"></button>
+            <button type="button" class="menu-option" data-jump="five-card-draw" aria-label="5 Card Draw" data-boxes='{"en":[59.99,6.96,4.38,91.15],"es":[59.99,6.96,4.38,91.15],"fr":[59.99,6.96,4.38,91.15],"de":[60.74,6.96,4.38,91.15],"pt_BR":[60.36,6.96,4.38,91.15],"ja":[62.97,7.71,4.38,91.15],"hi":[62.35,7.46,4.38,91.15],"id":[59.99,6.96,4.38,91.15],"vi":[59.99,6.96,4.38,91.15]}' style="top: 59.99%; height: 6.96%; left: 4.38%; width: 91.15%;"></button>
+            <button type="button" class="menu-option" data-jump="baccarat" aria-label="Baccarat" data-boxes='{"en":[68.19,6.96,4.38,91.15],"es":[68.19,6.96,4.38,91.15],"fr":[68.19,6.96,4.38,91.15],"de":[68.94,6.96,4.38,91.15],"pt_BR":[68.57,6.96,4.38,91.15],"ja":[71.92,7.71,4.38,91.15],"hi":[71.05,7.33,4.38,91.15],"id":[68.19,6.96,4.38,91.15],"vi":[68.19,6.96,4.38,91.15]}' style="top: 68.19%; height: 6.96%; left: 4.38%; width: 91.15%;"></button>
+            <button type="button" class="menu-option" data-jump="let-it-ride" aria-label="Let It Ride" data-boxes='{"en":[76.4,6.96,4.38,91.15],"es":[76.4,6.96,4.38,91.15],"fr":[76.4,6.96,4.38,91.15],"de":[77.14,6.96,4.38,91.15],"pt_BR":[76.77,6.96,4.38,91.15],"ja":[80.87,7.71,4.38,91.15],"hi":[79.63,7.46,4.38,91.15],"id":[76.4,6.96,4.38,91.15],"vi":[76.4,6.96,4.38,91.15]}' style="top: 76.4%; height: 6.96%; left: 4.38%; width: 91.15%;"></button>
+            <button type="button" class="menu-option" data-jump="caribbean-stud" aria-label="Caribbean Stud" data-boxes='{"en":[84.6,6.96,4.38,91.15],"es":[84.6,6.96,4.38,91.15],"fr":[84.6,6.96,4.38,91.15],"de":[85.35,6.96,4.38,91.15],"pt_BR":[84.97,6.96,4.38,91.15],"ja":[89.82,7.71,4.38,91.15],"hi":[88.33,7.46,4.38,91.15],"id":[84.6,6.96,4.38,91.15],"vi":[84.6,6.96,4.38,91.15]}' style="top: 84.6%; height: 6.96%; left: 4.38%; width: 91.15%;"></button>
+          </div>
+          <figcaption>Game menu</figcaption>
+        </figure>
+      </div>
+      <p class="menu-tip">Tap a game on the menu to see it below.</p>
+      <!-- /app-menu:casino -->
       <h3 class="app-name">T-G-Apps Casino</h3>
       <p class="game-type">Casino card games</p>
       <p>Eight casino favorites in one app: blackjack, four kinds of poker, and three house-banked table games. Every table plays with simulated chips and a bankroll that carries from hand to hand, so you can practice strategy, try a new game, or just enjoy a night at the tables without spending real money.</p>
@@ -575,6 +525,25 @@
     <h2 class="section-title" id="house-of-cards">T-G-Apps House of Cards</h2>
 
     <section class="card">
+      <!-- app-menu:house_of_cards -->
+      <div class="shots app-menu">
+        <figure>
+          <div class="menu-map">
+            <img loading="lazy" decoding="async" src="images/screens/en/house_of_cards_menu.jpg" data-shot="house_of_cards_menu" width="300" height="587" alt="T-G-Apps House of Cards game menu">
+            <button type="button" class="menu-option" data-jump="hearts" aria-label="Hearts" data-boxes='{"en":[27.18,6.96,4.38,91.15],"es":[27.18,6.96,4.38,91.15],"fr":[27.18,6.96,4.38,91.15],"de":[27.92,6.96,4.38,91.15],"pt_BR":[27.55,6.96,4.38,91.15],"ja":[27.18,7.71,4.38,91.15],"hi":[27.55,7.33,4.38,91.15],"id":[27.18,6.96,4.38,91.15],"vi":[27.18,6.96,4.38,91.15]}' style="top: 27.18%; height: 6.96%; left: 4.38%; width: 91.15%;"></button>
+            <button type="button" class="menu-option" data-jump="spades" aria-label="Spades" data-boxes='{"en":[35.38,6.96,4.38,91.15],"es":[35.38,6.96,4.38,91.15],"fr":[35.38,6.96,4.38,91.15],"de":[36.13,6.96,4.38,91.15],"pt_BR":[35.75,6.96,4.38,91.15],"ja":[36.13,7.71,4.38,91.15],"hi":[36.13,7.33,4.38,91.15],"id":[35.38,6.96,4.38,91.15],"vi":[35.38,6.96,4.38,91.15]}' style="top: 35.38%; height: 6.96%; left: 4.38%; width: 91.15%;"></button>
+            <button type="button" class="menu-option" data-jump="euchre" aria-label="Euchre" data-boxes='{"en":[84.6,6.96,4.38,91.15],"es":[84.6,6.96,4.38,91.15],"fr":[84.6,6.96,4.38,91.15],"de":[85.35,6.96,4.38,91.15],"pt_BR":[84.97,6.96,4.38,91.15],"ja":[89.82,7.71,4.38,91.15],"hi":[87.58,7.33,4.38,91.15],"id":[84.6,6.96,4.38,91.15],"vi":[84.6,6.96,4.38,91.15]}' style="top: 84.6%; height: 6.96%; left: 4.38%; width: 91.15%;"></button>
+            <button type="button" class="menu-option" data-jump="bridge" aria-label="Bridge" data-boxes='{"en":[43.58,6.96,4.38,91.15],"es":[43.58,6.96,4.38,91.15],"fr":[43.58,6.96,4.38,91.15],"de":[44.33,6.96,4.38,91.15],"pt_BR":[43.96,6.96,4.38,91.15],"ja":[45.08,7.71,4.38,91.15],"hi":[44.7,7.33,4.38,91.15],"id":[43.58,6.96,4.38,91.15],"vi":[43.58,6.96,4.38,91.15]}' style="top: 43.58%; height: 6.96%; left: 4.38%; width: 91.15%;"></button>
+            <button type="button" class="menu-option" data-jump="rummy" aria-label="Rummy" data-boxes='{"en":[51.79,6.96,4.38,91.15],"es":[51.79,6.96,4.38,91.15],"fr":[51.79,6.96,4.38,91.15],"de":[52.53,6.96,4.38,91.15],"pt_BR":[52.16,6.96,4.38,91.15],"ja":[54.02,7.71,4.38,91.15],"hi":[53.28,7.33,4.38,91.15],"id":[51.79,6.96,4.38,91.15],"vi":[51.79,6.96,4.38,91.15]}' style="top: 51.79%; height: 6.96%; left: 4.38%; width: 91.15%;"></button>
+            <button type="button" class="menu-option" data-jump="cribbage" aria-label="Cribbage" data-boxes='{"en":[59.99,6.96,4.38,91.15],"es":[59.99,6.96,4.38,91.15],"fr":[59.99,6.96,4.38,91.15],"de":[60.74,6.96,4.38,91.15],"pt_BR":[60.36,6.96,4.38,91.15],"ja":[62.97,7.71,4.38,91.15],"hi":[61.85,7.33,4.38,91.15],"id":[59.99,6.96,4.38,91.15],"vi":[59.99,6.96,4.38,91.15]}' style="top: 59.99%; height: 6.96%; left: 4.38%; width: 91.15%;"></button>
+            <button type="button" class="menu-option" data-jump="pinochle" aria-label="Pinochle" data-boxes='{"en":[68.19,6.96,4.38,91.15],"es":[68.19,6.96,4.38,91.15],"fr":[68.19,6.96,4.38,91.15],"de":[68.94,6.96,4.38,91.15],"pt_BR":[68.57,6.96,4.38,91.15],"ja":[71.92,7.71,4.38,91.15],"hi":[70.43,7.33,4.38,91.15],"id":[68.19,6.96,4.38,91.15],"vi":[68.19,6.96,4.38,91.15]}' style="top: 68.19%; height: 6.96%; left: 4.38%; width: 91.15%;"></button>
+            <button type="button" class="menu-option" data-jump="canasta" aria-label="Canasta" data-boxes='{"en":[76.4,6.96,4.38,91.15],"es":[76.4,6.96,4.38,91.15],"fr":[76.4,6.96,4.38,91.15],"de":[77.14,6.96,4.38,91.15],"pt_BR":[76.77,6.96,4.38,91.15],"ja":[80.87,7.71,4.38,91.15],"hi":[79.01,7.33,4.38,91.15],"id":[76.4,6.96,4.38,91.15],"vi":[76.4,6.96,4.38,91.15]}' style="top: 76.4%; height: 6.96%; left: 4.38%; width: 91.15%;"></button>
+          </div>
+          <figcaption>Game menu</figcaption>
+        </figure>
+      </div>
+      <p class="menu-tip">Tap a game on the menu to see it below.</p>
+      <!-- /app-menu:house_of_cards -->
       <h3 class="app-name">T-G-Apps House of Cards</h3>
       <p class="game-type">Classic card games</p>
       <p>Classic card games and a Rummy game menu in one app, from partnership trick-taking, contract play and meld to draw-and-discard, canastas and pegging. Play a quick hand or a full game to the target score, learn the rules as you go, and let the robots fill any empty seat.</p>
@@ -797,6 +766,20 @@
 <h2 class="section-title" id="boneyard">T-G-Apps Boneyard</h2>
 
     <section class="card">
+      <!-- app-menu:boneyard -->
+      <div class="shots app-menu">
+        <figure>
+          <div class="menu-map">
+            <img loading="lazy" decoding="async" src="images/screens/en/boneyard_menu.jpg" data-shot="boneyard_menu" width="300" height="587" alt="T-G-Apps Boneyard game menu">
+            <button type="button" class="menu-option" data-jump="dice" aria-label="Dice Games" data-boxes='{"en":[27.18,6.96,4.38,91.15],"es":[27.18,6.96,4.38,91.15],"fr":[27.18,6.96,4.38,91.15],"de":[27.92,6.96,4.38,91.15],"pt_BR":[27.55,6.96,4.38,91.15],"ja":[27.18,7.71,4.38,91.15],"hi":[27.55,7.46,4.38,91.15],"id":[27.18,6.96,4.38,91.15],"vi":[27.18,6.96,4.38,91.15]}' style="top: 27.18%; height: 6.96%; left: 4.38%; width: 91.15%;"></button>
+            <button type="button" class="menu-option" data-jump="dominoes" aria-label="Dominoes" data-boxes='{"en":[35.38,6.96,4.38,91.15],"es":[35.38,6.96,4.38,91.15],"fr":[35.38,6.96,4.38,91.15],"de":[36.13,6.96,4.38,91.15],"pt_BR":[35.75,6.96,4.38,91.15],"ja":[36.13,7.71,4.38,91.15],"hi":[36.25,7.33,4.38,91.15],"id":[35.38,6.96,4.38,91.15],"vi":[35.38,6.96,4.38,91.15]}' style="top: 35.38%; height: 6.96%; left: 4.38%; width: 91.15%;"></button>
+            <button type="button" class="menu-option" data-jump="mahjong" aria-label="Mahjong" data-boxes='{"en":[43.58,6.96,4.38,91.15],"es":[43.58,6.96,4.38,91.15],"fr":[43.58,6.96,4.38,91.15],"de":[44.33,6.96,4.38,91.15],"pt_BR":[43.96,6.96,4.38,91.15],"ja":[45.08,7.71,4.38,91.15],"hi":[44.83,7.33,4.38,91.15],"id":[43.58,6.96,4.38,91.15],"vi":[43.58,6.96,4.38,91.15]}' style="top: 43.58%; height: 6.96%; left: 4.38%; width: 91.15%;"></button>
+          </div>
+          <figcaption>Game menu</figcaption>
+        </figure>
+      </div>
+      <p class="menu-tip">Tap a game on the menu to see it below.</p>
+      <!-- /app-menu:boneyard -->
       <h3 class="app-name">T-G-Apps Boneyard</h3>
       <p class="game-type">Dice and tile games</p>
       <p>Dice and tiles for every age: two dice games, a full set of dominoes, and six ways to play mahjong. Shake, draw from the boneyard, or build a winning hand, against the robots or friends and family on their own phones.</p>
@@ -1312,7 +1295,8 @@
         [/^Play (.+) Online$/, 'Play {0} Online'],
         [/^(.+) during a hand$/, '{0} during a hand'],
         [/^(.+) showdown$/, '{0} showdown'],
-        [/^(.+) hand recap$/, '{0} hand recap']
+        [/^(.+) hand recap$/, '{0} hand recap'],
+        [/^(.+) game menu$/, '{0} game menu']
       ];
       const translationCache = { en: {} };
       const textOriginals = [];
@@ -1369,6 +1353,16 @@
         document.querySelectorAll('img[data-shot]').forEach(function (image) {
           const src = 'images/screens/' + code + '/' + image.dataset.shot + '.jpg';
           if (image.getAttribute('src') !== src) image.setAttribute('src', src);
+        });
+        // The apps' main menus: buttons sit a little differently in each
+        // language, so each tappable area moves with its screenshot.
+        document.querySelectorAll('.menu-option[data-boxes]').forEach(function (button) {
+          const box = JSON.parse(button.dataset.boxes)[code];
+          if (!box) return;
+          button.style.top = box[0] + '%';
+          button.style.height = box[1] + '%';
+          button.style.left = box[2] + '%';
+          button.style.width = box[3] + '%';
         });
       }
 
@@ -1447,6 +1441,13 @@
     }
     document.querySelectorAll('.menu-map .menu-option').forEach(function (button) {
       button.addEventListener('click', function () {
+        // An app's main menu: each game button goes to that game's section.
+        if (button.dataset.jump) {
+          const section = document.getElementById(button.dataset.jump);
+          land(section, section.querySelector('h3') || section);
+          history.replaceState(null, '', '#' + button.dataset.jump);
+          return;
+        }
         if (button.dataset.back) {
           const heading = document.getElementById(button.dataset.back);
           const card = heading.nextElementSibling && heading.nextElementSibling.matches('section') ? heading.nextElementSibling : heading;
