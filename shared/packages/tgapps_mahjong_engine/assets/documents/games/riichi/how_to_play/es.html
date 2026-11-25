@@ -102,12 +102,14 @@
 
     <section class="card">
       <h3>Preparación</h3>
-      <p>136 fichas (sin flores). El muro muestra un <strong>indicador de dora</strong>: la siguiente ficha en la secuencia es un dora y suma un han a una mano ganadora por cada copia que tengas.</p>
+      <p>136 fichas (sin flores). El muro muestra un <strong>indicador de dora</strong>: la siguiente ficha en la secuencia es un dora y suma un han a una mano ganadora por cada copia que tengas. Cada kong descubre otro indicador (kan dora). Cuando gana un jugador que declaró Riichi, también se descubre la ficha bajo cada indicador: estos ura dora suman han de la misma forma, solo para ese ganador.</p>
     </section>
 
     <section class="card">
       <h3>Cómo se juega</h3>
       <ul><li>En tu turno robas una ficha y descartas otra. Toca una ficha para levantarla y tócala de nuevo para descartar.</li><li>Cuando otro jugador descarta, puedes reclamar la ficha: <strong>Chow</strong> (escalera de tres del mismo palo, solo del jugador anterior), <strong>Pung</strong> (tres fichas iguales) o <strong>Kong</strong> (cuatro iguales, que además te da una ficha de reemplazo). Ganar tiene prioridad sobre pung/kong, y pung/kong sobre chow.</li><li>También puedes declarar un kong oculto con cuatro fichas iguales de tu mano, o añadir una cuarta ficha a uno de tus pungs.</li><li><strong>Riichi</strong>: con una mano totalmente oculta a una ficha de ganar, toca Riichi y descarta una de las fichas resaltadas. Pagas 1000 puntos al bote y ya no puedes cambiar tu mano, pero Riichi es un yaku y el bote va al ganador.</li></ul>
+      <p>Los robots descartan para dejar su mano lo más cerca posible de estar lista, contando las fichas aún no vistas que la mejorarían. Cuando otro jugador parece cerca de ganar y su mano está lejos de estar lista, juegan seguro, empezando por las fichas que ese jugador ya descartó. El Consejo muestra los mismos cálculos para tu descarte y resalta la ficha.</p>
+      <p>Una mano necesita un yaku para ganar y cobra más por cada han, así que los robots también calculan cuánto valdría cada mano. Apuntan a un plan, como Tanyao, Honitsu o Chiitoitsu, contando los dora que conserva, y abandonan un plan que vale más cuando le faltan demasiadas fichas. Una mano oculta tiene Riichi como yaku, así que los robots solo reclaman un descarte para un plan con un yaku propio. El Consejo nombra el plan y lo que valdría. Chiitoitsu no puede reclamar descartes, así que los robots lo valoran menos cuanto más lejos está de quedar listo.</p>
     </section>
 
     <section class="card">
@@ -117,7 +119,14 @@
 
     <section class="card">
       <h3>Puntuación</h3>
-      <p>Los han deciden el pago (mangan con 5 han, haneman con 6, baiman con 8, sanbaiman con 11, yakuman con 13). Esta edición usa 30 fu fijos (25 para siete parejas). Una mano no puede ganar con una ficha que ya descartó (furiten).</p>
+      <p>Los han y los fu deciden el pago. Los fu empiezan en 20. Ganar con un descarte con la mano oculta suma 10, y ganar con ficha propia suma 2. Cada pung suma 2 si es de simples o 4 si es de terminales u honores, el doble si es oculto, y cuatro veces más si es un kong. Una pareja de dragones, o de tu viento propio o del viento dominante, suma 2 (4 si es ambos vientos). Una ficha ganadora que completa la pareja, llena el centro de una escalera, o es el 3 de un 1-2 (o el 7 de un 8-9) suma 2. Los fu se redondean a la decena superior. Pinfu vale 20 fu con ficha propia y 30 con un descarte, una mano abierta sin nada más vale 30, y siete parejas vale 25. El resumen de la victoria muestra los han y los fu. El mangan llega con 5 han, o con 4 han y 40 fu, o con 3 han y 70; haneman con 6 han, baiman con 8, sanbaiman con 11 y yakuman con 13. Los robots siguen valorando un plan en 30 fu: en 8.000 manos de prueba, valorarlo en los fu que probablemente obtendría jugó peor. Una mano no puede ganar con una ficha que ya descartó (furiten).</p>
+      <p>El repartidor vuelve a repartir tras ganar, o cuando se acaba el muro y su mano está lista; si no, reparte el siguiente jugador. Cada vez que el repartidor vuelve a repartir, y tras acabarse el muro, se suma un honba (contador de repetición), que se muestra junto al bote: cada uno suma 300 puntos a la próxima victoria, que paga quien descartó, o cada jugador paga 100 si se gana con ficha propia. Una victoria de un jugador que no sea el repartidor los borra. Los robots incluyen el bote y los honba en lo que ganaría cada plan: en 16.000 manos de prueba, eso jugó un poco mejor.</p>
+    </section>
+
+    <section class="card">
+      <h3>Opciones de mesa</h3>
+      <p>El anfitrión las elige en Configuración, y cada teléfono de la mesa muestra las que están activadas bajo el recuento del muro. Las cinco están activadas salvo que el anfitrión las desactive.</p>
+      <ul><li><strong>Tanyao abierto</strong>: Tanyao cuenta en una mano con juegos reclamados (kuitan). No: solo en una mano cerrada.</li><li><strong>Prohibir kuikae</strong>: tras un chow o un pung, no puedes descartar la ficha que reclamaste ni la del otro extremo de tu chow. Por ejemplo, tras reclamar un 4 con 5-6, no puedes descartar un 4 ni un 7.</li><li><strong>Doble ron</strong>: ganan todos los que pueden ganar con un descarte, y quien descartó paga a cada uno; el bote y los honba van al primero en turno después de quien descartó. No: solo gana ese jugador. Si el repartidor está entre los ganadores, vuelve a repartir.</li><li><strong>Fin por bancarrota</strong>: la partida termina cuando la puntuación de un jugador baja de cero.</li><li><strong>Cincos rojos</strong>: un cinco de cada palo es rojo y cuenta como dora: un han por cada uno que tengas. Si tienes un cinco rojo y uno normal, toca el que quieras descartar; los robots se quedan con el rojo.</li><li><strong>Pago si la mano no está lista</strong>: Cuando se acaba el muro, los jugadores cuya mano no está lista pagan 3000 puntos en total a los que tienen la mano lista, salvo que todos o ninguno estén listos.</li></ul>
     </section>
 
     <!-- tgapps-room-how-to-play -->
