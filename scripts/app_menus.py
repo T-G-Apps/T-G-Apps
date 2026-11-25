@@ -13,7 +13,9 @@ Output:
   index.html: the <!-- app-menu:KEY --> marker in each app's first card
               becomes (or the menu already there is replaced by) the menu
               screenshot with a tappable area over each game's button that
-              goes to that game's section.
+              goes to that game's section, and a <video> for the app's
+              opening animation (images/intros/KEY.mp4, made from the
+              tgapps_celebrations videos) to play over it.
 
 Usage (from the website root):
   python scripts/app_menus.py PATH_TO_CAPTURES
@@ -134,6 +136,12 @@ def main(captures):
             f'src="images/screens/en/{key}_menu.jpg" data-shot="{key}_menu" '
             f'width="{OUT_W}" height="{OUT_H}" alt="{html_escape(app_name)} game menu">\n'
             + "".join(f"            {b}\n" for b in buttons) +
+            # The app's opening animation (images/intros/KEY.mp4, from
+            # tgapps_celebrations), played over the menu when a banner
+            # jumps here; see playAppIntro() in index.html.
+            f'            <video class="app-intro" data-intro="{key}" muted '
+            f'playsinline preload="none" aria-hidden="true" tabindex="-1">'
+            f'</video>\n'
             f'          </div>\n'
             f'          <figcaption>Game menu</figcaption>\n'
             f'        </figure>\n'
