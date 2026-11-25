@@ -257,6 +257,24 @@
     .exit-warning { display: none; margin-top: 14px; padding: 12px; background: #fff8df; }
     @media(max-width:540px) { .setting-row { grid-template-columns: 1fr; gap: 8px; } }
     @media(prefers-reduced-motion:reduce) { html { scroll-behavior: auto; } }
+    /* Language bar: fixed to the top of the screen so the language button
+       stays in reach while the page scrolls. The page and every jump target
+       leave room for it (--bar-h). */
+    :root { --bar-h: 64px; }
+    body { padding-top: calc(var(--bar-h) + 16px); }
+    [id], .section-title, .apps-directory { scroll-margin-top: calc(var(--bar-h) + 12px); }
+    .language-bar { position: fixed; top: 0; left: 0; right: 0; z-index: 50; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: var(--bar-h); padding: 8px 12px; background: #073D27; border-bottom: 3px solid #D4AF37; box-shadow: 0 2px 8px rgba(0,0,0,.35); }
+    .language-bar .language-note { margin: 4px 0 0 0; min-height: 0; font-size: 14px; text-align: center; }
+    .language-bar .language-note:empty { display: none; }
+    .skip-link { z-index: 60; }
+    .ad-box { top: calc(var(--bar-h) + 12px); }
+    @media (max-width: 540px) { body { padding-top: calc(var(--bar-h) + 10px); } }
+    /* The three apps' banners, stacked: each jumps to that app's section. */
+    .app-banners { display: flex; flex-direction: column; align-items: center; gap: 12px; margin-top: 14px; }
+    .app-banner { display: block; width: 100%; max-width: 560px; border: 3px solid #D4AF37; border-radius: 12px; overflow: hidden; line-height: 0; transition: transform .15s ease, box-shadow .15s ease; }
+    .app-banner img { display: block; width: 100%; height: auto; }
+    .app-banner:hover, .app-banner:focus-visible { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(0,0,0,.45); }
+    @media(prefers-reduced-motion:reduce) { .app-banner { transition: none; } .app-banner:hover, .app-banner:focus-visible { transform: none; } }
     /* The T-G-Apps logo stands in for the company name at the top of the page.
        It is the logo the games already publish under /shared/. */
     .site-logo { max-width: 440px; margin: 0 auto 12px auto; }
@@ -300,6 +318,10 @@
 </head>
 <body>
   <a class="skip-link" href="#games">Skip to games</a>
+  <div class="language-bar">
+    <button class="gold-button language-button" id="languageButton" type="button" aria-describedby="languageNote"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95c-.32-1.25-.78-2.45-1.38-3.56 1.84.63 3.37 1.91 4.33 3.56zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56-1.84-.63-3.37-1.9-4.33-3.56zm2.95-8H5.08c.96-1.66 2.49-2.93 4.33-3.56C8.81 5.55 8.35 6.75 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95c-.96 1.65-2.49 2.93-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z"/></svg><span id="languageName" lang="en">English</span></button>
+    <p class="language-note" id="languageNote" aria-live="polite"></p>
+  </div>
   <div class="page-layout">
   <aside class="ad-rail ad-rail-left" aria-label="Advertisement">
     <div class="ad-box">
@@ -316,8 +338,7 @@
       <h1 class="site-logo"><img src="shared/packages/tgapps_exit_flow/assets/images/tgapps_logo.png" alt="T-G-Apps" width="1322" height="660"></h1>
       <h2>Card, Dice &amp; Tile Games</h2>
       <p>Three apps to explore: T-G-Apps Casino, T-G-Apps House of Cards and T-G-Apps Boneyard. Dice Games, Dominoes, Mahjong and Rummy open menus of related games.</p>
-      <div class="play-actions"><a class="gold-button" href="#casino">Casino</a><a class="gold-button" href="#house-of-cards">House of Cards</a><a class="gold-button" href="#boneyard">Boneyard</a><button class="gold-button language-button" id="languageButton" type="button" aria-describedby="languageNote"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95c-.32-1.25-.78-2.45-1.38-3.56 1.84.63 3.37 1.91 4.33 3.56zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56-1.84-.63-3.37-1.9-4.33-3.56zm2.95-8H5.08c.96-1.66 2.49-2.93 4.33-3.56C8.81 5.55 8.35 6.75 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95c-.96 1.65-2.49 2.93-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z"/></svg><span id="languageName" lang="en">English</span></button></div>
-      <p class="language-note" id="languageNote" aria-live="polite"></p>
+      <nav class="app-banners" aria-label="Our 3 Apps"><a class="app-banner" href="#casino"><img src="images/banners/casino.webp" width="1024" height="500" alt="T-G-Apps Casino"></a><a class="app-banner" href="#house-of-cards"><img src="images/banners/house_of_cards.webp" width="1024" height="500" alt="T-G-Apps House of Cards"></a><a class="app-banner" href="#boneyard"><img src="images/banners/boneyard.webp" width="1024" height="500" alt="T-G-Apps Boneyard"></a></nav>
     </section>
 
     <section class="card apps-directory" id="apps">
@@ -1382,8 +1403,13 @@
         setPageLanguage(language).then(function () {
           languageNote.lang = language.lang;
           languageNote.textContent = language.note;
+          // The note sits in the fixed top bar, so clear it after a moment
+          // rather than keep the bar tall for the rest of the visit.
+          clearTimeout(languageNoteTimer);
+          languageNoteTimer = setTimeout(function () { languageNote.textContent = ''; }, 5000);
         });
       });
+      let languageNoteTimer = 0;
       collectTranslatable();
       const startingLanguage = savedLanguageIndex();
       showLanguage(startingLanguage);
